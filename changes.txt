@@ -1,0 +1,23 @@
+v0.95
+- Moved the compiler to VC++ 2005, now we can both compile with VC++7.1 and 8.0, there are multiple solution files for 
+each one.
+- XfacePlayer can be configured through xfaceplayer.ini file.
+- XfaceEd user interface has been changed drastically. Panels have more intuitive contents.
+- You can set eye pivots to be used in MPEG-4 FAP mode from XfaceEd and it is saved to fdp file. Thus, eye rotations 
+are handled correctly from now on.
+- XfaceClient had some problem with first processing then sending the outcome of the SMIL-Agent script. With a 
+queing mechanism, it is fixed now.
+- Creating a new FDP file was impossible. We used to tell users to modify alice.fdp file. Now it is fixed and also
+became more intuitive in XfaceEd.
+- Various other bug fixes.
+
+v0.91
+- AVI saving in FAP mode now uses correct FAP frame per second value, used to be hardcoded to 25 fps.
+- Head movements can be controlled through SMIL-Agent now.
+- Problems in Italian scripts are solved.
+- added UPLOAD_WAV and UPLOAD_PHO tasks filename parameter.
+
+v0.90
+- Added functionality to load smil scripts from XfacePlayer.
+- New time model for smil script is implemented, we can have silent behaviour now.
+- Action only, like gaze, (silent scripts) are working properly now.

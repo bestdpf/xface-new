@@ -1,0 +1,31 @@
+#	Rest
+E1	ee
+L	n
+O1	oh
+a	aah
+a1	aah
+e	ee
+e1	eh
+i1	ee
+k	q
+l	th (i)
+n	n
+o	oh
+p	b
+r	n (r)
+s	d
+t	d
+tS	ch
+ts	d
+u1	w
+v	f
+w	w
+z	k
+
+
+In questo piccola stanza vuota c'era pero soltanto una sveglia.
+
+i - n - k - w - e1 - s - t - o -- p - i1 - k - k - o - l - a - s - t - a1 - n - ts - a --
+v - w - O1 - t - a  -- tS - E1 - r - a -- p - e1 - r - o --
+s - o - l - t - a1 - n - t - o -- u1 - n - a -- z - v - e - L - L - i1 - a - 
+

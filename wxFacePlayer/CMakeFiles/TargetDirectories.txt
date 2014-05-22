@@ -1,0 +1,2 @@
+/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir
+/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxfaceplayer.dir

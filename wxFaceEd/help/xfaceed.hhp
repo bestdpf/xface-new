@@ -1,0 +1,20 @@
+[OPTIONS]
+Compatibility=1.1
+Compiled file=xfaceed.chm
+Contents file=contents.hhc
+Display compile progress=No
+Index file=contents.hhc
+Language=0x405 Èesky
+Title=XfaceEd
+Default topic=main.htm
+
+[FILES]
+main.htm
+panels.htm
+started.htm
+mesh_p.htm
+fdp_p.htm
+fapu_p.htm
+preview_p.htm
+keyframe_p.htm
+faceview.htm

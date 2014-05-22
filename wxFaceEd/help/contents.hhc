@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Main page">
+		<param name="Local" value="main.htm">
+		<param name="ID" value=1>
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Getting Started">
+		<param name="Local" value="started.htm">
+		<param name="ID" value=10>
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Panel Descriptions">
+		<param name="Local" value="panels.htm">
+		<param name="ID" value=20>
+		</OBJECT>
+		<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Mesh Panel">
+			<param name="Local" value="mesh_p.htm">
+			<param name="ID" value=21>
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FAPU Panel">
+			<param name="Local" value="fapu_p.htm">
+			<param name="ID" value=22>
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FDP Panel">
+			<param name="Local" value="fdp_p.htm">
+			<param name="ID" value=23>
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Preview Panel">
+			<param name="Local" value="preview_p.htm">
+			<param name="ID" value=24>
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Keyframe Panel">
+			<param name="Local" value="keyframe_p.htm">
+			<param name="ID" value=25>
+			</OBJECT>
+		</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Face View">
+		<param name="Local" value="faceview.htm">
+		<param name="ID" value=30>
+		</OBJECT>
+</UL>
+</BODY></HTML>

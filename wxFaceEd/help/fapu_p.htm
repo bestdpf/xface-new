@@ -1,0 +1,30 @@
+<html>
+	<head><title>FAPU Panel</title></head><body>
+		<FONT face="Verdana, Arial, Helvetica, sans-serif" color="#333333">
+			<h2>FAPU Panel</h2>
+			In order to set MPEG-4 Facial Animation Parameter Units, you should specify 
+			these 7 points on the face model. Distances between these points (as shown 
+			below with blue lines) define the units used when face model independent, 
+			unitless Facial Animation Parameters (FAP) are streamed in the player. Using 
+			these distances, and dividing the FAP values as decribed in MPEG-4 standart, 
+			one can use the same set of FAPs and achieve the same effect in different 
+			players and faces.
+			<p>
+				<img src="fapu.png">
+			</p>
+			<P>You should switch to <EM>Select Vertex</EM> mode&nbsp;and using left mouse 
+				button, set the points in the list on the left, one by one. Once you set all of 
+				them, you are done. Each time you save your FDP file, <STRONG>XfaceEd</STRONG> checks 
+				if FAPU information is complete or not, and warns you if not complete. Once you 
+				save and exit the application, and load later on, in a different session, you 
+				will <STRONG>NOT </STRONG>be able to see the FAPU lines in this pane, although 
+				you have set them properly in the previous session. Don't panic, you haven't 
+				lost anything, and you do NOT have to specify FAPU in every session, the 
+				information is still there. If <STRONG>XfaceEd</STRONG> does not warn you when 
+				you are saving your FDP, you are safe to go.</P>
+			<P>Once you are done with selecting which models you want to use, you should 
+				proceed to <A href="fdp_p.htm">FDP Panel</A>
+			</P>
+		</FONT>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+<par system-language="english">
+  <seq>
+    <speech channel="alice-voice" type="inform" id="test1" file="test1.wav"/>
+  </seq>
+  <speech-animation affect="SmileOpen" content-id="test1" />
+  <action channel="alice-eyes" action-type="turning" intensity="0.3"
+     content-id="test1">
+      <parameter>LookLeft</parameter>
+  </action>
+	
+  <action channel="alice-head" action-type="pointing"
+     content-id="test1">
+      <parameter>1</parameter>
+      <parameter>0</parameter>
+      <parameter>3</parameter>
+  </action>
+</par>

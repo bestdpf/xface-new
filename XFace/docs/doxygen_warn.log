@@ -1,0 +1,40 @@
+Error: source C:/Work/Xface/trunk/XFace/docs is not a readable file or directory... skipping.
+Error: source C:/Users/balci/Xface/XFace/docs/ is not a readable file or directory... skipping.
+C:/Users/koray/Xface/trunk/XFace/include/XEngine/RenderManager.h:27: Warning: the name `RendererManager.h' supplied as the second argument in the \file statement is not an input file
+C:/Users/koray/Xface/trunk/XFace/include/XMath/Quaternion.h:27: Warning: the name `XQuaternion.h' supplied as the second argument in the \file statement is not an input file
+C:/Users/koray/Xface/trunk/XFace/src/XFace/FDPLoader.cpp:86: Warning: no matching class member found for
+  bool XFace::FDPLoader::loadInput(const InputSource &input)
+Possible candidates:
+  bool XFace::FDPLoader::loadInput(const XERCES_CPP_NAMESPACE::InputSource &input)
+C:/Users/koray/Xface/trunk/XFace/src/XFace/FDPLoader.cpp:151: Warning: no matching class member found for
+  bool XFace::FDPLoader::parseHeader(DOMNode *pHeader)
+Possible candidates:
+  bool XFace::FDPLoader::parseHeader(XERCES_CPP_NAMESPACE::DOMNode *pHeader)
+C:/Users/koray/Xface/trunk/XFace/src/XFace/FDPLoader.cpp:265: Warning: no matching class member found for
+  void XFace::FDPLoader::loadEntity(DOMNode *pSource)
+Possible candidates:
+  void XFace::FDPLoader::loadEntity(XERCES_CPP_NAMESPACE::DOMNode *pSource)
+C:/Users/koray/Xface/trunk/XFace/src/XFace/FDPLoader.cpp:331: Warning: no matching class member found for
+  void XFace::FDPLoader::parseSource(DOMNode *pSource)
+Possible candidates:
+  void XFace::FDPLoader::parseSource(XERCES_CPP_NAMESPACE::DOMNode *pSource)
+C:/Users/koray/Xface/trunk/XFace/src/XFace/FDPLoader.cpp:343: Warning: no matching class member found for
+  void XFace::FDPLoader::loadFDPItem(DOMNode *pFDPItem)
+Possible candidates:
+  void XFace::FDPLoader::loadFDPItem(XERCES_CPP_NAMESPACE::DOMNode *pFDPItem)
+C:/Users/koray/Xface/trunk/XFace/src/XFace/FDPWriter.cpp:150: Warning: no matching class member found for
+  DOMNode * XFace::FDPWriter::saveFDPItem(XERCES_CPP_NAMESPACE_QUALIFIER DOMDocument *doc, const FDPItem *item)
+Possible candidates:
+  XERCES_CPP_NAMESPACE::DOMNode * XFace::FDPWriter::saveFDPItem(XERCES_CPP_NAMESPACE::DOMDocument *doc, const FDPItem *item)
+C:/Users/koray/Xface/trunk/XFace/src/XFace/FDPWriter.cpp:204: Warning: no matching class member found for
+  DOMNode * XFace::FDPWriter::saveEntity(XERCES_CPP_NAMESPACE_QUALIFIER DOMDocument *doc, const Entity &ent, const std::string &alias, const std::string &category, bool bindings)
+Possible candidates:
+  XERCES_CPP_NAMESPACE::DOMNode * XFace::FDPWriter::saveEntity(XERCES_CPP_NAMESPACE::DOMDocument *doc, const Entity &ent, const std::string &alias, const std::string &category, bool bindings)
+C:/Users/koray/Xface/trunk/XFace/src/XFace/FDPWriter.cpp:256: Warning: no matching class member found for
+  DOMNode * XFace::FDPWriter::saveSource(XERCES_CPP_NAMESPACE_QUALIFIER DOMDocument *doc)
+Possible candidates:
+  XERCES_CPP_NAMESPACE::DOMNode * XFace::FDPWriter::saveSource(XERCES_CPP_NAMESPACE::DOMDocument *doc)
+C:/Users/koray/Xface/trunk/XFace/src/XMath/Quaternion.cpp:268: Warning: documented function `AxisAngle XMath::Quaternion::ToAxisAngle' was not defined.
+C:/Users/koray/Xface/trunk/XFace/src/XFaceApp/ApplicationBase.cpp:502: Warning: The following parameters of XFaceApp::ApplicationBase::onUpLoadPHO(const std::string &param1, const std::string &param2, const std::string &param3) are not documented:
+  parameter param3
+

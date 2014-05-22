@@ -1,0 +1,12 @@
+<par system-language="english">
+  <speech channel="alice-voice" affect="Sad"
+	 type="inform" id="say-suffering-angina">
+    I'm sorry to tell you that you have been diagnosed as suffering from
+    what we call angina pectoris, which appears to be mild. 
+    </speech>
+  <speech-animation channel="alice-face" affect="Sad" content-id="say-suffering-angina"/>
+  <action channel="alice-eyes" action-type="turning" intensity="0.7"
+                content-id="say-suffering-angina">
+                 <parameter>LookLeft</parameter>
+  </action>
+</par>

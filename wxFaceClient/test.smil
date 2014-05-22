@@ -1,0 +1,24 @@
+<par system-language="english">
+  <speech channel="alice-voice" affect="sorry-for"
+	 type="inform" id="say-suffering-angina">
+    <mark id="*1*"/>I'm sorry to tell you that you have been 
+     diagnosed as suffering from <mark id="*2*"/>
+    what we call angina pectoris,<mark id="*3*"/>
+    which appears to be mild. </speech>
+  <seq channel="alice-face" >
+    <speech-animation affect="Sad" content-id="say-suffering-angina"
+       content-end="*2*" intensity="0.75"/>
+    <speech-animation affect="Anger" content-id="say-suffering-angina"
+       fill="freeze" content-begin="*2*"/>
+  </seq>
+  <action channel="alice-eyes" action-type="turning" intensity="0.5"
+                content-id="say-suffering-angina" content-begin="*1*" content-end="*2*">
+                 <parameter>LookLeft</parameter>
+  </action>
+  <action channel="alice-head" action-type="pointing"
+                content-id="say-suffering-angina" content-begin="*2*" content-end="*3*">
+               <parameter>3.5</parameter>
+                 <parameter>0.55</parameter>
+                 <parameter>1.3</parameter>
+  </action>
+</par>

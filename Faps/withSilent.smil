@@ -1,0 +1,19 @@
+<seq>
+  <par system-language="english">
+     <seq>
+       <speech channel="alice-voice" id="out" >
+            Out!
+       </speech>
+       <speech channel="alice-voice" id="out3" begin="1s" >
+            Of the house <mark id="*1*"/>from this way please.
+       </speech>
+     </seq>
+     <speech-animation channel="alice-face"/>
+  </par>
+  <par begin="2s" system-language="english">
+       <speech channel="alice-voice" id="out2">
+            I said out!
+       </speech>
+       <speech-animation channel="alice-face" content-id="out2"/>
+  </par>
+</seq>

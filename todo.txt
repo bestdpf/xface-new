@@ -1,0 +1,75 @@
+TODO
+- FAP viseme and emotion processing. With the help from Twente team, implement it fully. FAP and keyframe animation can perhaps be united over anim files?
+- implement a test application that will force XfacePlayer to its limits, it will run for days and send various scripts. I will log whatever happens and try to increase stability.
+- Bug in ms timing decoding.
+- Eye movements are now fixed, but hardcoded eye pivot. Move it to fdp file somehow. (DONE v0.95)
+- Save smil scripts from within editor. (DONE v0.91)
+- Head Movements in SMIL. (DONE v0.91)
+- Action only (without <speech>) scripts. (DONE v0.90)
+
+- we are changing filenames in scriptProcs -> IScriptProcessor, creates problems, should be removed.
+- <emotion-display> tag?
+- Lots of testing for SMIL.
+- For italian scripts, we can have "marks" if necessary. marks can be treated like speech channels, we can process each mark text individiually.
+- clever way to support other languages/synthesizers without adding anything in code.
+
+- full support of smil stuff, there are tons of small (easy to implement but ignorable) details in the 
+specs, like the whole header part.
+- idle eye movements during speech. remember she keeps staring at if we don't force her to look away by script.
+- now that the keyframe mode is done, we can move to faps from keyframes and extract faps from the animation.
+- documentation of the new things I did (code + external)
+- maybe (not needed perhaps) support of mpeg-4 file structure and streaming of faps (encoding/decoding faps during communication, I can perhaps give this to a student here in university as a project).
+
+BUGS FIXED:
+v0.90
+- If end of animation is eye looking some direction, next script uses that as rest frame. (FIXED v0.90)
+v0.91:
+- Eye blinking (or anything related to eyes), scripts processed over and over creates 
+artifacts, superimposing spoils eye blinker rest frame probably. (Note HALF-FIXED v0.90: we have to have a rest expression 
+channel if there is no expression&speech, otherwise eyes still mess up the animation) (FIXED v0.91)
+- XfacePlayer: try to "process and send" in client, which is not working actually, then restart client and try 
+"send & process", although sound is initially on, behaves as muted, making it off and on once returns it to normal.(FIXED v0.91)
+- XfaceClient: process and send button not working properly. (FIXED v0.91)
+- MorphChannel::update returning (*m_current)->getEntity() creates eye channel bug or sth like that. (FIXED v0.91)
+- morph targets should have begin and end instead of duration, and all will be simpler that way. and some 
+bugs will also be prevented such as anger in last part of silent.smil. no more need for trigger channels, etc.. (FIXED v0.91)
+- sometimes *.dic files cannot be loaded! HOPEFULLY FIXED v0.91: moved the code somewhere else and made a better implementation)
+- MorphChannel::destroy_functor cannot delete the pointer to MorphTarget, crashes the animation. (FIXED v0.91)
+- Cannot run XfacePlayer in Debug mode. (FIXED v0.91)
+- XfacePlayer: cannot process or play action-only script. (FIXED v0.91) MorphController::reset not called in player code, moved 
+that call to AnimProcessor and made it sure it's called in all cases.
+- In eye blinking, if the PC is slow (or in debug mode), at the end of blinking eyelids won't go to the starting position but 
+end morphing in a middle position. (FIXED v0.91)
+- In keyframe mode, stop button during playback crashes.. (FIXED v0.94) m_pCurrTask points to a function variable 
+address, when we are out of the function, it goes to limbo state and causes all sorts of problems.
+- If there is a missing vrml in mesh targets in fdp file, XfaceEd used to crash, (FIXED v0.94) now it gives a message 
+and continues to work. 
+- Transformation is not reset when stop button pressed in player, only morph is rewound. (FIXED v0.96)
+- Last affect is carried out into other sequential silent behaviour in this script:
+<action channel="alice-eyes" action-type="turning" 
+	intensity="0.5" dur="2s">
+        <parameter>LookLeft</parameter>
+  </action>
+<speech-animation affect="SmileClosed" 
+       dur="2s"/>
+  <action channel="alice-eyes" action-type="turning" 
+	intensity="0.5" dur="2s">
+        <parameter>LookRight</parameter>
+  </action>
+(FIXED v0.96)
+
+- *dic files are automatically found and parsed. However, now I realize that I might have hardcoded the types in:
+std::string SMILManager::getLanguage() const
+I have to fix that function, the returned value from getLanguage() is sent to
+bool ApplicationBase::onLoadPHO(const std::string& param1, const std::string& param2)
+which calls m_pFace->processPhonemes(input, param2); the core of the phoneme processing is actually in here:
+int AnimProcessor::processPhonemes(std::istream& input, const std::string& lang) 
+(FIXED v0.96)
+
+- Video saving has been reported to have some problems in some graphic cards. (semi FIXED v0.96)
+
+BUGS PENDING:
+- Phoneme durations from the phoneme file mismatches with the total duration somehow (speech always longer). The reason is that; if there is a mark in the very beginning, SAPI appends & calculates the silence in the beginning and in the second pass we realize a silence appended, all the speech is thus shifted.
+- Cannot save two avi files back to back, cannot remember the codec. So, removed codec remembering code piece for now. 
+- Some vrml files cannot be opened properly. There is a difference in the content of vrml tags. see mail 
+from Pengcheng Zou for a test vrml.

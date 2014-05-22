@@ -1,0 +1,11 @@
+<seq>
+  <action channel="alice-eyes" action-type="turning" 
+	intensity="0.5" dur="2s">
+        <parameter>LookLeft</parameter>
+  </action>
+  <action channel="alice-eyes" action-type="turning" 
+	intensity="0.5" dur="2s">
+        <parameter>LookRight</parameter>
+  </action>
+</seq>
+

@@ -1,0 +1,27 @@
+<par system-language="english">
+	<speech channel="alice-voice" affect="sorry-for" type="inform" id="test">
+		<mark id="*1*"/>I'm an emotional 3D character.
+		<mark id="*2*"/>I can be scared sometimes,
+		<mark id="*3*"/>or look surprised.
+		<mark id="*4*"/>But I usually try to look happy!
+		<mark id="*5*"/>I know it's not really a cheerfull look yet...
+		<mark id="*6*"/>Oh come on! I am not soo disgusting!
+		<mark id="*7*"/>This is only an experiment!
+	</speech>
+	<seq channel="alice-face" >
+		<speech-animation affect="Rest" content-id="test"
+			content-end="*2*"/>
+		<speech-animation affect="Fear" content-id="test"
+			content-begin="*2*" content-end="*3*"/>
+		<speech-animation affect="Surprise" content-id="test"
+			content-begin="*3*" content-end="*4*"/>
+		<speech-animation affect="SmileOpen" content-id="test"
+			content-begin="*4*" content-end="*5*"/>
+		<speech-animation affect="Sad" content-id="test"
+			content-begin="*5*" content-end="*6*"/>
+		<speech-animation affect="Disgust" content-id="test"
+			content-begin="*6*" content-end="*7*"/>
+		<speech-animation affect="Anger" content-id="test"
+			content-begin="*7*"/>
+	</seq>
+</par>

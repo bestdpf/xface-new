@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<ScriptProcessors>
+<scripter name="Italian expml2fap" type="external" lang="it">
+	<executable
+		exename="expml2fap.exe" 
+		path="..\expml2fap" 
+		parameters2=" -noAnim -dur 1.2 " 
+		tempfile="TempFile.xml"/>
+	<output filename="TempFile.wav"/>
+	<output filename="TempFile.fap"/>
+</scripter>
+
+<scripter name="Italian Text" type="external" lang="it">
+	<executable
+		exename="it_flite.exe" 
+		path="C:\Work\DevLibs\it_flite\" 
+		parameters1=" -o TempFile.wav --sets lab_filename=TempFile.pho --sets voice=lp -t ">
+	</executable>
+	<output filename="TempFile.wav"/>
+	<output filename="TempFile.pho"/>
+</scripter>
+
+<scripter name="English expml2fap" type="external" lang="en">
+	<executable
+		exename="expml2fap.exe" 
+		path="..\expml2fap" 
+		parameters2=" -noAnim -dur 1.2 -lang e" 
+		tempfile="TempFile.xml">
+	</executable>
+	<output filename="TempFile.wav"/>
+	<output filename="TempFile.fap"/>
+</scripter>
+<scripter name="SMIL-Agent" type="SMIL" lang="en_SAPI">
+	<TTSEngine lang="english" engine="SAPI51" ini="sapiEn.txt"/>
+	<TTSEngine lang="italian" engine="it_flite" path="C:\Work\DevLibs\it_flite\" />
+	<output filename="TempFile.pho"/>
+	<output filename="TempFile.anim"/>
+	<output filename="TempFile.wav"/>
+</scripter>
+</ScriptProcessors>

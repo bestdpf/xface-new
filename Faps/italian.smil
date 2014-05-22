@@ -1,0 +1,15 @@
+<par system-language="italian">
+<speech channel="alice-voice" affect="Anger"
+      type="inform" id="sentence1">
+   <mark id="*0*"/> Hai partecipato molto attivamente alla
+     discussione, con molti interventi verbali.
+   <mark id="*1*"/> Hai parlato per il  16%  della durata
+     dell'incontro <mark id="*2*"/>
+</speech>
+<seq>
+<speech-animation affect="SmileOpen" content-id="sentence1"
+     content-begin="*0*" content-end="*1*"/>
+<speech-animation affect="Anger" content-id="sentence1"
+     content-begin="*1*" content-end="*2*"/>
+</seq> 
+</par>

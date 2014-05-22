@@ -1,0 +1,118 @@
+<html>
+<head>
+	<title>FDP Panel</title></head>
+	<body>
+		<FONT face="Verdana, Arial, Helvetica, sans-serif" color="#333333">
+			<h2>FDP Panel</h2>
+			<P>FDP Panel is actually the core of the editor. You are probably going to spend 
+				most of the your time in this panel, together with the <A href="preview_p.htm">Preview 
+					Panel</A>, to see the affects of what you have done in this panel.</P>
+			<P>In MPEG-4 FA, there are some points, named as Feature Definition Points (FDP), 
+				that defines what a "face" is. You should specify each of these points in order 
+				to have an animation. You can see the FDPs as decribed by MPEG-4 at the <A href="#mpeg">
+					bottom of this page</A>.</P>
+			<P>You should specify each of the points, if you want it to be deformed/animated 
+				properly. Here is the FDP panel, as we work on Alice face and below the 
+				description of the interface.
+			</P>
+			<P><a name="screenshot"><IMG src="fdp.png"></a>
+			</P>
+			<P><STRONG>Enable FDP Helper Image</STRONG></P>
+			<P>Using this check box, you can show a dialog with the image of an MPEG-4 FDP 
+				region, that coresponds to your current selection of FDP group. You can specify 
+				the FDP group using the combo box just below this check box.
+			</P>
+			<P><STRONG>Enable Texture</STRONG></P>
+			<P>If you want to see the textured version of the (sub)mesh you are previeving, you 
+				can enable this option. It is sometimes easier to decide whether to add a 
+				vertex or not with textures enabled.</P>
+			<P><STRONG>FDP Group</STRONG></P>
+			<P>This is the combo box, just below the "<EM>Enable FDP Helper Image</EM>" check 
+				box. As you can see from the image below, FDPs are grouped in different 
+				regions. Using this combo box, you can specify which region you want to work on 
+				(one of <EM>Lips/Face/Eyes/Nose/Tongue</EM>) and the <EM>FDP Subgroup</EM> combo 
+				box and on the right of it and <EM>Helper Image&nbsp;</EM>automatically 
+				changes, pointing to the&nbsp;FDPs of the correct group.</P>
+			<P><STRONG>FDP Subgroup</STRONG></P>
+			<P>FDP Subgroup combo box, is just at the right of <EM>FDP Group </EM>combo box, 
+				and is a list of numbers, designating FDP items. You should choose an FDP item 
+				from that list, and see where it should be coresponding to (according to 
+				MPEG-4, use Helper Image if confused), and then define the regions as explained 
+				in <A href="#workflow">Workflow</A> section.</P>
+			<P><STRONG>Affects</STRONG></P>
+			<P>Note that you can have (most probably, you do) multiple submeshes in the face 
+				you are working on. Ypu can specify, using this combo box, which submesh is 
+				going to be affected with the FDP item you are currently working on. Remember 
+				that you <STRONG>CAN</STRONG> define more than one submesh to be affected by a 
+				single FDP item. For example, for deforming the eyes, where you have an eye 
+				submesh and face_skin submesh, you might need to deform both of these 
+				submeshes, when the eyes rotate. In order to achieve this, simply edit your FDP 
+				region, as explained in <A href="#workflow">Workflow</A> section, and change 
+				your <EM>Affects</EM> combo box, and edit another region.
+			</P>
+			<P><STRONG><a name="workflow">Workflow</a>&nbsp;</STRONG></P>
+			<P>In your model, you should define the regions for each FDP, one point 
+				coresponding to actual FDP, and the region, or the zone of influence. Zone of 
+				influence is affected when this FDP point is deformed (moved, rotated, 
+				translated) during the animation. You can think of this process as defining the 
+				muscles of the face.
+			</P>
+			<P>Consider, we want to specify the movement of the jaw. As you can see from the <A href="#mpeg">
+					figure below</A>, jaw is defined as FDP item 2.1 in <EM>Face</EM> group. 
+				Now, you should first specify the FDP Group from the combo box, to <EM>Face</EM>
+				and FDP Subgroup combo box to 2.1. You can see the <A href="#screenshot">screenshot</A>
+				for this case, in the figure above. Then you should choose, which region will 
+				be affected by 2.1, by using the combo box named <EM>Affects</EM>.</P>
+			<P>Now you should select the vertex that will represent 2.1. First, make sure you 
+				are in <EM>Select Mode</EM> (see <A href="faceview.htm">selecting mode</A>), 
+				and using left mouse button and Ctrl key from keyboard (CTRL + Left Click) 
+				specify the vertex. The vertex selected should change its color to green.
+			</P>
+			<P>Then you should specify the zone of influence for 2.1, by simply clicking on 
+				vertices. The selected vertices on the model should change their colors to 
+				blue. If you want to select a group of vertices, you can drag&nbsp;your 
+				mouse&nbsp;while holding the right button. In order to remove a vertex from the 
+				set, you should press Alt key from the keyboard and click left mouse button 
+				(ALT+ Left Click).</P>
+			<P>Once you are (almost) sure with the FDP region, you should specify the settings 
+				for that zone of influence, using the <EM>Influence Calculators</EM> table as 
+				explained below.</P>
+			<P>The usual workflow is as follows, after you set some values, you switch to <A href="preview_p.htm">
+					Preview Panel</A>, and preview the effect of what you have produced, and 
+				come back to this panel and fine tune the values iteratively.
+			</P>
+			<P><STRONG>Influence Calculators</STRONG></P>
+			<P>An FDP region might be affected by different forces, and different FAP (Facial 
+				Animation Parameters) values. You can specify these influences using the 
+				Add/Remove influence buttons (<img src="Plus.png"> and <img src="Delete.png">), and a new row is 
+				automatically added to the list of influences below. By choosing appropriate 
+				values for each element in the new row, you specify a new influence.</P>
+			<P><EM>Function </EM>specifies, how the effect of a movement is propagated from the 
+				control point to the zone of influence. You can choose among different 
+				functions using the combo box. Note that, currently we have some functions, but 
+				new functions can be plugged in easily and recognized by the user interface 
+				immediately. Currently, the distance between the control point and the vertex 
+				in the zone of influence are normalized and used in raised cosine function in 
+				various ways, which achieve satisfactory results.
+			</P>
+			<P><EM>Weight</EM> can be taken as a biasing value. By tweaking weight value, you 
+				can see how the region is deformed.
+			</P>
+			<P><EM>FAP</EM> designates, which FAP value, this zone will be affected by.
+			</P>
+			<P>The final effect of translation for a vertex is calculated by multiplying the <EM>weight</EM>
+				by FAP value, and the outcome of the selected <EM>function</EM>. You can 
+				specify multiple rows, i.e. multiple zone of influences for a region, for the 
+				same FAP or, specify different zones for different FAPs, as many as you 
+				want/need.</P>
+			<P>The usual workflow is as follows, after you set some values, you switch to <a href="preview_p.htm">
+					Preview Panel</a>, and preview the effect of what you have produced, and 
+				come back to this panel and fine tune the values iteratively.
+			</P>
+			<br>
+			<p>
+				<a name="mpeg"><STRONG>MPEG-4 Feature Definition Points</STRONG></a><img src="mpeg.png">
+			</p>
+		</FONT>
+	</body>
+</html>
