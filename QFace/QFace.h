@@ -1,6 +1,5 @@
 #include<cstdio>
 
-
 namespace QFace{
 void hehe(){
     printf("hehe\n");

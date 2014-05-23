@@ -52,187 +52,187 @@ include wxFaceClient/CMakeFiles/wxfaceclient.dir/progress.make
 # Include the compile flags for this target's objects.
 include wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o: wxFaceClient/ConnectionDlg.cpp
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o: wxFaceClient/ConnectionDlg.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/ConnectionDlg.o -c /home/duan/xface-new/wxFaceClient/ConnectionDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o -c /home/duan/xface-new/wxFaceClient/ConnectionDlg.cpp
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/ConnectionDlg.i"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/ConnectionDlg.cpp > CMakeFiles/wxfaceclient.dir/ConnectionDlg.i
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.i"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/ConnectionDlg.cpp > CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.i
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/ConnectionDlg.s"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/ConnectionDlg.cpp -o CMakeFiles/wxfaceclient.dir/ConnectionDlg.s
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.s"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/ConnectionDlg.cpp -o CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.s
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o.requires:
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o.requires:
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o.requires
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o.requires
-	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o.provides.build
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o.provides
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o.requires
+	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o.provides.build
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o.provides
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o: wxFaceClient/ControlPanel.cpp
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o: wxFaceClient/ControlPanel.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/ControlPanel.o -c /home/duan/xface-new/wxFaceClient/ControlPanel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o -c /home/duan/xface-new/wxFaceClient/ControlPanel.cpp
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/ControlPanel.i"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/ControlPanel.cpp > CMakeFiles/wxfaceclient.dir/ControlPanel.i
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.i"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/ControlPanel.cpp > CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.i
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/ControlPanel.s"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/ControlPanel.cpp -o CMakeFiles/wxfaceclient.dir/ControlPanel.s
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.s"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/ControlPanel.cpp -o CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.s
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o.requires:
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o.requires:
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o.requires
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o.requires
-	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o.provides.build
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o.provides
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o.requires
+	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o.provides.build
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o.provides
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o
+wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
-wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o: wxFaceClient/DropScriptTarget.cpp
+wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
+wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o: wxFaceClient/DropScriptTarget.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/DropScriptTarget.o -c /home/duan/xface-new/wxFaceClient/DropScriptTarget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o -c /home/duan/xface-new/wxFaceClient/DropScriptTarget.cpp
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/DropScriptTarget.i"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/DropScriptTarget.cpp > CMakeFiles/wxfaceclient.dir/DropScriptTarget.i
+wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.i"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/DropScriptTarget.cpp > CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.i
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/DropScriptTarget.s"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/DropScriptTarget.cpp -o CMakeFiles/wxfaceclient.dir/DropScriptTarget.s
+wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.s"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/DropScriptTarget.cpp -o CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.s
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o.requires:
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o.requires:
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o.requires
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o.requires
-	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o.provides.build
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o.provides
+wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o.requires
+	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o.provides.build
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o.provides
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o
+wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o: wxFaceClient/FaceApp.cpp
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o: wxFaceClient/FaceApp.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/FaceApp.o -c /home/duan/xface-new/wxFaceClient/FaceApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o -c /home/duan/xface-new/wxFaceClient/FaceApp.cpp
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/FaceApp.i"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/FaceApp.cpp > CMakeFiles/wxfaceclient.dir/FaceApp.i
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/FaceApp.cpp.i"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/FaceApp.cpp > CMakeFiles/wxfaceclient.dir/FaceApp.cpp.i
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/FaceApp.s"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/FaceApp.cpp -o CMakeFiles/wxfaceclient.dir/FaceApp.s
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/FaceApp.cpp.s"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/FaceApp.cpp -o CMakeFiles/wxfaceclient.dir/FaceApp.cpp.s
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o.requires:
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o.requires:
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o.requires
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o.requires
-	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o.provides.build
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o.provides
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o.requires
+	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o.provides.build
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o.provides
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o: wxFaceClient/FaceFrame.cpp
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o: wxFaceClient/FaceFrame.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/FaceFrame.o -c /home/duan/xface-new/wxFaceClient/FaceFrame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o -c /home/duan/xface-new/wxFaceClient/FaceFrame.cpp
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/FaceFrame.i"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/FaceFrame.cpp > CMakeFiles/wxfaceclient.dir/FaceFrame.i
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.i"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/FaceFrame.cpp > CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.i
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/FaceFrame.s"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/FaceFrame.cpp -o CMakeFiles/wxfaceclient.dir/FaceFrame.s
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.s"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/FaceFrame.cpp -o CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.s
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o.requires:
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o.requires:
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o.requires
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o.requires
-	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o.provides.build
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o.provides
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o.requires
+	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o.provides.build
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o.provides
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o
+wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
-wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o: wxFaceClient/TaskSender.cpp
+wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
+wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o: wxFaceClient/TaskSender.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/TaskSender.o -c /home/duan/xface-new/wxFaceClient/TaskSender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o -c /home/duan/xface-new/wxFaceClient/TaskSender.cpp
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/TaskSender.i"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/TaskSender.cpp > CMakeFiles/wxfaceclient.dir/TaskSender.i
+wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/TaskSender.cpp.i"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/TaskSender.cpp > CMakeFiles/wxfaceclient.dir/TaskSender.cpp.i
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/TaskSender.s"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/TaskSender.cpp -o CMakeFiles/wxfaceclient.dir/TaskSender.s
+wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/TaskSender.cpp.s"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/TaskSender.cpp -o CMakeFiles/wxfaceclient.dir/TaskSender.cpp.s
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o.requires:
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o.requires:
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o.requires
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o.requires
-	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o.provides.build
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o.provides
+wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o.requires
+	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o.provides.build
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o.provides
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o
+wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
-wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o: wxFaceClient/toggle.cpp
+wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o: wxFaceClient/CMakeFiles/wxfaceclient.dir/flags.make
+wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o: wxFaceClient/toggle.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/toggle.o -c /home/duan/xface-new/wxFaceClient/toggle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxfaceclient.dir/toggle.cpp.o -c /home/duan/xface-new/wxFaceClient/toggle.cpp
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/toggle.i"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/toggle.cpp > CMakeFiles/wxfaceclient.dir/toggle.i
+wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxfaceclient.dir/toggle.cpp.i"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceClient/toggle.cpp > CMakeFiles/wxfaceclient.dir/toggle.cpp.i
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/toggle.s"
-	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/toggle.cpp -o CMakeFiles/wxfaceclient.dir/toggle.s
+wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxfaceclient.dir/toggle.cpp.s"
+	cd /home/duan/xface-new/wxFaceClient && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceClient/toggle.cpp -o CMakeFiles/wxfaceclient.dir/toggle.cpp.s
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o.requires:
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o.requires:
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o.requires
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o.requires
-	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o.provides.build
-.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o.provides
+wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o.provides: wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o.requires
+	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o.provides.build
+.PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o.provides
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o
+wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o.provides.build: wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o
 
 # Object files for target wxfaceclient
 wxfaceclient_OBJECTS = \
-"CMakeFiles/wxfaceclient.dir/ConnectionDlg.o" \
-"CMakeFiles/wxfaceclient.dir/ControlPanel.o" \
-"CMakeFiles/wxfaceclient.dir/DropScriptTarget.o" \
-"CMakeFiles/wxfaceclient.dir/FaceApp.o" \
-"CMakeFiles/wxfaceclient.dir/FaceFrame.o" \
-"CMakeFiles/wxfaceclient.dir/TaskSender.o" \
-"CMakeFiles/wxfaceclient.dir/toggle.o"
+"CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o" \
+"CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o" \
+"CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o" \
+"CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o" \
+"CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o" \
+"CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o" \
+"CMakeFiles/wxfaceclient.dir/toggle.cpp.o"
 
 # External object files for target wxfaceclient
 wxfaceclient_EXTERNAL_OBJECTS =
 
-wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o
-wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o
-wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o
-wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o
-wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o
-wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o
-wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o
+wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o
+wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o
+wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o
+wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o
+wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o
+wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o
+wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o
 wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make
 wxFaceClient/wxfaceclient: XSmilAgent/libXSmilAgent.a
 wxFaceClient/wxfaceclient: XFace/libXFace.a
@@ -251,13 +251,13 @@ wxFaceClient/wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/link.txt
 wxFaceClient/CMakeFiles/wxfaceclient.dir/build: wxFaceClient/wxfaceclient
 .PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/build
 
-wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o.requires
-wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o.requires
-wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o.requires
-wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o.requires
-wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o.requires
-wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o.requires
-wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o.requires
+wxFaceClient/CMakeFiles/wxfaceclient.dir/requires: wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o.requires
 .PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/requires
 
 wxFaceClient/CMakeFiles/wxfaceclient.dir/clean:

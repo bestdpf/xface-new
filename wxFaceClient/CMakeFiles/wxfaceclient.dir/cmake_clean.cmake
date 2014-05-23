@@ -1,11 +1,11 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/wxfaceclient.dir/ConnectionDlg.o"
-  "CMakeFiles/wxfaceclient.dir/ControlPanel.o"
-  "CMakeFiles/wxfaceclient.dir/DropScriptTarget.o"
-  "CMakeFiles/wxfaceclient.dir/FaceApp.o"
-  "CMakeFiles/wxfaceclient.dir/FaceFrame.o"
-  "CMakeFiles/wxfaceclient.dir/TaskSender.o"
-  "CMakeFiles/wxfaceclient.dir/toggle.o"
+  "CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o"
+  "CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o"
+  "CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o"
+  "CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o"
+  "CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o"
+  "CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o"
+  "CMakeFiles/wxfaceclient.dir/toggle.cpp.o"
   "wxfaceclient.pdb"
   "wxfaceclient"
 )

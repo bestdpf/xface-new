@@ -115,335 +115,533 @@ wxFaceEd/fast:
 	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/build
 .PHONY : wxFaceEd/fast
 
-# target to build an object file
-ConfPanel.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.o
+ConfPanel.o: ConfPanel.cpp.o
 .PHONY : ConfPanel.o
 
-# target to preprocess a source file
-ConfPanel.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.i
+# target to build an object file
+ConfPanel.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.cpp.o
+.PHONY : ConfPanel.cpp.o
+
+ConfPanel.i: ConfPanel.cpp.i
 .PHONY : ConfPanel.i
 
-# target to generate assembly for a file
-ConfPanel.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.s
+# target to preprocess a source file
+ConfPanel.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.cpp.i
+.PHONY : ConfPanel.cpp.i
+
+ConfPanel.s: ConfPanel.cpp.s
 .PHONY : ConfPanel.s
 
-# target to build an object file
-DictionaryFilesDlg.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.o
+# target to generate assembly for a file
+ConfPanel.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.cpp.s
+.PHONY : ConfPanel.cpp.s
+
+DictionaryFilesDlg.o: DictionaryFilesDlg.cpp.o
 .PHONY : DictionaryFilesDlg.o
 
-# target to preprocess a source file
-DictionaryFilesDlg.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.i
+# target to build an object file
+DictionaryFilesDlg.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.cpp.o
+.PHONY : DictionaryFilesDlg.cpp.o
+
+DictionaryFilesDlg.i: DictionaryFilesDlg.cpp.i
 .PHONY : DictionaryFilesDlg.i
 
-# target to generate assembly for a file
-DictionaryFilesDlg.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.s
+# target to preprocess a source file
+DictionaryFilesDlg.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.cpp.i
+.PHONY : DictionaryFilesDlg.cpp.i
+
+DictionaryFilesDlg.s: DictionaryFilesDlg.cpp.s
 .PHONY : DictionaryFilesDlg.s
 
-# target to build an object file
-DropFDPFileTarget.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.o
+# target to generate assembly for a file
+DictionaryFilesDlg.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.cpp.s
+.PHONY : DictionaryFilesDlg.cpp.s
+
+DropFDPFileTarget.o: DropFDPFileTarget.cpp.o
 .PHONY : DropFDPFileTarget.o
 
-# target to preprocess a source file
-DropFDPFileTarget.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.i
+# target to build an object file
+DropFDPFileTarget.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.cpp.o
+.PHONY : DropFDPFileTarget.cpp.o
+
+DropFDPFileTarget.i: DropFDPFileTarget.cpp.i
 .PHONY : DropFDPFileTarget.i
 
-# target to generate assembly for a file
-DropFDPFileTarget.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.s
+# target to preprocess a source file
+DropFDPFileTarget.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.cpp.i
+.PHONY : DropFDPFileTarget.cpp.i
+
+DropFDPFileTarget.s: DropFDPFileTarget.cpp.s
 .PHONY : DropFDPFileTarget.s
 
-# target to build an object file
-FAPUPanel.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.o
+# target to generate assembly for a file
+DropFDPFileTarget.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.cpp.s
+.PHONY : DropFDPFileTarget.cpp.s
+
+FAPUPanel.o: FAPUPanel.cpp.o
 .PHONY : FAPUPanel.o
 
-# target to preprocess a source file
-FAPUPanel.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.i
+# target to build an object file
+FAPUPanel.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.cpp.o
+.PHONY : FAPUPanel.cpp.o
+
+FAPUPanel.i: FAPUPanel.cpp.i
 .PHONY : FAPUPanel.i
 
-# target to generate assembly for a file
-FAPUPanel.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.s
+# target to preprocess a source file
+FAPUPanel.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.cpp.i
+.PHONY : FAPUPanel.cpp.i
+
+FAPUPanel.s: FAPUPanel.cpp.s
 .PHONY : FAPUPanel.s
 
-# target to build an object file
-FDPPanel.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.o
+# target to generate assembly for a file
+FAPUPanel.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.cpp.s
+.PHONY : FAPUPanel.cpp.s
+
+FDPPanel.o: FDPPanel.cpp.o
 .PHONY : FDPPanel.o
 
-# target to preprocess a source file
-FDPPanel.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.i
+# target to build an object file
+FDPPanel.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.cpp.o
+.PHONY : FDPPanel.cpp.o
+
+FDPPanel.i: FDPPanel.cpp.i
 .PHONY : FDPPanel.i
 
-# target to generate assembly for a file
-FDPPanel.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.s
+# target to preprocess a source file
+FDPPanel.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.cpp.i
+.PHONY : FDPPanel.cpp.i
+
+FDPPanel.s: FDPPanel.cpp.s
 .PHONY : FDPPanel.s
 
-# target to build an object file
-FDPPicture.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.o
+# target to generate assembly for a file
+FDPPanel.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.cpp.s
+.PHONY : FDPPanel.cpp.s
+
+FDPPicture.o: FDPPicture.cpp.o
 .PHONY : FDPPicture.o
 
-# target to preprocess a source file
-FDPPicture.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.i
+# target to build an object file
+FDPPicture.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.cpp.o
+.PHONY : FDPPicture.cpp.o
+
+FDPPicture.i: FDPPicture.cpp.i
 .PHONY : FDPPicture.i
 
-# target to generate assembly for a file
-FDPPicture.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.s
+# target to preprocess a source file
+FDPPicture.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.cpp.i
+.PHONY : FDPPicture.cpp.i
+
+FDPPicture.s: FDPPicture.cpp.s
 .PHONY : FDPPicture.s
 
-# target to build an object file
-FaceApp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.o
+# target to generate assembly for a file
+FDPPicture.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.cpp.s
+.PHONY : FDPPicture.cpp.s
+
+FaceApp.o: FaceApp.cpp.o
 .PHONY : FaceApp.o
 
-# target to preprocess a source file
-FaceApp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.i
+# target to build an object file
+FaceApp.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.cpp.o
+.PHONY : FaceApp.cpp.o
+
+FaceApp.i: FaceApp.cpp.i
 .PHONY : FaceApp.i
 
-# target to generate assembly for a file
-FaceApp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.s
+# target to preprocess a source file
+FaceApp.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.cpp.i
+.PHONY : FaceApp.cpp.i
+
+FaceApp.s: FaceApp.cpp.s
 .PHONY : FaceApp.s
 
-# target to build an object file
-FaceFrame.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.o
+# target to generate assembly for a file
+FaceApp.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.cpp.s
+.PHONY : FaceApp.cpp.s
+
+FaceFrame.o: FaceFrame.cpp.o
 .PHONY : FaceFrame.o
 
-# target to preprocess a source file
-FaceFrame.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.i
+# target to build an object file
+FaceFrame.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.cpp.o
+.PHONY : FaceFrame.cpp.o
+
+FaceFrame.i: FaceFrame.cpp.i
 .PHONY : FaceFrame.i
 
-# target to generate assembly for a file
-FaceFrame.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.s
+# target to preprocess a source file
+FaceFrame.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.cpp.i
+.PHONY : FaceFrame.cpp.i
+
+FaceFrame.s: FaceFrame.cpp.s
 .PHONY : FaceFrame.s
 
-# target to build an object file
-FaceView.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.o
+# target to generate assembly for a file
+FaceFrame.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.cpp.s
+.PHONY : FaceFrame.cpp.s
+
+FaceView.o: FaceView.cpp.o
 .PHONY : FaceView.o
 
-# target to preprocess a source file
-FaceView.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.i
+# target to build an object file
+FaceView.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.cpp.o
+.PHONY : FaceView.cpp.o
+
+FaceView.i: FaceView.cpp.i
 .PHONY : FaceView.i
 
-# target to generate assembly for a file
-FaceView.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.s
+# target to preprocess a source file
+FaceView.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.cpp.i
+.PHONY : FaceView.cpp.i
+
+FaceView.s: FaceView.cpp.s
 .PHONY : FaceView.s
 
-# target to build an object file
-KeyframeAddDlg.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.o
+# target to generate assembly for a file
+FaceView.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.cpp.s
+.PHONY : FaceView.cpp.s
+
+KeyframeAddDlg.o: KeyframeAddDlg.cpp.o
 .PHONY : KeyframeAddDlg.o
 
-# target to preprocess a source file
-KeyframeAddDlg.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.i
+# target to build an object file
+KeyframeAddDlg.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.cpp.o
+.PHONY : KeyframeAddDlg.cpp.o
+
+KeyframeAddDlg.i: KeyframeAddDlg.cpp.i
 .PHONY : KeyframeAddDlg.i
 
-# target to generate assembly for a file
-KeyframeAddDlg.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.s
+# target to preprocess a source file
+KeyframeAddDlg.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.cpp.i
+.PHONY : KeyframeAddDlg.cpp.i
+
+KeyframeAddDlg.s: KeyframeAddDlg.cpp.s
 .PHONY : KeyframeAddDlg.s
 
-# target to build an object file
-Mediator.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.o
+# target to generate assembly for a file
+KeyframeAddDlg.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.cpp.s
+.PHONY : KeyframeAddDlg.cpp.s
+
+Mediator.o: Mediator.cpp.o
 .PHONY : Mediator.o
 
-# target to preprocess a source file
-Mediator.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.i
+# target to build an object file
+Mediator.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.cpp.o
+.PHONY : Mediator.cpp.o
+
+Mediator.i: Mediator.cpp.i
 .PHONY : Mediator.i
 
-# target to generate assembly for a file
-Mediator.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.s
+# target to preprocess a source file
+Mediator.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.cpp.i
+.PHONY : Mediator.cpp.i
+
+Mediator.s: Mediator.cpp.s
 .PHONY : Mediator.s
 
-# target to build an object file
-ModelViewerCamera.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.o
+# target to generate assembly for a file
+Mediator.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.cpp.s
+.PHONY : Mediator.cpp.s
+
+ModelViewerCamera.o: ModelViewerCamera.cpp.o
 .PHONY : ModelViewerCamera.o
 
-# target to preprocess a source file
-ModelViewerCamera.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.i
+# target to build an object file
+ModelViewerCamera.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.cpp.o
+.PHONY : ModelViewerCamera.cpp.o
+
+ModelViewerCamera.i: ModelViewerCamera.cpp.i
 .PHONY : ModelViewerCamera.i
 
-# target to generate assembly for a file
-ModelViewerCamera.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.s
+# target to preprocess a source file
+ModelViewerCamera.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.cpp.i
+.PHONY : ModelViewerCamera.cpp.i
+
+ModelViewerCamera.s: ModelViewerCamera.cpp.s
 .PHONY : ModelViewerCamera.s
 
-# target to build an object file
-ModifyDictionaryFileDlg.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.o
+# target to generate assembly for a file
+ModelViewerCamera.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.cpp.s
+.PHONY : ModelViewerCamera.cpp.s
+
+ModifyDictionaryFileDlg.o: ModifyDictionaryFileDlg.cpp.o
 .PHONY : ModifyDictionaryFileDlg.o
 
-# target to preprocess a source file
-ModifyDictionaryFileDlg.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.i
+# target to build an object file
+ModifyDictionaryFileDlg.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.cpp.o
+.PHONY : ModifyDictionaryFileDlg.cpp.o
+
+ModifyDictionaryFileDlg.i: ModifyDictionaryFileDlg.cpp.i
 .PHONY : ModifyDictionaryFileDlg.i
 
-# target to generate assembly for a file
-ModifyDictionaryFileDlg.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.s
+# target to preprocess a source file
+ModifyDictionaryFileDlg.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.cpp.i
+.PHONY : ModifyDictionaryFileDlg.cpp.i
+
+ModifyDictionaryFileDlg.s: ModifyDictionaryFileDlg.cpp.s
 .PHONY : ModifyDictionaryFileDlg.s
 
-# target to build an object file
-Panel.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.o
+# target to generate assembly for a file
+ModifyDictionaryFileDlg.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.cpp.s
+.PHONY : ModifyDictionaryFileDlg.cpp.s
+
+Panel.o: Panel.cpp.o
 .PHONY : Panel.o
 
-# target to preprocess a source file
-Panel.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.i
+# target to build an object file
+Panel.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.cpp.o
+.PHONY : Panel.cpp.o
+
+Panel.i: Panel.cpp.i
 .PHONY : Panel.i
 
-# target to generate assembly for a file
-Panel.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.s
+# target to preprocess a source file
+Panel.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.cpp.i
+.PHONY : Panel.cpp.i
+
+Panel.s: Panel.cpp.s
 .PHONY : Panel.s
 
-# target to build an object file
-PhonDictOptions.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.o
+# target to generate assembly for a file
+Panel.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.cpp.s
+.PHONY : Panel.cpp.s
+
+PhonDictOptions.o: PhonDictOptions.cpp.o
 .PHONY : PhonDictOptions.o
 
-# target to preprocess a source file
-PhonDictOptions.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.i
+# target to build an object file
+PhonDictOptions.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.cpp.o
+.PHONY : PhonDictOptions.cpp.o
+
+PhonDictOptions.i: PhonDictOptions.cpp.i
 .PHONY : PhonDictOptions.i
 
-# target to generate assembly for a file
-PhonDictOptions.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.s
+# target to preprocess a source file
+PhonDictOptions.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.cpp.i
+.PHONY : PhonDictOptions.cpp.i
+
+PhonDictOptions.s: PhonDictOptions.cpp.s
 .PHONY : PhonDictOptions.s
 
-# target to build an object file
-PreviewKeyframeAddDlg.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.o
+# target to generate assembly for a file
+PhonDictOptions.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.cpp.s
+.PHONY : PhonDictOptions.cpp.s
+
+PreviewKeyframeAddDlg.o: PreviewKeyframeAddDlg.cpp.o
 .PHONY : PreviewKeyframeAddDlg.o
 
-# target to preprocess a source file
-PreviewKeyframeAddDlg.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.i
+# target to build an object file
+PreviewKeyframeAddDlg.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.cpp.o
+.PHONY : PreviewKeyframeAddDlg.cpp.o
+
+PreviewKeyframeAddDlg.i: PreviewKeyframeAddDlg.cpp.i
 .PHONY : PreviewKeyframeAddDlg.i
 
-# target to generate assembly for a file
-PreviewKeyframeAddDlg.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.s
+# target to preprocess a source file
+PreviewKeyframeAddDlg.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.cpp.i
+.PHONY : PreviewKeyframeAddDlg.cpp.i
+
+PreviewKeyframeAddDlg.s: PreviewKeyframeAddDlg.cpp.s
 .PHONY : PreviewKeyframeAddDlg.s
 
-# target to build an object file
-PreviewPanel.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.o
+# target to generate assembly for a file
+PreviewKeyframeAddDlg.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.cpp.s
+.PHONY : PreviewKeyframeAddDlg.cpp.s
+
+PreviewPanel.o: PreviewPanel.cpp.o
 .PHONY : PreviewPanel.o
 
-# target to preprocess a source file
-PreviewPanel.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.i
+# target to build an object file
+PreviewPanel.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.cpp.o
+.PHONY : PreviewPanel.cpp.o
+
+PreviewPanel.i: PreviewPanel.cpp.i
 .PHONY : PreviewPanel.i
 
-# target to generate assembly for a file
-PreviewPanel.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.s
+# target to preprocess a source file
+PreviewPanel.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.cpp.i
+.PHONY : PreviewPanel.cpp.i
+
+PreviewPanel.s: PreviewPanel.cpp.s
 .PHONY : PreviewPanel.s
 
-# target to build an object file
-RubberBandBox.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.o
+# target to generate assembly for a file
+PreviewPanel.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.cpp.s
+.PHONY : PreviewPanel.cpp.s
+
+RubberBandBox.o: RubberBandBox.cpp.o
 .PHONY : RubberBandBox.o
 
-# target to preprocess a source file
-RubberBandBox.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.i
+# target to build an object file
+RubberBandBox.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.cpp.o
+.PHONY : RubberBandBox.cpp.o
+
+RubberBandBox.i: RubberBandBox.cpp.i
 .PHONY : RubberBandBox.i
 
-# target to generate assembly for a file
-RubberBandBox.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.s
+# target to preprocess a source file
+RubberBandBox.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.cpp.i
+.PHONY : RubberBandBox.cpp.i
+
+RubberBandBox.s: RubberBandBox.cpp.s
 .PHONY : RubberBandBox.s
 
-# target to build an object file
-Splitter.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.o
+# target to generate assembly for a file
+RubberBandBox.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.cpp.s
+.PHONY : RubberBandBox.cpp.s
+
+Splitter.o: Splitter.cpp.o
 .PHONY : Splitter.o
 
-# target to preprocess a source file
-Splitter.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.i
+# target to build an object file
+Splitter.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.cpp.o
+.PHONY : Splitter.cpp.o
+
+Splitter.i: Splitter.cpp.i
 .PHONY : Splitter.i
 
-# target to generate assembly for a file
-Splitter.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.s
+# target to preprocess a source file
+Splitter.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.cpp.i
+.PHONY : Splitter.cpp.i
+
+Splitter.s: Splitter.cpp.s
 .PHONY : Splitter.s
 
-# target to build an object file
-VertexSelector.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.o
+# target to generate assembly for a file
+Splitter.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.cpp.s
+.PHONY : Splitter.cpp.s
+
+VertexSelector.o: VertexSelector.cpp.o
 .PHONY : VertexSelector.o
 
-# target to preprocess a source file
-VertexSelector.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.i
+# target to build an object file
+VertexSelector.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.cpp.o
+.PHONY : VertexSelector.cpp.o
+
+VertexSelector.i: VertexSelector.cpp.i
 .PHONY : VertexSelector.i
 
-# target to generate assembly for a file
-VertexSelector.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.s
+# target to preprocess a source file
+VertexSelector.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.cpp.i
+.PHONY : VertexSelector.cpp.i
+
+VertexSelector.s: VertexSelector.cpp.s
 .PHONY : VertexSelector.s
 
-# target to build an object file
-wxFaceEd.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.o
+# target to generate assembly for a file
+VertexSelector.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.cpp.s
+.PHONY : VertexSelector.cpp.s
+
+wxFaceEd.o: wxFaceEd.cpp.o
 .PHONY : wxFaceEd.o
 
-# target to preprocess a source file
-wxFaceEd.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.i
+# target to build an object file
+wxFaceEd.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.cpp.o
+.PHONY : wxFaceEd.cpp.o
+
+wxFaceEd.i: wxFaceEd.cpp.i
 .PHONY : wxFaceEd.i
 
-# target to generate assembly for a file
-wxFaceEd.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.s
+# target to preprocess a source file
+wxFaceEd.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.cpp.i
+.PHONY : wxFaceEd.cpp.i
+
+wxFaceEd.s: wxFaceEd.cpp.s
 .PHONY : wxFaceEd.s
 
-# target to build an object file
-wxNumberEditCtrl.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.o
+# target to generate assembly for a file
+wxFaceEd.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.cpp.s
+.PHONY : wxFaceEd.cpp.s
+
+wxNumberEditCtrl.o: wxNumberEditCtrl.cpp.o
 .PHONY : wxNumberEditCtrl.o
 
-# target to preprocess a source file
-wxNumberEditCtrl.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.i
+# target to build an object file
+wxNumberEditCtrl.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.cpp.o
+.PHONY : wxNumberEditCtrl.cpp.o
+
+wxNumberEditCtrl.i: wxNumberEditCtrl.cpp.i
 .PHONY : wxNumberEditCtrl.i
 
-# target to generate assembly for a file
-wxNumberEditCtrl.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.s
+# target to preprocess a source file
+wxNumberEditCtrl.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.cpp.i
+.PHONY : wxNumberEditCtrl.cpp.i
+
+wxNumberEditCtrl.s: wxNumberEditCtrl.cpp.s
 .PHONY : wxNumberEditCtrl.s
+
+# target to generate assembly for a file
+wxNumberEditCtrl.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.cpp.s
+.PHONY : wxNumberEditCtrl.cpp.s
 
 # Help Target
 help:

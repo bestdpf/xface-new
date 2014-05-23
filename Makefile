@@ -167,6 +167,19 @@ QFace/fast:
 .PHONY : QFace/fast
 
 #=============================================================================
+# Target rules for targets named QFace_automoc
+
+# Build rule for target.
+QFace_automoc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 QFace_automoc
+.PHONY : QFace_automoc
+
+# fast build rule for target.
+QFace_automoc/fast:
+	$(MAKE) -f QFace/CMakeFiles/QFace_automoc.dir/build.make QFace/CMakeFiles/QFace_automoc.dir/build
+.PHONY : QFace_automoc/fast
+
+#=============================================================================
 # Target rules for targets named wxFaceEd
 
 # Build rule for target.
@@ -205,6 +218,7 @@ help:
 	@echo "... wxXFacePlayer"
 	@echo "... wxfaceplayer"
 	@echo "... QFace"
+	@echo "... QFace_automoc"
 	@echo "... wxFaceEd"
 	@echo "... wxfaceclient"
 .PHONY : help

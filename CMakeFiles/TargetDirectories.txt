@@ -1,4 +1,5 @@
 /home/duan/xface-new/QFace/CMakeFiles/QFace.dir
+/home/duan/xface-new/QFace/CMakeFiles/QFace_automoc.dir
 /home/duan/xface-new/XFace/CMakeFiles/XFace.dir
 /home/duan/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir
 /home/duan/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir

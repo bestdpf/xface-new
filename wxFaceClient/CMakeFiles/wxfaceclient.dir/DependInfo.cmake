@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/duan/xface-new/wxFaceClient/ConnectionDlg.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o"
-  "/home/duan/xface-new/wxFaceClient/ControlPanel.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o"
-  "/home/duan/xface-new/wxFaceClient/DropScriptTarget.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o"
-  "/home/duan/xface-new/wxFaceClient/FaceApp.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o"
-  "/home/duan/xface-new/wxFaceClient/FaceFrame.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o"
-  "/home/duan/xface-new/wxFaceClient/TaskSender.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o"
-  "/home/duan/xface-new/wxFaceClient/toggle.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o"
+  "/home/duan/xface-new/wxFaceClient/ConnectionDlg.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o"
+  "/home/duan/xface-new/wxFaceClient/ControlPanel.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o"
+  "/home/duan/xface-new/wxFaceClient/DropScriptTarget.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o"
+  "/home/duan/xface-new/wxFaceClient/FaceApp.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o"
+  "/home/duan/xface-new/wxFaceClient/FaceFrame.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o"
+  "/home/duan/xface-new/wxFaceClient/TaskSender.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o"
+  "/home/duan/xface-new/wxFaceClient/toggle.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

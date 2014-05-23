@@ -115,110 +115,173 @@ wxfaceclient/fast:
 	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/build
 .PHONY : wxfaceclient/fast
 
-# target to build an object file
-ConnectionDlg.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o
+ConnectionDlg.o: ConnectionDlg.cpp.o
 .PHONY : ConnectionDlg.o
 
-# target to preprocess a source file
-ConnectionDlg.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.i
+# target to build an object file
+ConnectionDlg.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o
+.PHONY : ConnectionDlg.cpp.o
+
+ConnectionDlg.i: ConnectionDlg.cpp.i
 .PHONY : ConnectionDlg.i
 
-# target to generate assembly for a file
-ConnectionDlg.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.s
+# target to preprocess a source file
+ConnectionDlg.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.i
+.PHONY : ConnectionDlg.cpp.i
+
+ConnectionDlg.s: ConnectionDlg.cpp.s
 .PHONY : ConnectionDlg.s
 
-# target to build an object file
-ControlPanel.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o
+# target to generate assembly for a file
+ConnectionDlg.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.s
+.PHONY : ConnectionDlg.cpp.s
+
+ControlPanel.o: ControlPanel.cpp.o
 .PHONY : ControlPanel.o
 
-# target to preprocess a source file
-ControlPanel.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.i
+# target to build an object file
+ControlPanel.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o
+.PHONY : ControlPanel.cpp.o
+
+ControlPanel.i: ControlPanel.cpp.i
 .PHONY : ControlPanel.i
 
-# target to generate assembly for a file
-ControlPanel.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.s
+# target to preprocess a source file
+ControlPanel.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.i
+.PHONY : ControlPanel.cpp.i
+
+ControlPanel.s: ControlPanel.cpp.s
 .PHONY : ControlPanel.s
 
-# target to build an object file
-DropScriptTarget.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o
+# target to generate assembly for a file
+ControlPanel.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.s
+.PHONY : ControlPanel.cpp.s
+
+DropScriptTarget.o: DropScriptTarget.cpp.o
 .PHONY : DropScriptTarget.o
 
-# target to preprocess a source file
-DropScriptTarget.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.i
+# target to build an object file
+DropScriptTarget.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o
+.PHONY : DropScriptTarget.cpp.o
+
+DropScriptTarget.i: DropScriptTarget.cpp.i
 .PHONY : DropScriptTarget.i
 
-# target to generate assembly for a file
-DropScriptTarget.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.s
+# target to preprocess a source file
+DropScriptTarget.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.i
+.PHONY : DropScriptTarget.cpp.i
+
+DropScriptTarget.s: DropScriptTarget.cpp.s
 .PHONY : DropScriptTarget.s
 
-# target to build an object file
-FaceApp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o
+# target to generate assembly for a file
+DropScriptTarget.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.s
+.PHONY : DropScriptTarget.cpp.s
+
+FaceApp.o: FaceApp.cpp.o
 .PHONY : FaceApp.o
 
-# target to preprocess a source file
-FaceApp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.i
+# target to build an object file
+FaceApp.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o
+.PHONY : FaceApp.cpp.o
+
+FaceApp.i: FaceApp.cpp.i
 .PHONY : FaceApp.i
 
-# target to generate assembly for a file
-FaceApp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.s
+# target to preprocess a source file
+FaceApp.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.i
+.PHONY : FaceApp.cpp.i
+
+FaceApp.s: FaceApp.cpp.s
 .PHONY : FaceApp.s
 
-# target to build an object file
-FaceFrame.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o
+# target to generate assembly for a file
+FaceApp.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.s
+.PHONY : FaceApp.cpp.s
+
+FaceFrame.o: FaceFrame.cpp.o
 .PHONY : FaceFrame.o
 
-# target to preprocess a source file
-FaceFrame.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.i
+# target to build an object file
+FaceFrame.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o
+.PHONY : FaceFrame.cpp.o
+
+FaceFrame.i: FaceFrame.cpp.i
 .PHONY : FaceFrame.i
 
-# target to generate assembly for a file
-FaceFrame.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.s
+# target to preprocess a source file
+FaceFrame.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.i
+.PHONY : FaceFrame.cpp.i
+
+FaceFrame.s: FaceFrame.cpp.s
 .PHONY : FaceFrame.s
 
-# target to build an object file
-TaskSender.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o
+# target to generate assembly for a file
+FaceFrame.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.s
+.PHONY : FaceFrame.cpp.s
+
+TaskSender.o: TaskSender.cpp.o
 .PHONY : TaskSender.o
 
-# target to preprocess a source file
-TaskSender.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.i
+# target to build an object file
+TaskSender.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o
+.PHONY : TaskSender.cpp.o
+
+TaskSender.i: TaskSender.cpp.i
 .PHONY : TaskSender.i
 
-# target to generate assembly for a file
-TaskSender.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.s
+# target to preprocess a source file
+TaskSender.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.i
+.PHONY : TaskSender.cpp.i
+
+TaskSender.s: TaskSender.cpp.s
 .PHONY : TaskSender.s
 
-# target to build an object file
-toggle.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o
+# target to generate assembly for a file
+TaskSender.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.s
+.PHONY : TaskSender.cpp.s
+
+toggle.o: toggle.cpp.o
 .PHONY : toggle.o
 
-# target to preprocess a source file
-toggle.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.i
+# target to build an object file
+toggle.cpp.o:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o
+.PHONY : toggle.cpp.o
+
+toggle.i: toggle.cpp.i
 .PHONY : toggle.i
 
-# target to generate assembly for a file
-toggle.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.s
+# target to preprocess a source file
+toggle.cpp.i:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.i
+.PHONY : toggle.cpp.i
+
+toggle.s: toggle.cpp.s
 .PHONY : toggle.s
+
+# target to generate assembly for a file
+toggle.cpp.s:
+	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.s
+.PHONY : toggle.cpp.s
 
 # Help Target
 help:
