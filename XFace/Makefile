@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duan/Downloads/xface-new/svn/trunk
+CMAKE_SOURCE_DIR = /home/duan/workplace/xface-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duan/Downloads/xface-new/svn/trunk
+CMAKE_BINARY_DIR = /home/duan/workplace/xface-new
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles /home/duan/Downloads/xface-new/svn/trunk/XFace/CMakeFiles/progress.marks
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f CMakeFiles/Makefile2 XFace/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 0
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles /home/duan/workplace/xface-new/XFace/CMakeFiles/progress.marks
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f CMakeFiles/Makefile2 XFace/clean
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f CMakeFiles/Makefile2 XFace/preinstall
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f CMakeFiles/Makefile2 XFace/preinstall
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 XFace/CMakeFiles/XFace.dir/rule:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f CMakeFiles/Makefile2 XFace/CMakeFiles/XFace.dir/rule
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/CMakeFiles/XFace.dir/rule
 .PHONY : XFace/CMakeFiles/XFace.dir/rule
 
 # Convenience name for target.
@@ -112,772 +112,787 @@ XFace: XFace/CMakeFiles/XFace.dir/rule
 
 # fast build rule for target.
 XFace/fast:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/build
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/build
 .PHONY : XFace/fast
 
 # target to build an object file
 src/XEngine/AuxXFace.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.o
 .PHONY : src/XEngine/AuxXFace.o
 
 # target to preprocess a source file
 src/XEngine/AuxXFace.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.i
 .PHONY : src/XEngine/AuxXFace.i
 
 # target to generate assembly for a file
 src/XEngine/AuxXFace.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.s
 .PHONY : src/XEngine/AuxXFace.s
 
 # target to build an object file
 src/XEngine/BinaryModelBatchLoader.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.o
 .PHONY : src/XEngine/BinaryModelBatchLoader.o
 
 # target to preprocess a source file
 src/XEngine/BinaryModelBatchLoader.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.i
 .PHONY : src/XEngine/BinaryModelBatchLoader.i
 
 # target to generate assembly for a file
 src/XEngine/BinaryModelBatchLoader.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.s
 .PHONY : src/XEngine/BinaryModelBatchLoader.s
 
 # target to build an object file
+src/XEngine/BmpFile.o:
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.o
+.PHONY : src/XEngine/BmpFile.o
+
+# target to preprocess a source file
+src/XEngine/BmpFile.i:
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.i
+.PHONY : src/XEngine/BmpFile.i
+
+# target to generate assembly for a file
+src/XEngine/BmpFile.s:
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.s
+.PHONY : src/XEngine/BmpFile.s
+
+# target to build an object file
 src/XEngine/DeformableGeometry.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.o
 .PHONY : src/XEngine/DeformableGeometry.o
 
 # target to preprocess a source file
 src/XEngine/DeformableGeometry.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.i
 .PHONY : src/XEngine/DeformableGeometry.i
 
 # target to generate assembly for a file
 src/XEngine/DeformableGeometry.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.s
 .PHONY : src/XEngine/DeformableGeometry.s
 
 # target to build an object file
 src/XEngine/Drawable.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.o
 .PHONY : src/XEngine/Drawable.o
 
 # target to preprocess a source file
 src/XEngine/Drawable.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.i
 .PHONY : src/XEngine/Drawable.i
 
 # target to generate assembly for a file
 src/XEngine/Drawable.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.s
 .PHONY : src/XEngine/Drawable.s
 
 # target to build an object file
 src/XEngine/Entity.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.o
 .PHONY : src/XEngine/Entity.o
 
 # target to preprocess a source file
 src/XEngine/Entity.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.i
 .PHONY : src/XEngine/Entity.i
 
 # target to generate assembly for a file
 src/XEngine/Entity.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.s
 .PHONY : src/XEngine/Entity.s
 
 # target to build an object file
 src/XEngine/GLPrerrequisites.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.o
 .PHONY : src/XEngine/GLPrerrequisites.o
 
 # target to preprocess a source file
 src/XEngine/GLPrerrequisites.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.i
 .PHONY : src/XEngine/GLPrerrequisites.i
 
 # target to generate assembly for a file
 src/XEngine/GLPrerrequisites.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.s
 .PHONY : src/XEngine/GLPrerrequisites.s
 
 # target to build an object file
 src/XEngine/Geometry.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.o
 .PHONY : src/XEngine/Geometry.o
 
 # target to preprocess a source file
 src/XEngine/Geometry.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.i
 .PHONY : src/XEngine/Geometry.i
 
 # target to generate assembly for a file
 src/XEngine/Geometry.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.s
 .PHONY : src/XEngine/Geometry.s
 
 # target to build an object file
 src/XEngine/IndexedFaceSet.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.o
 .PHONY : src/XEngine/IndexedFaceSet.o
 
 # target to preprocess a source file
 src/XEngine/IndexedFaceSet.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.i
 .PHONY : src/XEngine/IndexedFaceSet.i
 
 # target to generate assembly for a file
 src/XEngine/IndexedFaceSet.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.s
 .PHONY : src/XEngine/IndexedFaceSet.s
 
 # target to build an object file
 src/XEngine/KeyframeInterpolator.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.o
 .PHONY : src/XEngine/KeyframeInterpolator.o
 
 # target to preprocess a source file
 src/XEngine/KeyframeInterpolator.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.i
 .PHONY : src/XEngine/KeyframeInterpolator.i
 
 # target to generate assembly for a file
 src/XEngine/KeyframeInterpolator.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.s
 .PHONY : src/XEngine/KeyframeInterpolator.s
 
 # target to build an object file
 src/XEngine/MeshManager.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.o
 .PHONY : src/XEngine/MeshManager.o
 
 # target to preprocess a source file
 src/XEngine/MeshManager.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.i
 .PHONY : src/XEngine/MeshManager.i
 
 # target to generate assembly for a file
 src/XEngine/MeshManager.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.s
 .PHONY : src/XEngine/MeshManager.s
 
 # target to build an object file
 src/XEngine/ModelFileFactory.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.o
 .PHONY : src/XEngine/ModelFileFactory.o
 
 # target to preprocess a source file
 src/XEngine/ModelFileFactory.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.i
 .PHONY : src/XEngine/ModelFileFactory.i
 
 # target to generate assembly for a file
 src/XEngine/ModelFileFactory.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.s
 .PHONY : src/XEngine/ModelFileFactory.s
 
 # target to build an object file
 src/XEngine/MorphBlender.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.o
 .PHONY : src/XEngine/MorphBlender.o
 
 # target to preprocess a source file
 src/XEngine/MorphBlender.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.i
 .PHONY : src/XEngine/MorphBlender.i
 
 # target to generate assembly for a file
 src/XEngine/MorphBlender.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.s
 .PHONY : src/XEngine/MorphBlender.s
 
 # target to build an object file
 src/XEngine/MorphChannel.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.o
 .PHONY : src/XEngine/MorphChannel.o
 
 # target to preprocess a source file
 src/XEngine/MorphChannel.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.i
 .PHONY : src/XEngine/MorphChannel.i
 
 # target to generate assembly for a file
 src/XEngine/MorphChannel.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.s
 .PHONY : src/XEngine/MorphChannel.s
 
 # target to build an object file
 src/XEngine/MorphController.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.o
 .PHONY : src/XEngine/MorphController.o
 
 # target to preprocess a source file
 src/XEngine/MorphController.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.i
 .PHONY : src/XEngine/MorphController.i
 
 # target to generate assembly for a file
 src/XEngine/MorphController.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.s
 .PHONY : src/XEngine/MorphController.s
 
 # target to build an object file
 src/XEngine/OBJLoader.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.o
 .PHONY : src/XEngine/OBJLoader.o
 
 # target to preprocess a source file
 src/XEngine/OBJLoader.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.i
 .PHONY : src/XEngine/OBJLoader.i
 
 # target to generate assembly for a file
 src/XEngine/OBJLoader.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.s
 .PHONY : src/XEngine/OBJLoader.s
 
 # target to build an object file
 src/XEngine/RenderList.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.o
 .PHONY : src/XEngine/RenderList.o
 
 # target to preprocess a source file
 src/XEngine/RenderList.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.i
 .PHONY : src/XEngine/RenderList.i
 
 # target to generate assembly for a file
 src/XEngine/RenderList.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.s
 .PHONY : src/XEngine/RenderList.s
 
 # target to build an object file
 src/XEngine/RenderManager.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.o
 .PHONY : src/XEngine/RenderManager.o
 
 # target to preprocess a source file
 src/XEngine/RenderManager.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.i
 .PHONY : src/XEngine/RenderManager.i
 
 # target to generate assembly for a file
 src/XEngine/RenderManager.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.s
 .PHONY : src/XEngine/RenderManager.s
 
 # target to build an object file
 src/XEngine/RendererGL.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.o
 .PHONY : src/XEngine/RendererGL.o
 
 # target to preprocess a source file
 src/XEngine/RendererGL.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.i
 .PHONY : src/XEngine/RendererGL.i
 
 # target to generate assembly for a file
 src/XEngine/RendererGL.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.s
 .PHONY : src/XEngine/RendererGL.s
 
 # target to build an object file
 src/XEngine/TextureLoaderGL.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.o
 .PHONY : src/XEngine/TextureLoaderGL.o
 
 # target to preprocess a source file
 src/XEngine/TextureLoaderGL.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.i
 .PHONY : src/XEngine/TextureLoaderGL.i
 
 # target to generate assembly for a file
 src/XEngine/TextureLoaderGL.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.s
 .PHONY : src/XEngine/TextureLoaderGL.s
 
 # target to build an object file
 src/XEngine/TextureManager.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.o
 .PHONY : src/XEngine/TextureManager.o
 
 # target to preprocess a source file
 src/XEngine/TextureManager.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.i
 .PHONY : src/XEngine/TextureManager.i
 
 # target to generate assembly for a file
 src/XEngine/TextureManager.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.s
 .PHONY : src/XEngine/TextureManager.s
 
 # target to build an object file
 src/XEngine/TgaFile.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.o
 .PHONY : src/XEngine/TgaFile.o
 
 # target to preprocess a source file
 src/XEngine/TgaFile.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.i
 .PHONY : src/XEngine/TgaFile.i
 
 # target to generate assembly for a file
 src/XEngine/TgaFile.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.s
 .PHONY : src/XEngine/TgaFile.s
 
 # target to build an object file
 src/XEngine/Transform.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.o
 .PHONY : src/XEngine/Transform.o
 
 # target to preprocess a source file
 src/XEngine/Transform.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.i
 .PHONY : src/XEngine/Transform.i
 
 # target to generate assembly for a file
 src/XEngine/Transform.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.s
 .PHONY : src/XEngine/Transform.s
 
 # target to build an object file
 src/XEngine/VRML1Loader.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.o
 .PHONY : src/XEngine/VRML1Loader.o
 
 # target to preprocess a source file
 src/XEngine/VRML1Loader.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.i
 .PHONY : src/XEngine/VRML1Loader.i
 
 # target to generate assembly for a file
 src/XEngine/VRML1Loader.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.s
 .PHONY : src/XEngine/VRML1Loader.s
 
 # target to build an object file
 src/XEngine/VRML97Loader.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.o
 .PHONY : src/XEngine/VRML97Loader.o
 
 # target to preprocess a source file
 src/XEngine/VRML97Loader.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.i
 .PHONY : src/XEngine/VRML97Loader.i
 
 # target to generate assembly for a file
 src/XEngine/VRML97Loader.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.s
 .PHONY : src/XEngine/VRML97Loader.s
 
 # target to build an object file
 src/XFace/AnimProcessor.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.o
 .PHONY : src/XFace/AnimProcessor.o
 
 # target to preprocess a source file
 src/XFace/AnimProcessor.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.i
 .PHONY : src/XFace/AnimProcessor.i
 
 # target to generate assembly for a file
 src/XFace/AnimProcessor.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.s
 .PHONY : src/XFace/AnimProcessor.s
 
 # target to build an object file
 src/XFace/ExpressionChannel.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.o
 .PHONY : src/XFace/ExpressionChannel.o
 
 # target to preprocess a source file
 src/XFace/ExpressionChannel.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.i
 .PHONY : src/XFace/ExpressionChannel.i
 
 # target to generate assembly for a file
 src/XFace/ExpressionChannel.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.s
 .PHONY : src/XFace/ExpressionChannel.s
 
 # target to build an object file
 src/XFace/EyeChannel.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.o
 .PHONY : src/XFace/EyeChannel.o
 
 # target to preprocess a source file
 src/XFace/EyeChannel.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.i
 .PHONY : src/XFace/EyeChannel.i
 
 # target to generate assembly for a file
 src/XFace/EyeChannel.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.s
 .PHONY : src/XFace/EyeChannel.s
 
 # target to build an object file
 src/XFace/FDP.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDP.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDP.o
 .PHONY : src/XFace/FDP.o
 
 # target to preprocess a source file
 src/XFace/FDP.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDP.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDP.i
 .PHONY : src/XFace/FDP.i
 
 # target to generate assembly for a file
 src/XFace/FDP.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDP.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDP.s
 .PHONY : src/XFace/FDP.s
 
 # target to build an object file
 src/XFace/FDPItem.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.o
 .PHONY : src/XFace/FDPItem.o
 
 # target to preprocess a source file
 src/XFace/FDPItem.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.i
 .PHONY : src/XFace/FDPItem.i
 
 # target to generate assembly for a file
 src/XFace/FDPItem.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.s
 .PHONY : src/XFace/FDPItem.s
 
 # target to build an object file
 src/XFace/FDPLoader.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.o
 .PHONY : src/XFace/FDPLoader.o
 
 # target to preprocess a source file
 src/XFace/FDPLoader.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.i
 .PHONY : src/XFace/FDPLoader.i
 
 # target to generate assembly for a file
 src/XFace/FDPLoader.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.s
 .PHONY : src/XFace/FDPLoader.s
 
 # target to build an object file
 src/XFace/FDPWriter.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.o
 .PHONY : src/XFace/FDPWriter.o
 
 # target to preprocess a source file
 src/XFace/FDPWriter.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.i
 .PHONY : src/XFace/FDPWriter.i
 
 # target to generate assembly for a file
 src/XFace/FDPWriter.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.s
 .PHONY : src/XFace/FDPWriter.s
 
 # target to build an object file
 src/XFace/FaceBase.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.o
 .PHONY : src/XFace/FaceBase.o
 
 # target to preprocess a source file
 src/XFace/FaceBase.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.i
 .PHONY : src/XFace/FaceBase.i
 
 # target to generate assembly for a file
 src/XFace/FaceBase.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.s
 .PHONY : src/XFace/FaceBase.s
 
 # target to build an object file
 src/XFace/FaceEntity.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.o
 .PHONY : src/XFace/FaceEntity.o
 
 # target to preprocess a source file
 src/XFace/FaceEntity.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.i
 .PHONY : src/XFace/FaceEntity.i
 
 # target to generate assembly for a file
 src/XFace/FaceEntity.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.s
 .PHONY : src/XFace/FaceEntity.s
 
 # target to build an object file
 src/XFace/FapFile.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.o
 .PHONY : src/XFace/FapFile.o
 
 # target to preprocess a source file
 src/XFace/FapFile.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.i
 .PHONY : src/XFace/FapFile.i
 
 # target to generate assembly for a file
 src/XFace/FapFile.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.s
 .PHONY : src/XFace/FapFile.s
 
 # target to build an object file
 src/XFace/HeadChannel.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.o
 .PHONY : src/XFace/HeadChannel.o
 
 # target to preprocess a source file
 src/XFace/HeadChannel.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.i
 .PHONY : src/XFace/HeadChannel.i
 
 # target to generate assembly for a file
 src/XFace/HeadChannel.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.s
 .PHONY : src/XFace/HeadChannel.s
 
 # target to build an object file
 src/XFace/InfluenceCalculatorMaker.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.o
 .PHONY : src/XFace/InfluenceCalculatorMaker.o
 
 # target to preprocess a source file
 src/XFace/InfluenceCalculatorMaker.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.i
 .PHONY : src/XFace/InfluenceCalculatorMaker.i
 
 # target to generate assembly for a file
 src/XFace/InfluenceCalculatorMaker.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.s
 .PHONY : src/XFace/InfluenceCalculatorMaker.s
 
 # target to build an object file
 src/XFace/PHOLoader.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.o
 .PHONY : src/XFace/PHOLoader.o
 
 # target to preprocess a source file
 src/XFace/PHOLoader.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.i
 .PHONY : src/XFace/PHOLoader.i
 
 # target to generate assembly for a file
 src/XFace/PHOLoader.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.s
 .PHONY : src/XFace/PHOLoader.s
 
 # target to build an object file
 src/XFace/PhonemeDictionary.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.o
 .PHONY : src/XFace/PhonemeDictionary.o
 
 # target to preprocess a source file
 src/XFace/PhonemeDictionary.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.i
 .PHONY : src/XFace/PhonemeDictionary.i
 
 # target to generate assembly for a file
 src/XFace/PhonemeDictionary.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.s
 .PHONY : src/XFace/PhonemeDictionary.s
 
 # target to build an object file
 src/XFace/RaisedCosInfluence.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.o
 .PHONY : src/XFace/RaisedCosInfluence.o
 
 # target to preprocess a source file
 src/XFace/RaisedCosInfluence.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.i
 .PHONY : src/XFace/RaisedCosInfluence.i
 
 # target to generate assembly for a file
 src/XFace/RaisedCosInfluence.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.s
 .PHONY : src/XFace/RaisedCosInfluence.s
 
 # target to build an object file
 src/XFace/XercesString.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.o
 .PHONY : src/XFace/XercesString.o
 
 # target to preprocess a source file
 src/XFace/XercesString.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.i
 .PHONY : src/XFace/XercesString.i
 
 # target to generate assembly for a file
 src/XFace/XercesString.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.s
 .PHONY : src/XFace/XercesString.s
 
 # target to build an object file
 src/XFaceApp/ApplicationBase.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.o
 .PHONY : src/XFaceApp/ApplicationBase.o
 
 # target to preprocess a source file
 src/XFaceApp/ApplicationBase.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.i
 .PHONY : src/XFaceApp/ApplicationBase.i
 
 # target to generate assembly for a file
 src/XFaceApp/ApplicationBase.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.s
 .PHONY : src/XFaceApp/ApplicationBase.s
 
 # target to build an object file
 src/XFaceApp/ModelCamera.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.o
 .PHONY : src/XFaceApp/ModelCamera.o
 
 # target to preprocess a source file
 src/XFaceApp/ModelCamera.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.i
 .PHONY : src/XFaceApp/ModelCamera.i
 
 # target to generate assembly for a file
 src/XFaceApp/ModelCamera.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.s
 .PHONY : src/XFaceApp/ModelCamera.s
 
 # target to build an object file
 src/XFaceApp/Notification.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.o
 .PHONY : src/XFaceApp/Notification.o
 
 # target to preprocess a source file
 src/XFaceApp/Notification.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.i
 .PHONY : src/XFaceApp/Notification.i
 
 # target to generate assembly for a file
 src/XFaceApp/Notification.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.s
 .PHONY : src/XFaceApp/Notification.s
 
 # target to build an object file
 src/XFaceApp/Task.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.o
 .PHONY : src/XFaceApp/Task.o
 
 # target to preprocess a source file
 src/XFaceApp/Task.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.i
 .PHONY : src/XFaceApp/Task.i
 
 # target to generate assembly for a file
 src/XFaceApp/Task.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.s
 .PHONY : src/XFaceApp/Task.s
 
 # target to build an object file
 src/XFaceApp/TaskHandlerBase.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.o
 .PHONY : src/XFaceApp/TaskHandlerBase.o
 
 # target to preprocess a source file
 src/XFaceApp/TaskHandlerBase.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.i
 .PHONY : src/XFaceApp/TaskHandlerBase.i
 
 # target to generate assembly for a file
 src/XFaceApp/TaskHandlerBase.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.s
 .PHONY : src/XFaceApp/TaskHandlerBase.s
 
 # target to build an object file
 src/XFaceApp/XMLUtils.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.o
 .PHONY : src/XFaceApp/XMLUtils.o
 
 # target to preprocess a source file
 src/XFaceApp/XMLUtils.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.i
 .PHONY : src/XFaceApp/XMLUtils.i
 
 # target to generate assembly for a file
 src/XFaceApp/XMLUtils.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.s
 .PHONY : src/XFaceApp/XMLUtils.s
 
 # target to build an object file
 src/XMath/Matrix4.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.o
 .PHONY : src/XMath/Matrix4.o
 
 # target to preprocess a source file
 src/XMath/Matrix4.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.i
 .PHONY : src/XMath/Matrix4.i
 
 # target to generate assembly for a file
 src/XMath/Matrix4.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.s
 .PHONY : src/XMath/Matrix4.s
 
 # target to build an object file
 src/XMath/Perlin.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.o
 .PHONY : src/XMath/Perlin.o
 
 # target to preprocess a source file
 src/XMath/Perlin.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.i
 .PHONY : src/XMath/Perlin.i
 
 # target to generate assembly for a file
 src/XMath/Perlin.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.s
 .PHONY : src/XMath/Perlin.s
 
 # target to build an object file
 src/XMath/Quaternion.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.o
 .PHONY : src/XMath/Quaternion.o
 
 # target to preprocess a source file
 src/XMath/Quaternion.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.i
 .PHONY : src/XMath/Quaternion.i
 
 # target to generate assembly for a file
 src/XMath/Quaternion.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.s
 .PHONY : src/XMath/Quaternion.s
 
 # target to build an object file
 src/XMath/XMath.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/XMath.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/XMath.o
 .PHONY : src/XMath/XMath.o
 
 # target to preprocess a source file
 src/XMath/XMath.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/XMath.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/XMath.i
 .PHONY : src/XMath/XMath.i
 
 # target to generate assembly for a file
 src/XMath/XMath.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/XMath.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/XMath.s
 .PHONY : src/XMath/XMath.s
 
 # target to build an object file
 src/XMath/raytri.o:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/raytri.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/raytri.o
 .PHONY : src/XMath/raytri.o
 
 # target to preprocess a source file
 src/XMath/raytri.i:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/raytri.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/raytri.i
 .PHONY : src/XMath/raytri.i
 
 # target to generate assembly for a file
 src/XMath/raytri.s:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/raytri.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/raytri.s
 .PHONY : src/XMath/raytri.s
 
 # Help Target
@@ -895,6 +910,9 @@ help:
 	@echo "... src/XEngine/BinaryModelBatchLoader.o"
 	@echo "... src/XEngine/BinaryModelBatchLoader.i"
 	@echo "... src/XEngine/BinaryModelBatchLoader.s"
+	@echo "... src/XEngine/BmpFile.o"
+	@echo "... src/XEngine/BmpFile.i"
+	@echo "... src/XEngine/BmpFile.s"
 	@echo "... src/XEngine/DeformableGeometry.o"
 	@echo "... src/XEngine/DeformableGeometry.i"
 	@echo "... src/XEngine/DeformableGeometry.s"
@@ -1053,6 +1071,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

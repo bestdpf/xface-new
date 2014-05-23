@@ -4,14 +4,14 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/ConnPortSetting.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ConnPortSetting.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/DropFAPFileTarget.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/DropFAPFileTarget.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/FaceView.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/FaceView.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/NotificationSenderThread.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/NotificationSenderThread.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/ServerThread.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ServerThread.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/wxFace.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFace.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/wxFacePlayerApp.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerApp.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/wxFacePlayerFrm.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerFrm.o"
+  "/home/duan/workplace/xface-new/wxFacePlayer/ConnPortSetting.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ConnPortSetting.o"
+  "/home/duan/workplace/xface-new/wxFacePlayer/DropFAPFileTarget.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/DropFAPFileTarget.o"
+  "/home/duan/workplace/xface-new/wxFacePlayer/FaceView.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/FaceView.o"
+  "/home/duan/workplace/xface-new/wxFacePlayer/NotificationSenderThread.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/NotificationSenderThread.o"
+  "/home/duan/workplace/xface-new/wxFacePlayer/ServerThread.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ServerThread.o"
+  "/home/duan/workplace/xface-new/wxFacePlayer/wxFace.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFace.o"
+  "/home/duan/workplace/xface-new/wxFacePlayer/wxFacePlayerApp.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerApp.o"
+  "/home/duan/workplace/xface-new/wxFacePlayer/wxFacePlayerFrm.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerFrm.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,9 +24,9 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DependInfo.cmake"
-  "/home/duan/Downloads/xface-new/svn/trunk/XFace/CMakeFiles/XFace.dir/DependInfo.cmake"
-  "/home/duan/Downloads/xface-new/svn/trunk/XSmilAgent/CMakeFiles/XSmilAgent.dir/DependInfo.cmake"
+  "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DependInfo.cmake"
+  "/home/duan/workplace/xface-new/XFace/CMakeFiles/XFace.dir/DependInfo.cmake"
+  "/home/duan/workplace/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

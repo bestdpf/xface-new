@@ -1,6 +1,6 @@
-/home/duan/Downloads/xface-new/svn/trunk/XFace/CMakeFiles/XFace.dir
-/home/duan/Downloads/xface-new/svn/trunk/XSmilAgent/CMakeFiles/XSmilAgent.dir
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir
-/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/CMakeFiles/wxfaceclient.dir
-/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxfaceplayer.dir
+/home/duan/workplace/xface-new/XFace/CMakeFiles/XFace.dir
+/home/duan/workplace/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir
+/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir
+/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir
+/home/duan/workplace/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir
+/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxfaceplayer.dir

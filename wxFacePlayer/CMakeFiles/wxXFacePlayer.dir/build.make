@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duan/Downloads/xface-new/svn/trunk
+CMAKE_SOURCE_DIR = /home/duan/workplace/xface-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duan/Downloads/xface-new/svn/trunk
+CMAKE_BINARY_DIR = /home/duan/workplace/xface-new
 
 # Include any dependencies generated for this target.
 include wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/depend.make
@@ -54,17 +54,17 @@ include wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/flags.make
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.o: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/flags.make
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.o: wxFacePlayer/toggle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.o"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxXFacePlayer.dir/toggle.o -c /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/toggle.cpp
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxXFacePlayer.dir/toggle.o -c /home/duan/workplace/xface-new/wxFacePlayer/toggle.cpp
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxXFacePlayer.dir/toggle.i"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/toggle.cpp > CMakeFiles/wxXFacePlayer.dir/toggle.i
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFacePlayer/toggle.cpp > CMakeFiles/wxXFacePlayer.dir/toggle.i
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxXFacePlayer.dir/toggle.s"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/toggle.cpp -o CMakeFiles/wxXFacePlayer.dir/toggle.s
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFacePlayer/toggle.cpp -o CMakeFiles/wxXFacePlayer.dir/toggle.s
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.o.requires:
 .PHONY : wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.o.requires
@@ -77,17 +77,17 @@ wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.o.provides.build: wxFacePlayer/
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.o: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/flags.make
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.o: wxFacePlayer/SDLTimer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.o"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxXFacePlayer.dir/SDLTimer.o -c /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/SDLTimer.cpp
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxXFacePlayer.dir/SDLTimer.o -c /home/duan/workplace/xface-new/wxFacePlayer/SDLTimer.cpp
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxXFacePlayer.dir/SDLTimer.i"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/SDLTimer.cpp > CMakeFiles/wxXFacePlayer.dir/SDLTimer.i
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFacePlayer/SDLTimer.cpp > CMakeFiles/wxXFacePlayer.dir/SDLTimer.i
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxXFacePlayer.dir/SDLTimer.s"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/SDLTimer.cpp -o CMakeFiles/wxXFacePlayer.dir/SDLTimer.s
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFacePlayer/SDLTimer.cpp -o CMakeFiles/wxXFacePlayer.dir/SDLTimer.s
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.o.requires:
 .PHONY : wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.o.requires
@@ -100,17 +100,17 @@ wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.o.provides.build: wxFacePlaye
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.o: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/flags.make
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.o: wxFacePlayer/SDLSound.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.o"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxXFacePlayer.dir/SDLSound.o -c /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/SDLSound.cpp
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxXFacePlayer.dir/SDLSound.o -c /home/duan/workplace/xface-new/wxFacePlayer/SDLSound.cpp
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxXFacePlayer.dir/SDLSound.i"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/SDLSound.cpp > CMakeFiles/wxXFacePlayer.dir/SDLSound.i
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFacePlayer/SDLSound.cpp > CMakeFiles/wxXFacePlayer.dir/SDLSound.i
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxXFacePlayer.dir/SDLSound.s"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/SDLSound.cpp -o CMakeFiles/wxXFacePlayer.dir/SDLSound.s
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFacePlayer/SDLSound.cpp -o CMakeFiles/wxXFacePlayer.dir/SDLSound.s
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.o.requires:
 .PHONY : wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.o.requires
@@ -123,17 +123,17 @@ wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.o.provides.build: wxFacePlaye
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.o: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/flags.make
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.o: wxFacePlayer/DicTraverser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.o"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxXFacePlayer.dir/DicTraverser.o -c /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/DicTraverser.cpp
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxXFacePlayer.dir/DicTraverser.o -c /home/duan/workplace/xface-new/wxFacePlayer/DicTraverser.cpp
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxXFacePlayer.dir/DicTraverser.i"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/DicTraverser.cpp > CMakeFiles/wxXFacePlayer.dir/DicTraverser.i
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFacePlayer/DicTraverser.cpp > CMakeFiles/wxXFacePlayer.dir/DicTraverser.i
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxXFacePlayer.dir/DicTraverser.s"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/DicTraverser.cpp -o CMakeFiles/wxXFacePlayer.dir/DicTraverser.s
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFacePlayer/DicTraverser.cpp -o CMakeFiles/wxXFacePlayer.dir/DicTraverser.s
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.o.requires:
 .PHONY : wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.o.requires
@@ -146,17 +146,17 @@ wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.o.provides.build: wxFaceP
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.o: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/flags.make
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.o: wxFacePlayer/wxFaceTimer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.o"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.o -c /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/wxFaceTimer.cpp
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.o -c /home/duan/workplace/xface-new/wxFacePlayer/wxFaceTimer.cpp
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.i"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/wxFaceTimer.cpp > CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.i
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFacePlayer/wxFaceTimer.cpp > CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.i
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.s"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/wxFaceTimer.cpp -o CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.s
+	cd /home/duan/workplace/xface-new/wxFacePlayer && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFacePlayer/wxFaceTimer.cpp -o CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.s
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.o.requires:
 .PHONY : wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.o.requires
@@ -186,8 +186,8 @@ wxFacePlayer/libwxXFacePlayer.a: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFac
 wxFacePlayer/libwxXFacePlayer.a: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make
 wxFacePlayer/libwxXFacePlayer.a: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libwxXFacePlayer.a"
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && $(CMAKE_COMMAND) -P CMakeFiles/wxXFacePlayer.dir/cmake_clean_target.cmake
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wxXFacePlayer.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/duan/workplace/xface-new/wxFacePlayer && $(CMAKE_COMMAND) -P CMakeFiles/wxXFacePlayer.dir/cmake_clean_target.cmake
+	cd /home/duan/workplace/xface-new/wxFacePlayer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wxXFacePlayer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build: wxFacePlayer/libwxXFacePlayer.a
@@ -201,10 +201,10 @@ wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/requires: wxFacePlayer/CMakeFiles/wxXF
 .PHONY : wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/requires
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/clean:
-	cd /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer && $(CMAKE_COMMAND) -P CMakeFiles/wxXFacePlayer.dir/cmake_clean.cmake
+	cd /home/duan/workplace/xface-new/wxFacePlayer && $(CMAKE_COMMAND) -P CMakeFiles/wxXFacePlayer.dir/cmake_clean.cmake
 .PHONY : wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/clean
 
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/depend:
-	cd /home/duan/Downloads/xface-new/svn/trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duan/Downloads/xface-new/svn/trunk /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer /home/duan/Downloads/xface-new/svn/trunk /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer /home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duan/workplace/xface-new /home/duan/workplace/xface-new/wxFacePlayer /home/duan/workplace/xface-new /home/duan/workplace/xface-new/wxFacePlayer /home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/depend
 

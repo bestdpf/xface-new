@@ -27,7 +27,7 @@
 #include <XEngine/TextureManager.h>
 #include <cstdio>
 #include <cstring>
-#define size_t int
+#define size_t uint
 namespace XEngine{
 
 	BinaryModelBatchLoader::BinaryModelBatchLoader(void) : m_bLoaded(false)

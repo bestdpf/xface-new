@@ -71,9 +71,7 @@ set(libXFace_SRCS
 # src/XFace/FDPFile.cpp
 
 #platform dependent files 
-if (WIN32)
-  set(libXFace_SRCS ${libXFace_SRCS} src/XEngine/BmpFile.cpp)
-endif(WIN32)
+set(libXFace_SRCS ${libXFace_SRCS} src/XEngine/BmpFile.cpp)
 
 include_directories(${XFace_SOURCE_DIR}/include ${XSMILAGENT_INCLUDES} ${XERCESC_INCLUDE_DIR} ${GLU_INCLUDE_DIR})
 add_library(XFace ${libXFace_SRCS})

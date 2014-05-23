@@ -26,7 +26,7 @@
 #include <XEngine/IndexedFaceSet.h>
 #include <algorithm>
 #include <cstdio>
-#define size_t int
+#define size_t uint
 namespace XEngine{
 
 IndexedFaceSet& IndexedFaceSet::copyFrom(const IndexedFaceSet& rhs)

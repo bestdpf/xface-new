@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duan/Downloads/xface-new/svn/trunk
+CMAKE_SOURCE_DIR = /home/duan/workplace/xface-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duan/Downloads/xface-new/svn/trunk
+CMAKE_BINARY_DIR = /home/duan/workplace/xface-new
 
 #=============================================================================
 # Directory level rules for directory XSmilAgent
@@ -77,7 +77,7 @@ XSmilAgent/preinstall:
 XSmilAgent/CMakeFiles/XSmilAgent.dir/all:
 	$(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/depend
 	$(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles  48 49 50 51 52 53 54 55 56 57 58 59 60
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles  49 50 51 52 53 54 55 56 57 58 59 60 61
 	@echo "Built target XSmilAgent"
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/all
 
@@ -87,9 +87,9 @@ all: XSmilAgent/CMakeFiles/XSmilAgent.dir/all
 
 # Build rule for subdir invocation for target.
 XSmilAgent/CMakeFiles/XSmilAgent.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 XSmilAgent/CMakeFiles/XSmilAgent.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ XFace/preinstall:
 XFace/CMakeFiles/XFace.dir/all:
 	$(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/depend
 	$(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48
 	@echo "Built target XFace"
 .PHONY : XFace/CMakeFiles/XFace.dir/all
 
@@ -137,9 +137,9 @@ all: XFace/CMakeFiles/XFace.dir/all
 
 # Build rule for subdir invocation for target.
 XFace/CMakeFiles/XFace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 48
 	$(MAKE) -f CMakeFiles/Makefile2 XFace/CMakeFiles/XFace.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
 .PHONY : XFace/CMakeFiles/XFace.dir/rule
 
 # Convenience name for target.
@@ -176,11 +176,11 @@ wxFacePlayer/preinstall:
 # Target rules for target wxFacePlayer/CMakeFiles/wxXFacePlayer.dir
 
 # All Build rule for target.
-wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all: XFace/CMakeFiles/XFace.dir/all
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all: XSmilAgent/CMakeFiles/XSmilAgent.dir/all
+wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all: XFace/CMakeFiles/XFace.dir/all
 	$(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/depend
 	$(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles  82 83 84 85
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles  82 83 84 85 86
 	@echo "Built target wxXFacePlayer"
 .PHONY : wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all
 
@@ -190,9 +190,9 @@ all: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all
 
 # Build rule for subdir invocation for target.
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
 .PHONY : wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/rule
 
 # Convenience name for target.
@@ -212,12 +212,12 @@ clean: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/clean
 # Target rules for target wxFacePlayer/CMakeFiles/wxfaceplayer.dir
 
 # All Build rule for target.
-wxFacePlayer/CMakeFiles/wxfaceplayer.dir/all: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all
-wxFacePlayer/CMakeFiles/wxfaceplayer.dir/all: XFace/CMakeFiles/XFace.dir/all
 wxFacePlayer/CMakeFiles/wxfaceplayer.dir/all: XSmilAgent/CMakeFiles/XSmilAgent.dir/all
+wxFacePlayer/CMakeFiles/wxfaceplayer.dir/all: XFace/CMakeFiles/XFace.dir/all
+wxFacePlayer/CMakeFiles/wxfaceplayer.dir/all: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all
 	$(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/depend
 	$(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles  93 94 95 96 97 98 99 100
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles  93 94 95 96 97 98 99 100
 	@echo "Built target wxfaceplayer"
 .PHONY : wxFacePlayer/CMakeFiles/wxfaceplayer.dir/all
 
@@ -227,9 +227,9 @@ all: wxFacePlayer/CMakeFiles/wxfaceplayer.dir/all
 
 # Build rule for subdir invocation for target.
 wxFacePlayer/CMakeFiles/wxfaceplayer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 72
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 74
 	$(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/CMakeFiles/wxfaceplayer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
 .PHONY : wxFacePlayer/CMakeFiles/wxfaceplayer.dir/rule
 
 # Convenience name for target.
@@ -264,12 +264,12 @@ wxFaceEd/preinstall:
 # Target rules for target wxFaceEd/CMakeFiles/wxFaceEd.dir
 
 # All Build rule for target.
-wxFaceEd/CMakeFiles/wxFaceEd.dir/all: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all
-wxFaceEd/CMakeFiles/wxFaceEd.dir/all: XFace/CMakeFiles/XFace.dir/all
 wxFaceEd/CMakeFiles/wxFaceEd.dir/all: XSmilAgent/CMakeFiles/XSmilAgent.dir/all
+wxFaceEd/CMakeFiles/wxFaceEd.dir/all: XFace/CMakeFiles/XFace.dir/all
+wxFaceEd/CMakeFiles/wxFaceEd.dir/all: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all
 	$(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/depend
 	$(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles  61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles  62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81
 	@echo "Built target wxFaceEd"
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/all
 
@@ -279,9 +279,9 @@ all: wxFaceEd/CMakeFiles/wxFaceEd.dir/all
 
 # Build rule for subdir invocation for target.
 wxFaceEd/CMakeFiles/wxFaceEd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 85
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 86
 	$(MAKE) -f CMakeFiles/Makefile2 wxFaceEd/CMakeFiles/wxFaceEd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/rule
 
 # Convenience name for target.
@@ -316,11 +316,11 @@ wxFaceClient/preinstall:
 # Target rules for target wxFaceClient/CMakeFiles/wxfaceclient.dir
 
 # All Build rule for target.
-wxFaceClient/CMakeFiles/wxfaceclient.dir/all: XFace/CMakeFiles/XFace.dir/all
 wxFaceClient/CMakeFiles/wxfaceclient.dir/all: XSmilAgent/CMakeFiles/XSmilAgent.dir/all
+wxFaceClient/CMakeFiles/wxfaceclient.dir/all: XFace/CMakeFiles/XFace.dir/all
 	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/depend
 	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles  86 87 88 89 90 91 92
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles  87 88 89 90 91 92
 	@echo "Built target wxfaceclient"
 .PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/all
 
@@ -330,9 +330,9 @@ all: wxFaceClient/CMakeFiles/wxfaceclient.dir/all
 
 # Build rule for subdir invocation for target.
 wxFaceClient/CMakeFiles/wxfaceclient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 wxFaceClient/CMakeFiles/wxfaceclient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
 .PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/rule
 
 # Convenience name for target.

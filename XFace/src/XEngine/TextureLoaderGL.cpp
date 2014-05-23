@@ -25,9 +25,7 @@
 
 #include <XEngine/TextureLoaderGL.h>
 
-#ifdef WIN32
-	#include <XEngine/BmpFile.h>
-#endif
+#include <XEngine/BmpFile.h>
 #include <XEngine/TgaFile.h>
 
 #ifdef WIN32
@@ -37,6 +35,7 @@
 #endif
 #include <GL/gl.h>
 #include <GL/glu.h>
+#include <GL/glext.h>
 
 #include <algorithm>
 #include <string>
@@ -82,6 +81,7 @@ void TextureLoaderGL::unLoad(const ITexture* pTexture)
 */
 bool TextureLoaderGL::load(const std::string& filename, ITexture* pTexture)
 {
+    printf("load texturer %s\n-----------------------------\n",filename.c_str());
 	if(!pTexture)
 		return false;
 	// make a format check and use base class pointer for loader
@@ -90,11 +90,11 @@ bool TextureLoaderGL::load(const std::string& filename, ITexture* pTexture)
 	try
 	{
 		std::string namefile(filename);
-	#ifdef WIN32
+	//#ifdef WIN32
 		if(namefile.find_last_of(".bmp") == namefile.size() - 1)
 			loader = new BmpFile;
 		else 
-	#endif
+	//#endif
 		if(namefile.find_last_of(".tga") == namefile.size() - 1)
 			loader = new TgaFile;
 		else
@@ -131,7 +131,7 @@ bool TextureLoaderGL::load(const std::string& filename, ITexture* pTexture)
 		// Read more about the MIN and MAG filters at the bottom of main.cpp	
 		glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MAG_FILTER,GL_LINEAR);
 		glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_LINEAR_MIPMAP_NEAREST);
-		
+		glDepthMask(GL_TRUE);
 		// Build Mipmaps (builds different versions of the picture for distances - looks better)
 		gluBuild2DMipmaps(GL_TEXTURE_2D, 3, loader->getWidth(), loader->getHeight(), mode, GL_UNSIGNED_BYTE, loader->getData());
 

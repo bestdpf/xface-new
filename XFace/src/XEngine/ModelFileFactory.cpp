@@ -33,7 +33,7 @@
 #include <iostream>
 
 #include <algorithm>
-#define size_t int
+#define size_t uint
 namespace XEngine{
 
 //! List of files in memory are stored here as a static var

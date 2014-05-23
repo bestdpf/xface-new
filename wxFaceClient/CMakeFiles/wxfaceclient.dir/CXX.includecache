@@ -6,19 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/ConnectionDlg.h
-wx/wx.h
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/wx/wx.h
+/home/duan/workplace/xface-new/wxFaceClient/ConnectionDlg.cpp
+ConnectionDlg.h
+/home/duan/workplace/xface-new/wxFaceClient/ConnectionDlg.h
 
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/ControlPanel.cpp
-ControlPanel.h
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/ControlPanel.h
-TaskSender.h
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/TaskSender.h
+/home/duan/workplace/xface-new/wxFaceClient/ConnectionDlg.h
 wx/wx.h
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/wx/wx.h
+/home/duan/workplace/xface-new/wxFaceClient/wx/wx.h
+
+/home/duan/workplace/xface-new/wxFaceClient/ControlPanel.cpp
+ControlPanel.h
+/home/duan/workplace/xface-new/wxFaceClient/ControlPanel.h
+TaskSender.h
+/home/duan/workplace/xface-new/wxFaceClient/TaskSender.h
+wx/wx.h
+/home/duan/workplace/xface-new/wxFaceClient/wx/wx.h
 toggle.h
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/toggle.h
+/home/duan/workplace/xface-new/wxFaceClient/toggle.h
 wx/tglbtn.h
 -
 wx/statline.h
@@ -54,7 +58,7 @@ iostream
 algorithm
 -
 
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/ControlPanel.h
+/home/duan/workplace/xface-new/wxFaceClient/ControlPanel.h
 wx/panel.h
 -
 wx/file.h
@@ -80,21 +84,45 @@ XFaceApp/Task.h
 XFaceApp/Notification.h
 -
 ScriptProcessorLoader.h
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/ScriptProcessorLoader.h
+/home/duan/workplace/xface-new/wxFaceClient/ScriptProcessorLoader.h
 
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/DropScriptTarget.h
+/home/duan/workplace/xface-new/wxFaceClient/DropScriptTarget.cpp
+DropScriptTarget.h
+/home/duan/workplace/xface-new/wxFaceClient/DropScriptTarget.h
+FaceFrame.h
+/home/duan/workplace/xface-new/wxFaceClient/FaceFrame.h
+wx/filename.h
+-
+
+/home/duan/workplace/xface-new/wxFaceClient/DropScriptTarget.h
 wx/wx.h
 -
 wx/dnd.h
 -
 
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/FaceFrame.cpp
+/home/duan/workplace/xface-new/wxFaceClient/FaceApp.cpp
+FaceApp.h
+/home/duan/workplace/xface-new/wxFaceClient/FaceApp.h
 FaceFrame.h
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/FaceFrame.h
+/home/duan/workplace/xface-new/wxFaceClient/FaceFrame.h
+wx/wx.h
+-
+
+/home/duan/workplace/xface-new/wxFaceClient/FaceApp.h
+iostream
+-
+fstream
+-
+wx/app.h
+/home/duan/workplace/xface-new/wxFaceClient/wx/app.h
+
+/home/duan/workplace/xface-new/wxFaceClient/FaceFrame.cpp
+FaceFrame.h
+/home/duan/workplace/xface-new/wxFaceClient/FaceFrame.h
 ConnectionDlg.h
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/ConnectionDlg.h
+/home/duan/workplace/xface-new/wxFaceClient/ConnectionDlg.h
 DropScriptTarget.h
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/DropScriptTarget.h
+/home/duan/workplace/xface-new/wxFaceClient/DropScriptTarget.h
 wx/menu.h
 -
 wx/icon.h
@@ -108,7 +136,7 @@ wx/sizer.h
 wx/filedlg.h
 -
 
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/FaceFrame.h
+/home/duan/workplace/xface-new/wxFaceClient/FaceFrame.h
 wx/frame.h
 -
 wx/log.h
@@ -118,9 +146,13 @@ wx/textctrl.h
 wx/filename.h
 -
 ControlPanel.h
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/ControlPanel.h
+/home/duan/workplace/xface-new/wxFaceClient/ControlPanel.h
 
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/TaskSender.h
+/home/duan/workplace/xface-new/wxFaceClient/TaskSender.cpp
+TaskSender.h
+/home/duan/workplace/xface-new/wxFaceClient/TaskSender.h
+
+/home/duan/workplace/xface-new/wxFaceClient/TaskSender.h
 wx/socket.h
 -
 wx/thread.h
@@ -128,7 +160,29 @@ wx/thread.h
 string
 -
 
-/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/toggle.h
+/home/duan/workplace/xface-new/wxFaceClient/toggle.cpp
+wx/wxprec.h
+/home/duan/workplace/xface-new/wxFaceClient/wx/wxprec.h
+wx/control.h
+/home/duan/workplace/xface-new/wxFaceClient/wx/control.h
+wx/settings.h
+/home/duan/workplace/xface-new/wxFaceClient/wx/settings.h
+wx/bitmap.h
+/home/duan/workplace/xface-new/wxFaceClient/wx/bitmap.h
+wx/timer.h
+/home/duan/workplace/xface-new/wxFaceClient/wx/timer.h
+wx/dc.h
+/home/duan/workplace/xface-new/wxFaceClient/wx/dc.h
+wx/dcclient.h
+/home/duan/workplace/xface-new/wxFaceClient/wx/dcclient.h
+wx/tglbtn.h
+/home/duan/workplace/xface-new/wxFaceClient/wx/tglbtn.h
+wx/image.h
+/home/duan/workplace/xface-new/wxFaceClient/wx/image.h
+toggle.h
+/home/duan/workplace/xface-new/wxFaceClient/toggle.h
+
+/home/duan/workplace/xface-new/wxFaceClient/toggle.h
 
 /usr/include/wx-3.0/wx/accel.h
 wx/defs.h
@@ -2945,6 +2999,26 @@ wx/string.h
 /usr/include/wx-3.0/wx/wx/string.h
 stdarg.h
 -
+
+/usr/include/wx-3.0/wx/wxprec.h
+wx/defs.h
+/usr/include/wx-3.0/wx/wx/defs.h
+wx/chartype.h
+/usr/include/wx-3.0/wx/wx/chartype.h
+wx/msw/wrapwin.h
+/usr/include/wx-3.0/wx/wx/msw/wrapwin.h
+wx/msw/private.h
+/usr/include/wx-3.0/wx/wx/msw/private.h
+wx/msw/wrapcctl.h
+/usr/include/wx-3.0/wx/wx/msw/wrapcctl.h
+wx/msw/wrapcdlg.h
+/usr/include/wx-3.0/wx/wx/msw/wrapcdlg.h
+wx/msw/missing.h
+/usr/include/wx-3.0/wx/wx/msw/missing.h
+wx/os2/private.h
+/usr/include/wx-3.0/wx/wx/os2/private.h
+wx/wx.h
+/usr/include/wx-3.0/wx/wx/wx.h
 
 /usr/include/wx-3.0/wx/xti.h
 wx/defs.h

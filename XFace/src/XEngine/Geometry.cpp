@@ -28,7 +28,7 @@
 #include <algorithm>
 #include <iostream>
 #include <cstdio>
-#define size_t int
+#define size_t uint
 namespace XEngine{
 
 /*!

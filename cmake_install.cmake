@@ -1,4 +1,4 @@
-# Install script for directory: /home/duan/Downloads/xface-new/svn/trunk
+# Install script for directory: /home/duan/workplace/xface-new
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/duan/Downloads/xface-new/svn/trunk/XSmilAgent/cmake_install.cmake")
-  INCLUDE("/home/duan/Downloads/xface-new/svn/trunk/XFace/cmake_install.cmake")
-  INCLUDE("/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/cmake_install.cmake")
-  INCLUDE("/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/cmake_install.cmake")
-  INCLUDE("/home/duan/Downloads/xface-new/svn/trunk/wxFaceClient/cmake_install.cmake")
+  INCLUDE("/home/duan/workplace/xface-new/XSmilAgent/cmake_install.cmake")
+  INCLUDE("/home/duan/workplace/xface-new/XFace/cmake_install.cmake")
+  INCLUDE("/home/duan/workplace/xface-new/wxFacePlayer/cmake_install.cmake")
+  INCLUDE("/home/duan/workplace/xface-new/wxFaceEd/cmake_install.cmake")
+  INCLUDE("/home/duan/workplace/xface-new/wxFaceClient/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -48,7 +48,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/duan/Downloads/xface-new/svn/trunk/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/duan/workplace/xface-new/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/duan/Downloads/xface-new/svn/trunk/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/duan/workplace/xface-new/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

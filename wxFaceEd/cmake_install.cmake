@@ -1,4 +1,4 @@
-# Install script for directory: /home/duan/Downloads/xface-new/svn/trunk/wxFaceEd
+# Install script for directory: /home/duan/workplace/xface-new/wxFaceEd
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

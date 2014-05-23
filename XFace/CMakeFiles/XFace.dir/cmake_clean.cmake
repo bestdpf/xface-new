@@ -50,6 +50,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/XFace.dir/src/XFaceApp/Task.o"
   "CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.o"
   "CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.o"
+  "CMakeFiles/XFace.dir/src/XEngine/BmpFile.o"
   "libXFace.pdb"
   "libXFace.a"
 )

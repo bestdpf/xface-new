@@ -4,28 +4,28 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/ConfPanel.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/DictionaryFilesDlg.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/DropFDPFileTarget.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/FAPUPanel.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/FDPPanel.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/FDPPicture.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/FaceApp.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/FaceFrame.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/FaceView.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/KeyframeAddDlg.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/Mediator.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/ModelViewerCamera.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/ModifyDictionaryFileDlg.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/Panel.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/PhonDictOptions.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/PreviewKeyframeAddDlg.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/PreviewPanel.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/RubberBandBox.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/Splitter.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/VertexSelector.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/wxFaceEd.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.o"
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/wxNumberEditCtrl.cpp" "/home/duan/Downloads/xface-new/svn/trunk/wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/ConfPanel.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/DictionaryFilesDlg.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/DropFDPFileTarget.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/FAPUPanel.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/FDPPanel.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/FDPPicture.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/FaceApp.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/FaceFrame.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/FaceView.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/KeyframeAddDlg.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/Mediator.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/ModelViewerCamera.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/ModifyDictionaryFileDlg.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/Panel.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/PhonDictOptions.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/PreviewKeyframeAddDlg.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/PreviewPanel.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/RubberBandBox.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/Splitter.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/VertexSelector.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/wxFaceEd.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.o"
+  "/home/duan/workplace/xface-new/wxFaceEd/wxNumberEditCtrl.cpp" "/home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -38,9 +38,9 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/duan/Downloads/xface-new/svn/trunk/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DependInfo.cmake"
-  "/home/duan/Downloads/xface-new/svn/trunk/XFace/CMakeFiles/XFace.dir/DependInfo.cmake"
-  "/home/duan/Downloads/xface-new/svn/trunk/XSmilAgent/CMakeFiles/XSmilAgent.dir/DependInfo.cmake"
+  "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DependInfo.cmake"
+  "/home/duan/workplace/xface-new/XFace/CMakeFiles/XFace.dir/DependInfo.cmake"
+  "/home/duan/workplace/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
