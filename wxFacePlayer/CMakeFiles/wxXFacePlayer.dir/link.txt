@@ -1,2 +1,0 @@
-/usr/bin/ar cr libwxXFacePlayer.a  CMakeFiles/wxXFacePlayer.dir/toggle.o CMakeFiles/wxXFacePlayer.dir/SDLTimer.o CMakeFiles/wxXFacePlayer.dir/SDLSound.o CMakeFiles/wxXFacePlayer.dir/DicTraverser.o CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.o
-/usr/bin/ranlib libwxXFacePlayer.a
