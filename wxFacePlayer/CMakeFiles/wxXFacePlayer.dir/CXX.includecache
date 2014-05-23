@@ -6,67 +6,67 @@
 
 #IncludeRegexTransform: 
 
-/home/duan/workplace/xface-new/wxFacePlayer/DicTraverser.cpp
+/home/duan/xface-new/wxFacePlayer/DicTraverser.cpp
 DicTraverser.h
-/home/duan/workplace/xface-new/wxFacePlayer/DicTraverser.h
+/home/duan/xface-new/wxFacePlayer/DicTraverser.h
 wx/filename.h
 -
 
-/home/duan/workplace/xface-new/wxFacePlayer/DicTraverser.h
+/home/duan/xface-new/wxFacePlayer/DicTraverser.h
 wx/dir.h
 -
 wx/arrstr.h
 -
 
-/home/duan/workplace/xface-new/wxFacePlayer/SDLSound.cpp
+/home/duan/xface-new/wxFacePlayer/SDLSound.cpp
 SDLSound.h
-/home/duan/workplace/xface-new/wxFacePlayer/SDLSound.h
+/home/duan/xface-new/wxFacePlayer/SDLSound.h
 iostream
 -
 
-/home/duan/workplace/xface-new/wxFacePlayer/SDLSound.h
+/home/duan/xface-new/wxFacePlayer/SDLSound.h
 XFaceApp/ISound.h
 -
 SDL.h
 -
 
-/home/duan/workplace/xface-new/wxFacePlayer/SDLTimer.cpp
+/home/duan/xface-new/wxFacePlayer/SDLTimer.cpp
 SDLTimer.h
-/home/duan/workplace/xface-new/wxFacePlayer/SDLTimer.h
+/home/duan/xface-new/wxFacePlayer/SDLTimer.h
 SDL.h
 -
 
-/home/duan/workplace/xface-new/wxFacePlayer/SDLTimer.h
+/home/duan/xface-new/wxFacePlayer/SDLTimer.h
 XEngine/ITimer.h
 -
 
-/home/duan/workplace/xface-new/wxFacePlayer/toggle.cpp
+/home/duan/xface-new/wxFacePlayer/toggle.cpp
 wx/wxprec.h
-/home/duan/workplace/xface-new/wxFacePlayer/wx/wxprec.h
+/home/duan/xface-new/wxFacePlayer/wx/wxprec.h
 wx/control.h
-/home/duan/workplace/xface-new/wxFacePlayer/wx/control.h
+/home/duan/xface-new/wxFacePlayer/wx/control.h
 wx/settings.h
-/home/duan/workplace/xface-new/wxFacePlayer/wx/settings.h
+/home/duan/xface-new/wxFacePlayer/wx/settings.h
 wx/bitmap.h
-/home/duan/workplace/xface-new/wxFacePlayer/wx/bitmap.h
+/home/duan/xface-new/wxFacePlayer/wx/bitmap.h
 wx/timer.h
-/home/duan/workplace/xface-new/wxFacePlayer/wx/timer.h
+/home/duan/xface-new/wxFacePlayer/wx/timer.h
 wx/dc.h
-/home/duan/workplace/xface-new/wxFacePlayer/wx/dc.h
+/home/duan/xface-new/wxFacePlayer/wx/dc.h
 wx/dcclient.h
-/home/duan/workplace/xface-new/wxFacePlayer/wx/dcclient.h
+/home/duan/xface-new/wxFacePlayer/wx/dcclient.h
 wx/tglbtn.h
-/home/duan/workplace/xface-new/wxFacePlayer/wx/tglbtn.h
+/home/duan/xface-new/wxFacePlayer/wx/tglbtn.h
 wx/image.h
-/home/duan/workplace/xface-new/wxFacePlayer/wx/image.h
+/home/duan/xface-new/wxFacePlayer/wx/image.h
 toggle.h
-/home/duan/workplace/xface-new/wxFacePlayer/toggle.h
+/home/duan/xface-new/wxFacePlayer/toggle.h
 
-/home/duan/workplace/xface-new/wxFacePlayer/toggle.h
+/home/duan/xface-new/wxFacePlayer/toggle.h
 
-/home/duan/workplace/xface-new/wxFacePlayer/wxFaceTimer.cpp
+/home/duan/xface-new/wxFacePlayer/wxFaceTimer.cpp
 wxFaceTimer.h
-/home/duan/workplace/xface-new/wxFacePlayer/wxFaceTimer.h
+/home/duan/xface-new/wxFacePlayer/wxFaceTimer.h
 wx/utils.h
 -
 wx/timer.h
@@ -74,7 +74,7 @@ wx/timer.h
 unistd.h
 -
 
-/home/duan/workplace/xface-new/wxFacePlayer/wxFaceTimer.h
+/home/duan/xface-new/wxFacePlayer/wxFaceTimer.h
 XEngine/ITimer.h
 -
 boost/shared_ptr.hpp

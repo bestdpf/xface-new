@@ -4,11 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/duan/workplace/xface-new/wxFacePlayer/DicTraverser.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.o"
-  "/home/duan/workplace/xface-new/wxFacePlayer/SDLSound.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.o"
-  "/home/duan/workplace/xface-new/wxFacePlayer/SDLTimer.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.o"
-  "/home/duan/workplace/xface-new/wxFacePlayer/toggle.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.o"
-  "/home/duan/workplace/xface-new/wxFacePlayer/wxFaceTimer.cpp" "/home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.o"
+  "/home/duan/xface-new/wxFacePlayer/DicTraverser.cpp" "/home/duan/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.o"
+  "/home/duan/xface-new/wxFacePlayer/SDLSound.cpp" "/home/duan/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.o"
+  "/home/duan/xface-new/wxFacePlayer/SDLTimer.cpp" "/home/duan/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.o"
+  "/home/duan/xface-new/wxFacePlayer/toggle.cpp" "/home/duan/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.o"
+  "/home/duan/xface-new/wxFacePlayer/wxFaceTimer.cpp" "/home/duan/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,8 +21,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/duan/workplace/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir/DependInfo.cmake"
-  "/home/duan/workplace/xface-new/XFace/CMakeFiles/XFace.dir/DependInfo.cmake"
+  "/home/duan/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir/DependInfo.cmake"
+  "/home/duan/xface-new/XFace/CMakeFiles/XFace.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

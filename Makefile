@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duan/workplace/xface-new
+CMAKE_SOURCE_DIR = /home/duan/xface-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duan/workplace/xface-new
+CMAKE_BINARY_DIR = /home/duan/xface-new
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles /home/duan/workplace/xface-new/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/xface-new/CMakeFiles /home/duan/xface-new/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/xface-new/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -154,6 +154,19 @@ wxfaceplayer/fast:
 .PHONY : wxfaceplayer/fast
 
 #=============================================================================
+# Target rules for targets named QFace
+
+# Build rule for target.
+QFace: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 QFace
+.PHONY : QFace
+
+# fast build rule for target.
+QFace/fast:
+	$(MAKE) -f QFace/CMakeFiles/QFace.dir/build.make QFace/CMakeFiles/QFace.dir/build
+.PHONY : QFace/fast
+
+#=============================================================================
 # Target rules for targets named wxFaceEd
 
 # Build rule for target.
@@ -191,6 +204,7 @@ help:
 	@echo "... XFace"
 	@echo "... wxXFacePlayer"
 	@echo "... wxfaceplayer"
+	@echo "... QFace"
 	@echo "... wxFaceEd"
 	@echo "... wxfaceclient"
 .PHONY : help

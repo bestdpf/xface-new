@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duan/workplace/xface-new
+CMAKE_SOURCE_DIR = /home/duan/xface-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duan/workplace/xface-new
+CMAKE_BINARY_DIR = /home/duan/xface-new
 
 # Include any dependencies generated for this target.
 include wxFaceEd/CMakeFiles/wxFaceEd.dir/depend.make
@@ -54,17 +54,17 @@ include wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.o: wxFaceEd/ConfPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/ConfPanel.o -c /home/duan/workplace/xface-new/wxFaceEd/ConfPanel.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/ConfPanel.o -c /home/duan/xface-new/wxFaceEd/ConfPanel.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/ConfPanel.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/ConfPanel.cpp > CMakeFiles/wxFaceEd.dir/ConfPanel.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/ConfPanel.cpp > CMakeFiles/wxFaceEd.dir/ConfPanel.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/ConfPanel.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/ConfPanel.cpp -o CMakeFiles/wxFaceEd.dir/ConfPanel.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/ConfPanel.cpp -o CMakeFiles/wxFaceEd.dir/ConfPanel.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.o.requires
@@ -77,17 +77,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/ConfPanel.o.provides.build: wxFaceEd/CMakeFiles
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.o: wxFaceEd/DictionaryFilesDlg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.o -c /home/duan/workplace/xface-new/wxFaceEd/DictionaryFilesDlg.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.o -c /home/duan/xface-new/wxFaceEd/DictionaryFilesDlg.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/DictionaryFilesDlg.cpp > CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/DictionaryFilesDlg.cpp > CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/DictionaryFilesDlg.cpp -o CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/DictionaryFilesDlg.cpp -o CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.o.requires
@@ -100,17 +100,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/DictionaryFilesDlg.o.provides.build: wxFaceEd/C
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.o: wxFaceEd/DropFDPFileTarget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.o -c /home/duan/workplace/xface-new/wxFaceEd/DropFDPFileTarget.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.o -c /home/duan/xface-new/wxFaceEd/DropFDPFileTarget.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/DropFDPFileTarget.cpp > CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/DropFDPFileTarget.cpp > CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/DropFDPFileTarget.cpp -o CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/DropFDPFileTarget.cpp -o CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.o.requires
@@ -123,17 +123,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/DropFDPFileTarget.o.provides.build: wxFaceEd/CM
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.o: wxFaceEd/FaceApp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/FaceApp.o -c /home/duan/workplace/xface-new/wxFaceEd/FaceApp.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/FaceApp.o -c /home/duan/xface-new/wxFaceEd/FaceApp.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/FaceApp.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/FaceApp.cpp > CMakeFiles/wxFaceEd.dir/FaceApp.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/FaceApp.cpp > CMakeFiles/wxFaceEd.dir/FaceApp.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/FaceApp.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/FaceApp.cpp -o CMakeFiles/wxFaceEd.dir/FaceApp.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/FaceApp.cpp -o CMakeFiles/wxFaceEd.dir/FaceApp.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.o.requires
@@ -146,17 +146,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceApp.o.provides.build: wxFaceEd/CMakeFiles/w
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.o: wxFaceEd/FaceFrame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/FaceFrame.o -c /home/duan/workplace/xface-new/wxFaceEd/FaceFrame.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/FaceFrame.o -c /home/duan/xface-new/wxFaceEd/FaceFrame.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/FaceFrame.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/FaceFrame.cpp > CMakeFiles/wxFaceEd.dir/FaceFrame.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/FaceFrame.cpp > CMakeFiles/wxFaceEd.dir/FaceFrame.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/FaceFrame.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/FaceFrame.cpp -o CMakeFiles/wxFaceEd.dir/FaceFrame.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/FaceFrame.cpp -o CMakeFiles/wxFaceEd.dir/FaceFrame.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.o.requires
@@ -169,17 +169,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceFrame.o.provides.build: wxFaceEd/CMakeFiles
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.o: wxFaceEd/FaceView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/FaceView.o -c /home/duan/workplace/xface-new/wxFaceEd/FaceView.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/FaceView.o -c /home/duan/xface-new/wxFaceEd/FaceView.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/FaceView.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/FaceView.cpp > CMakeFiles/wxFaceEd.dir/FaceView.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/FaceView.cpp > CMakeFiles/wxFaceEd.dir/FaceView.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/FaceView.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/FaceView.cpp -o CMakeFiles/wxFaceEd.dir/FaceView.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/FaceView.cpp -o CMakeFiles/wxFaceEd.dir/FaceView.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.o.requires
@@ -192,17 +192,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/FaceView.o.provides.build: wxFaceEd/CMakeFiles/
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.o: wxFaceEd/FAPUPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/FAPUPanel.o -c /home/duan/workplace/xface-new/wxFaceEd/FAPUPanel.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/FAPUPanel.o -c /home/duan/xface-new/wxFaceEd/FAPUPanel.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/FAPUPanel.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/FAPUPanel.cpp > CMakeFiles/wxFaceEd.dir/FAPUPanel.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/FAPUPanel.cpp > CMakeFiles/wxFaceEd.dir/FAPUPanel.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/FAPUPanel.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/FAPUPanel.cpp -o CMakeFiles/wxFaceEd.dir/FAPUPanel.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/FAPUPanel.cpp -o CMakeFiles/wxFaceEd.dir/FAPUPanel.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.o.requires
@@ -215,17 +215,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/FAPUPanel.o.provides.build: wxFaceEd/CMakeFiles
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.o: wxFaceEd/FDPPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/FDPPanel.o -c /home/duan/workplace/xface-new/wxFaceEd/FDPPanel.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/FDPPanel.o -c /home/duan/xface-new/wxFaceEd/FDPPanel.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/FDPPanel.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/FDPPanel.cpp > CMakeFiles/wxFaceEd.dir/FDPPanel.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/FDPPanel.cpp > CMakeFiles/wxFaceEd.dir/FDPPanel.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/FDPPanel.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/FDPPanel.cpp -o CMakeFiles/wxFaceEd.dir/FDPPanel.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/FDPPanel.cpp -o CMakeFiles/wxFaceEd.dir/FDPPanel.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.o.requires
@@ -238,17 +238,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPanel.o.provides.build: wxFaceEd/CMakeFiles/
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.o: wxFaceEd/FDPPicture.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/FDPPicture.o -c /home/duan/workplace/xface-new/wxFaceEd/FDPPicture.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/FDPPicture.o -c /home/duan/xface-new/wxFaceEd/FDPPicture.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/FDPPicture.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/FDPPicture.cpp > CMakeFiles/wxFaceEd.dir/FDPPicture.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/FDPPicture.cpp > CMakeFiles/wxFaceEd.dir/FDPPicture.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/FDPPicture.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/FDPPicture.cpp -o CMakeFiles/wxFaceEd.dir/FDPPicture.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/FDPPicture.cpp -o CMakeFiles/wxFaceEd.dir/FDPPicture.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.o.requires
@@ -261,17 +261,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/FDPPicture.o.provides.build: wxFaceEd/CMakeFile
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.o: wxFaceEd/KeyframeAddDlg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.o -c /home/duan/workplace/xface-new/wxFaceEd/KeyframeAddDlg.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.o -c /home/duan/xface-new/wxFaceEd/KeyframeAddDlg.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/KeyframeAddDlg.cpp > CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/KeyframeAddDlg.cpp > CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/KeyframeAddDlg.cpp -o CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/KeyframeAddDlg.cpp -o CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.o.requires
@@ -284,17 +284,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/KeyframeAddDlg.o.provides.build: wxFaceEd/CMake
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.o: wxFaceEd/Mediator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/Mediator.o -c /home/duan/workplace/xface-new/wxFaceEd/Mediator.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/Mediator.o -c /home/duan/xface-new/wxFaceEd/Mediator.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/Mediator.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/Mediator.cpp > CMakeFiles/wxFaceEd.dir/Mediator.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/Mediator.cpp > CMakeFiles/wxFaceEd.dir/Mediator.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/Mediator.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/Mediator.cpp -o CMakeFiles/wxFaceEd.dir/Mediator.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/Mediator.cpp -o CMakeFiles/wxFaceEd.dir/Mediator.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.o.requires
@@ -307,17 +307,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/Mediator.o.provides.build: wxFaceEd/CMakeFiles/
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.o: wxFaceEd/ModelViewerCamera.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/ModelViewerCamera.o -c /home/duan/workplace/xface-new/wxFaceEd/ModelViewerCamera.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/ModelViewerCamera.o -c /home/duan/xface-new/wxFaceEd/ModelViewerCamera.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/ModelViewerCamera.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/ModelViewerCamera.cpp > CMakeFiles/wxFaceEd.dir/ModelViewerCamera.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/ModelViewerCamera.cpp > CMakeFiles/wxFaceEd.dir/ModelViewerCamera.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/ModelViewerCamera.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/ModelViewerCamera.cpp -o CMakeFiles/wxFaceEd.dir/ModelViewerCamera.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/ModelViewerCamera.cpp -o CMakeFiles/wxFaceEd.dir/ModelViewerCamera.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.o.requires
@@ -330,17 +330,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/ModelViewerCamera.o.provides.build: wxFaceEd/CM
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.o: wxFaceEd/ModifyDictionaryFileDlg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.o -c /home/duan/workplace/xface-new/wxFaceEd/ModifyDictionaryFileDlg.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.o -c /home/duan/xface-new/wxFaceEd/ModifyDictionaryFileDlg.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/ModifyDictionaryFileDlg.cpp > CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/ModifyDictionaryFileDlg.cpp > CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/ModifyDictionaryFileDlg.cpp -o CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/ModifyDictionaryFileDlg.cpp -o CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.o.requires
@@ -353,17 +353,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/ModifyDictionaryFileDlg.o.provides.build: wxFac
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.o: wxFaceEd/Panel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/Panel.o -c /home/duan/workplace/xface-new/wxFaceEd/Panel.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/Panel.o -c /home/duan/xface-new/wxFaceEd/Panel.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/Panel.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/Panel.cpp > CMakeFiles/wxFaceEd.dir/Panel.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/Panel.cpp > CMakeFiles/wxFaceEd.dir/Panel.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/Panel.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/Panel.cpp -o CMakeFiles/wxFaceEd.dir/Panel.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/Panel.cpp -o CMakeFiles/wxFaceEd.dir/Panel.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.o.requires
@@ -376,17 +376,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/Panel.o.provides.build: wxFaceEd/CMakeFiles/wxF
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.o: wxFaceEd/PhonDictOptions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/PhonDictOptions.o -c /home/duan/workplace/xface-new/wxFaceEd/PhonDictOptions.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/PhonDictOptions.o -c /home/duan/xface-new/wxFaceEd/PhonDictOptions.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/PhonDictOptions.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/PhonDictOptions.cpp > CMakeFiles/wxFaceEd.dir/PhonDictOptions.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/PhonDictOptions.cpp > CMakeFiles/wxFaceEd.dir/PhonDictOptions.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/PhonDictOptions.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/PhonDictOptions.cpp -o CMakeFiles/wxFaceEd.dir/PhonDictOptions.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/PhonDictOptions.cpp -o CMakeFiles/wxFaceEd.dir/PhonDictOptions.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.o.requires
@@ -399,17 +399,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/PhonDictOptions.o.provides.build: wxFaceEd/CMak
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.o: wxFaceEd/PreviewKeyframeAddDlg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.o -c /home/duan/workplace/xface-new/wxFaceEd/PreviewKeyframeAddDlg.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.o -c /home/duan/xface-new/wxFaceEd/PreviewKeyframeAddDlg.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/PreviewKeyframeAddDlg.cpp > CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/PreviewKeyframeAddDlg.cpp > CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/PreviewKeyframeAddDlg.cpp -o CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/PreviewKeyframeAddDlg.cpp -o CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.o.requires
@@ -422,17 +422,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewKeyframeAddDlg.o.provides.build: wxFaceE
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.o: wxFaceEd/PreviewPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/PreviewPanel.o -c /home/duan/workplace/xface-new/wxFaceEd/PreviewPanel.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/PreviewPanel.o -c /home/duan/xface-new/wxFaceEd/PreviewPanel.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/PreviewPanel.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/PreviewPanel.cpp > CMakeFiles/wxFaceEd.dir/PreviewPanel.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/PreviewPanel.cpp > CMakeFiles/wxFaceEd.dir/PreviewPanel.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/PreviewPanel.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/PreviewPanel.cpp -o CMakeFiles/wxFaceEd.dir/PreviewPanel.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/PreviewPanel.cpp -o CMakeFiles/wxFaceEd.dir/PreviewPanel.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.o.requires
@@ -445,17 +445,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/PreviewPanel.o.provides.build: wxFaceEd/CMakeFi
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.o: wxFaceEd/RubberBandBox.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/RubberBandBox.o -c /home/duan/workplace/xface-new/wxFaceEd/RubberBandBox.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/RubberBandBox.o -c /home/duan/xface-new/wxFaceEd/RubberBandBox.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/RubberBandBox.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/RubberBandBox.cpp > CMakeFiles/wxFaceEd.dir/RubberBandBox.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/RubberBandBox.cpp > CMakeFiles/wxFaceEd.dir/RubberBandBox.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/RubberBandBox.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/RubberBandBox.cpp -o CMakeFiles/wxFaceEd.dir/RubberBandBox.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/RubberBandBox.cpp -o CMakeFiles/wxFaceEd.dir/RubberBandBox.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.o.requires
@@ -468,17 +468,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/RubberBandBox.o.provides.build: wxFaceEd/CMakeF
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.o: wxFaceEd/Splitter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/Splitter.o -c /home/duan/workplace/xface-new/wxFaceEd/Splitter.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/Splitter.o -c /home/duan/xface-new/wxFaceEd/Splitter.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/Splitter.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/Splitter.cpp > CMakeFiles/wxFaceEd.dir/Splitter.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/Splitter.cpp > CMakeFiles/wxFaceEd.dir/Splitter.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/Splitter.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/Splitter.cpp -o CMakeFiles/wxFaceEd.dir/Splitter.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/Splitter.cpp -o CMakeFiles/wxFaceEd.dir/Splitter.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.o.requires
@@ -491,17 +491,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/Splitter.o.provides.build: wxFaceEd/CMakeFiles/
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.o: wxFaceEd/VertexSelector.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/VertexSelector.o -c /home/duan/workplace/xface-new/wxFaceEd/VertexSelector.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/VertexSelector.o -c /home/duan/xface-new/wxFaceEd/VertexSelector.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/VertexSelector.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/VertexSelector.cpp > CMakeFiles/wxFaceEd.dir/VertexSelector.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/VertexSelector.cpp > CMakeFiles/wxFaceEd.dir/VertexSelector.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/VertexSelector.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/VertexSelector.cpp -o CMakeFiles/wxFaceEd.dir/VertexSelector.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/VertexSelector.cpp -o CMakeFiles/wxFaceEd.dir/VertexSelector.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.o.requires
@@ -514,17 +514,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/VertexSelector.o.provides.build: wxFaceEd/CMake
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.o: wxFaceEd/wxFaceEd.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/wxFaceEd.o -c /home/duan/workplace/xface-new/wxFaceEd/wxFaceEd.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/wxFaceEd.o -c /home/duan/xface-new/wxFaceEd/wxFaceEd.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/wxFaceEd.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/wxFaceEd.cpp > CMakeFiles/wxFaceEd.dir/wxFaceEd.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/wxFaceEd.cpp > CMakeFiles/wxFaceEd.dir/wxFaceEd.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/wxFaceEd.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/wxFaceEd.cpp -o CMakeFiles/wxFaceEd.dir/wxFaceEd.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/wxFaceEd.cpp -o CMakeFiles/wxFaceEd.dir/wxFaceEd.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.o.requires
@@ -537,17 +537,17 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/wxFaceEd.o.provides.build: wxFaceEd/CMakeFiles/
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.o: wxFaceEd/CMakeFiles/wxFaceEd.dir/flags.make
 wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.o: wxFaceEd/wxNumberEditCtrl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.o"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.o -c /home/duan/workplace/xface-new/wxFaceEd/wxNumberEditCtrl.cpp
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.o -c /home/duan/xface-new/wxFaceEd/wxNumberEditCtrl.cpp
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.i"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/wxFaceEd/wxNumberEditCtrl.cpp > CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.i
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/wxFaceEd/wxNumberEditCtrl.cpp > CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.i
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.s"
-	cd /home/duan/workplace/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/wxFaceEd/wxNumberEditCtrl.cpp -o CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.s
+	cd /home/duan/xface-new/wxFaceEd && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/wxFaceEd/wxNumberEditCtrl.cpp -o CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.s
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.o.requires:
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNumberEditCtrl.o.requires
@@ -612,7 +612,7 @@ wxFaceEd/wxFaceEd: wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make
 wxFaceEd/wxFaceEd: wxFacePlayer/libwxXFacePlayer.a
 wxFaceEd/wxFaceEd: XFace/libXFace.a
 wxFaceEd/wxFaceEd: XSmilAgent/libXSmilAgent.a
-wxFaceEd/wxFaceEd: /usr/lib64/libxerces-c.so
+wxFaceEd/wxFaceEd: /usr/lib/libxerces-c.so
 wxFaceEd/wxFaceEd: /usr/lib64/libGLU.so
 wxFaceEd/wxFaceEd: /usr/lib64/libGL.so
 wxFaceEd/wxFaceEd: /usr/lib64/libSM.so
@@ -622,7 +622,7 @@ wxFaceEd/wxFaceEd: /usr/lib64/libXext.so
 wxFaceEd/wxFaceEd: /usr/lib64/libSDL.so
 wxFaceEd/wxFaceEd: wxFaceEd/CMakeFiles/wxFaceEd.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable wxFaceEd"
-	cd /home/duan/workplace/xface-new/wxFaceEd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wxFaceEd.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/duan/xface-new/wxFaceEd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wxFaceEd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 wxFaceEd/CMakeFiles/wxFaceEd.dir/build: wxFaceEd/wxFaceEd
@@ -653,10 +653,10 @@ wxFaceEd/CMakeFiles/wxFaceEd.dir/requires: wxFaceEd/CMakeFiles/wxFaceEd.dir/wxNu
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/requires
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/clean:
-	cd /home/duan/workplace/xface-new/wxFaceEd && $(CMAKE_COMMAND) -P CMakeFiles/wxFaceEd.dir/cmake_clean.cmake
+	cd /home/duan/xface-new/wxFaceEd && $(CMAKE_COMMAND) -P CMakeFiles/wxFaceEd.dir/cmake_clean.cmake
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/clean
 
 wxFaceEd/CMakeFiles/wxFaceEd.dir/depend:
-	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duan/workplace/xface-new /home/duan/workplace/xface-new/wxFaceEd /home/duan/workplace/xface-new /home/duan/workplace/xface-new/wxFaceEd /home/duan/workplace/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duan/xface-new && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duan/xface-new /home/duan/xface-new/wxFaceEd /home/duan/xface-new /home/duan/xface-new/wxFaceEd /home/duan/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wxFaceEd/CMakeFiles/wxFaceEd.dir/depend
 

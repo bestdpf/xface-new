@@ -725,3 +725,421 @@ Linking C executable cmTryCompileExec69962611
 gmake[1]: Leaving directory `/home/duan/workplace/xface-new/CMakeFiles/CMakeTmp'
 
 
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1197207293/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1197207293.dir/build.make CMakeFiles/cmTryCompileExec1197207293.dir/build
+gmake[1]: Entering directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1197207293.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec1197207293.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1197207293
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1197207293.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec1197207293.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1197207293 -rdynamic -lX11 -lXext 
+gmake[1]: Leaving directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3380758320/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3380758320.dir/build.make CMakeFiles/cmTryCompileExec3380758320.dir/build
+gmake[1]: Entering directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3380758320.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec3380758320.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3380758320
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3380758320.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec3380758320.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3380758320 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1536423956/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1536423956.dir/build.make CMakeFiles/cmTryCompileExec1536423956.dir/build
+gmake[1]: Entering directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1536423956.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec1536423956.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1536423956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1536423956.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec1536423956.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1536423956 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4045432370/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4045432370.dir/build.make CMakeFiles/cmTryCompileExec4045432370.dir/build
+gmake[1]: Entering directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4045432370.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec4045432370.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4045432370
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4045432370.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec4045432370.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4045432370 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2881369341/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2881369341.dir/build.make CMakeFiles/cmTryCompileExec2881369341.dir/build
+gmake[1]: Entering directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2881369341.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec2881369341.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2881369341
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2881369341.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec2881369341.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2881369341 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4159137771/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4159137771.dir/build.make CMakeFiles/cmTryCompileExec4159137771.dir/build
+gmake[1]: Entering directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4159137771.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec4159137771.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4159137771
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4159137771.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec4159137771.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4159137771 -rdynamic -lICE 
+gmake[1]: Leaving directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3101590954/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3101590954.dir/build.make CMakeFiles/cmTryCompileExec3101590954.dir/build
+gmake[1]: Entering directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3101590954.dir/CheckIncludeFiles.c.o
+/usr/lib64/ccache/cc    -o CMakeFiles/cmTryCompileExec3101590954.dir/CheckIncludeFiles.c.o   -c /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3101590954
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3101590954.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc       CMakeFiles/cmTryCompileExec3101590954.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3101590954 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec737697459/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec737697459.dir/build.make CMakeFiles/cmTryCompileExec737697459.dir/build
+gmake[1]: Entering directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec737697459.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec737697459.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec737697459
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec737697459.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec737697459.dir/CheckFunctionExists.c.o  -o cmTryCompileExec737697459 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/home/duan/Downloads/xface-new/svn/trunk/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2909637417/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2909637417.dir/build.make CMakeFiles/cmTryCompileExec2909637417.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2909637417.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec2909637417.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2909637417
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2909637417.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec2909637417.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2909637417 -rdynamic -lX11 -lXext 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1683116345/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1683116345.dir/build.make CMakeFiles/cmTryCompileExec1683116345.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1683116345.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec1683116345.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1683116345
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1683116345.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec1683116345.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1683116345 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec305237709/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec305237709.dir/build.make CMakeFiles/cmTryCompileExec305237709.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec305237709.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec305237709.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec305237709
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec305237709.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec305237709.dir/CheckFunctionExists.c.o  -o cmTryCompileExec305237709 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1530304255/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1530304255.dir/build.make CMakeFiles/cmTryCompileExec1530304255.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1530304255.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec1530304255.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1530304255
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1530304255.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec1530304255.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1530304255 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2399947176/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2399947176.dir/build.make CMakeFiles/cmTryCompileExec2399947176.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2399947176.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec2399947176.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2399947176
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2399947176.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec2399947176.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2399947176 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3731916974/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3731916974.dir/build.make CMakeFiles/cmTryCompileExec3731916974.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3731916974.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec3731916974.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3731916974
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3731916974.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec3731916974.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3731916974 -rdynamic -lICE 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3544649846/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3544649846.dir/build.make CMakeFiles/cmTryCompileExec3544649846.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3544649846.dir/CheckIncludeFiles.c.o
+/usr/lib64/ccache/cc    -o CMakeFiles/cmTryCompileExec3544649846.dir/CheckIncludeFiles.c.o   -c /home/duan/xface-new/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3544649846
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3544649846.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc       CMakeFiles/cmTryCompileExec3544649846.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3544649846 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2921747602/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2921747602.dir/build.make CMakeFiles/cmTryCompileExec2921747602.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2921747602.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2921747602.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2921747602
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2921747602.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2921747602.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2921747602 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3195611766/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3195611766.dir/build.make CMakeFiles/cmTryCompileExec3195611766.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3195611766.dir/CheckSymbolExists.cxx.o
+/usr/lib64/ccache/c++     -o CMakeFiles/cmTryCompileExec3195611766.dir/CheckSymbolExists.cxx.o -c /home/duan/xface-new/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec3195611766
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3195611766.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++        CMakeFiles/cmTryCompileExec3195611766.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3195611766 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+File /home/duan/xface-new/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2159572469/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2159572469.dir/build.make CMakeFiles/cmTryCompileExec2159572469.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2159572469.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec2159572469.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2159572469
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2159572469.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec2159572469.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2159572469 -rdynamic -lX11 -lXext 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2710664365/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2710664365.dir/build.make CMakeFiles/cmTryCompileExec2710664365.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2710664365.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec2710664365.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2710664365
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2710664365.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec2710664365.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2710664365 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1483979065/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1483979065.dir/build.make CMakeFiles/cmTryCompileExec1483979065.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1483979065.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec1483979065.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1483979065
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1483979065.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec1483979065.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1483979065 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2240954491/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2240954491.dir/build.make CMakeFiles/cmTryCompileExec2240954491.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2240954491.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec2240954491.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2240954491
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2240954491.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec2240954491.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2240954491 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3457338804/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3457338804.dir/build.make CMakeFiles/cmTryCompileExec3457338804.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3457338804.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec3457338804.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3457338804
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3457338804.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec3457338804.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3457338804 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3483543114/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3483543114.dir/build.make CMakeFiles/cmTryCompileExec3483543114.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3483543114.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec3483543114.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3483543114
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3483543114.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec3483543114.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3483543114 -rdynamic -lICE 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4145201286/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4145201286.dir/build.make CMakeFiles/cmTryCompileExec4145201286.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4145201286.dir/CheckIncludeFiles.c.o
+/usr/lib64/ccache/cc    -o CMakeFiles/cmTryCompileExec4145201286.dir/CheckIncludeFiles.c.o   -c /home/duan/xface-new/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4145201286
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4145201286.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc       CMakeFiles/cmTryCompileExec4145201286.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4145201286 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1852260394/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1852260394.dir/build.make CMakeFiles/cmTryCompileExec1852260394.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1852260394.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1852260394.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1852260394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1852260394.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1852260394.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1852260394 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/duan/xface-new/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1669463575/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1669463575.dir/build.make CMakeFiles/cmTryCompileExec1669463575.dir/build
+gmake[1]: Entering directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duan/xface-new/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1669463575.dir/CheckSymbolExists.cxx.o
+/usr/lib64/ccache/c++     -o CMakeFiles/cmTryCompileExec1669463575.dir/CheckSymbolExists.cxx.o -c /home/duan/xface-new/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec1669463575
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1669463575.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++        CMakeFiles/cmTryCompileExec1669463575.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1669463575 -rdynamic 
+gmake[1]: Leaving directory `/home/duan/xface-new/CMakeFiles/CMakeTmp'
+
+File /home/duan/xface-new/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

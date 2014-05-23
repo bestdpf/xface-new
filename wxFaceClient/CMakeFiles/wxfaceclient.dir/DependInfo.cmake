@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/duan/workplace/xface-new/wxFaceClient/ConnectionDlg.cpp" "/home/duan/workplace/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o"
-  "/home/duan/workplace/xface-new/wxFaceClient/ControlPanel.cpp" "/home/duan/workplace/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o"
-  "/home/duan/workplace/xface-new/wxFaceClient/DropScriptTarget.cpp" "/home/duan/workplace/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o"
-  "/home/duan/workplace/xface-new/wxFaceClient/FaceApp.cpp" "/home/duan/workplace/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o"
-  "/home/duan/workplace/xface-new/wxFaceClient/FaceFrame.cpp" "/home/duan/workplace/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o"
-  "/home/duan/workplace/xface-new/wxFaceClient/TaskSender.cpp" "/home/duan/workplace/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o"
-  "/home/duan/workplace/xface-new/wxFaceClient/toggle.cpp" "/home/duan/workplace/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o"
+  "/home/duan/xface-new/wxFaceClient/ConnectionDlg.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.o"
+  "/home/duan/xface-new/wxFaceClient/ControlPanel.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.o"
+  "/home/duan/xface-new/wxFaceClient/DropScriptTarget.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.o"
+  "/home/duan/xface-new/wxFaceClient/FaceApp.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.o"
+  "/home/duan/xface-new/wxFaceClient/FaceFrame.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.o"
+  "/home/duan/xface-new/wxFaceClient/TaskSender.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.o"
+  "/home/duan/xface-new/wxFaceClient/toggle.cpp" "/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,8 +23,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/duan/workplace/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir/DependInfo.cmake"
-  "/home/duan/workplace/xface-new/XFace/CMakeFiles/XFace.dir/DependInfo.cmake"
+  "/home/duan/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir/DependInfo.cmake"
+  "/home/duan/xface-new/XFace/CMakeFiles/XFace.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

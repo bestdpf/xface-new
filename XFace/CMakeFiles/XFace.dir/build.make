@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duan/workplace/xface-new
+CMAKE_SOURCE_DIR = /home/duan/xface-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duan/workplace/xface-new
+CMAKE_BINARY_DIR = /home/duan/xface-new
 
 # Include any dependencies generated for this target.
 include XFace/CMakeFiles/XFace.dir/depend.make
@@ -54,17 +54,17 @@ include XFace/CMakeFiles/XFace.dir/flags.make
 
 XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.o: XFace/src/XMath/Matrix4.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XMath/Matrix4.o -c /home/duan/workplace/xface-new/XFace/src/XMath/Matrix4.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XMath/Matrix4.o -c /home/duan/xface-new/XFace/src/XMath/Matrix4.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XMath/Matrix4.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XMath/Matrix4.cpp > CMakeFiles/XFace.dir/src/XMath/Matrix4.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XMath/Matrix4.cpp > CMakeFiles/XFace.dir/src/XMath/Matrix4.i
 
 XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XMath/Matrix4.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XMath/Matrix4.cpp -o CMakeFiles/XFace.dir/src/XMath/Matrix4.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XMath/Matrix4.cpp -o CMakeFiles/XFace.dir/src/XMath/Matrix4.s
 
 XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.o.requires
@@ -77,17 +77,17 @@ XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.o.provides.build: XFace/CMakeFiles/
 
 XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.o: XFace/src/XMath/Perlin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XMath/Perlin.o -c /home/duan/workplace/xface-new/XFace/src/XMath/Perlin.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XMath/Perlin.o -c /home/duan/xface-new/XFace/src/XMath/Perlin.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XMath/Perlin.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XMath/Perlin.cpp > CMakeFiles/XFace.dir/src/XMath/Perlin.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XMath/Perlin.cpp > CMakeFiles/XFace.dir/src/XMath/Perlin.i
 
 XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XMath/Perlin.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XMath/Perlin.cpp -o CMakeFiles/XFace.dir/src/XMath/Perlin.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XMath/Perlin.cpp -o CMakeFiles/XFace.dir/src/XMath/Perlin.s
 
 XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.o.requires
@@ -100,17 +100,17 @@ XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.o.provides.build: XFace/CMakeFiles/X
 
 XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.o: XFace/src/XMath/Quaternion.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XMath/Quaternion.o -c /home/duan/workplace/xface-new/XFace/src/XMath/Quaternion.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XMath/Quaternion.o -c /home/duan/xface-new/XFace/src/XMath/Quaternion.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XMath/Quaternion.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XMath/Quaternion.cpp > CMakeFiles/XFace.dir/src/XMath/Quaternion.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XMath/Quaternion.cpp > CMakeFiles/XFace.dir/src/XMath/Quaternion.i
 
 XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XMath/Quaternion.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XMath/Quaternion.cpp -o CMakeFiles/XFace.dir/src/XMath/Quaternion.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XMath/Quaternion.cpp -o CMakeFiles/XFace.dir/src/XMath/Quaternion.s
 
 XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.o.requires
@@ -123,17 +123,17 @@ XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.o.provides.build: XFace/CMakeFil
 
 XFace/CMakeFiles/XFace.dir/src/XMath/raytri.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XMath/raytri.o: XFace/src/XMath/raytri.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XMath/raytri.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XMath/raytri.o -c /home/duan/workplace/xface-new/XFace/src/XMath/raytri.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XMath/raytri.o -c /home/duan/xface-new/XFace/src/XMath/raytri.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XMath/raytri.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XMath/raytri.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XMath/raytri.cpp > CMakeFiles/XFace.dir/src/XMath/raytri.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XMath/raytri.cpp > CMakeFiles/XFace.dir/src/XMath/raytri.i
 
 XFace/CMakeFiles/XFace.dir/src/XMath/raytri.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XMath/raytri.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XMath/raytri.cpp -o CMakeFiles/XFace.dir/src/XMath/raytri.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XMath/raytri.cpp -o CMakeFiles/XFace.dir/src/XMath/raytri.s
 
 XFace/CMakeFiles/XFace.dir/src/XMath/raytri.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XMath/raytri.o.requires
@@ -146,17 +146,17 @@ XFace/CMakeFiles/XFace.dir/src/XMath/raytri.o.provides.build: XFace/CMakeFiles/X
 
 XFace/CMakeFiles/XFace.dir/src/XMath/XMath.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XMath/XMath.o: XFace/src/XMath/XMath.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XMath/XMath.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XMath/XMath.o -c /home/duan/workplace/xface-new/XFace/src/XMath/XMath.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XMath/XMath.o -c /home/duan/xface-new/XFace/src/XMath/XMath.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XMath/XMath.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XMath/XMath.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XMath/XMath.cpp > CMakeFiles/XFace.dir/src/XMath/XMath.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XMath/XMath.cpp > CMakeFiles/XFace.dir/src/XMath/XMath.i
 
 XFace/CMakeFiles/XFace.dir/src/XMath/XMath.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XMath/XMath.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XMath/XMath.cpp -o CMakeFiles/XFace.dir/src/XMath/XMath.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XMath/XMath.cpp -o CMakeFiles/XFace.dir/src/XMath/XMath.s
 
 XFace/CMakeFiles/XFace.dir/src/XMath/XMath.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XMath/XMath.o.requires
@@ -169,17 +169,17 @@ XFace/CMakeFiles/XFace.dir/src/XMath/XMath.o.provides.build: XFace/CMakeFiles/XF
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.o: XFace/src/XEngine/AuxXFace.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/AuxXFace.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/AuxXFace.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/AuxXFace.o -c /home/duan/xface-new/XFace/src/XEngine/AuxXFace.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/AuxXFace.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/AuxXFace.cpp > CMakeFiles/XFace.dir/src/XEngine/AuxXFace.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/AuxXFace.cpp > CMakeFiles/XFace.dir/src/XEngine/AuxXFace.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/AuxXFace.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/AuxXFace.cpp -o CMakeFiles/XFace.dir/src/XEngine/AuxXFace.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/AuxXFace.cpp -o CMakeFiles/XFace.dir/src/XEngine/AuxXFace.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.o.requires
@@ -192,17 +192,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.o.provides.build: XFace/CMakeFil
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.o: XFace/src/XEngine/BinaryModelBatchLoader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/BinaryModelBatchLoader.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.o -c /home/duan/xface-new/XFace/src/XEngine/BinaryModelBatchLoader.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/BinaryModelBatchLoader.cpp > CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/BinaryModelBatchLoader.cpp > CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/BinaryModelBatchLoader.cpp -o CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/BinaryModelBatchLoader.cpp -o CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.o.requires
@@ -215,17 +215,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.o.provides.build: 
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.o: XFace/src/XEngine/Drawable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/Drawable.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/Drawable.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/Drawable.o -c /home/duan/xface-new/XFace/src/XEngine/Drawable.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/Drawable.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/Drawable.cpp > CMakeFiles/XFace.dir/src/XEngine/Drawable.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/Drawable.cpp > CMakeFiles/XFace.dir/src/XEngine/Drawable.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/Drawable.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/Drawable.cpp -o CMakeFiles/XFace.dir/src/XEngine/Drawable.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/Drawable.cpp -o CMakeFiles/XFace.dir/src/XEngine/Drawable.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.o.requires
@@ -238,17 +238,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.o.provides.build: XFace/CMakeFil
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.o: XFace/src/XEngine/DeformableGeometry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/DeformableGeometry.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.o -c /home/duan/xface-new/XFace/src/XEngine/DeformableGeometry.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/DeformableGeometry.cpp > CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/DeformableGeometry.cpp > CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/DeformableGeometry.cpp -o CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/DeformableGeometry.cpp -o CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.o.requires
@@ -261,17 +261,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.o.provides.build: XFac
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.o: XFace/src/XEngine/Entity.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/Entity.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/Entity.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/Entity.o -c /home/duan/xface-new/XFace/src/XEngine/Entity.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/Entity.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/Entity.cpp > CMakeFiles/XFace.dir/src/XEngine/Entity.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/Entity.cpp > CMakeFiles/XFace.dir/src/XEngine/Entity.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/Entity.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/Entity.cpp -o CMakeFiles/XFace.dir/src/XEngine/Entity.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/Entity.cpp -o CMakeFiles/XFace.dir/src/XEngine/Entity.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.o.requires
@@ -284,17 +284,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.o.provides.build: XFace/CMakeFiles
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.o: XFace/src/XEngine/Geometry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/Geometry.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/Geometry.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/Geometry.o -c /home/duan/xface-new/XFace/src/XEngine/Geometry.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/Geometry.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/Geometry.cpp > CMakeFiles/XFace.dir/src/XEngine/Geometry.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/Geometry.cpp > CMakeFiles/XFace.dir/src/XEngine/Geometry.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/Geometry.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/Geometry.cpp -o CMakeFiles/XFace.dir/src/XEngine/Geometry.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/Geometry.cpp -o CMakeFiles/XFace.dir/src/XEngine/Geometry.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.o.requires
@@ -307,17 +307,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.o.provides.build: XFace/CMakeFil
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.o: XFace/src/XEngine/GLPrerrequisites.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/GLPrerrequisites.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.o -c /home/duan/xface-new/XFace/src/XEngine/GLPrerrequisites.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/GLPrerrequisites.cpp > CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/GLPrerrequisites.cpp > CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/GLPrerrequisites.cpp -o CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/GLPrerrequisites.cpp -o CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.o.requires
@@ -330,17 +330,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.o.provides.build: XFace/
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.o: XFace/src/XEngine/IndexedFaceSet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/IndexedFaceSet.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.o -c /home/duan/xface-new/XFace/src/XEngine/IndexedFaceSet.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/IndexedFaceSet.cpp > CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/IndexedFaceSet.cpp > CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/IndexedFaceSet.cpp -o CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/IndexedFaceSet.cpp -o CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.o.requires
@@ -353,17 +353,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.o.provides.build: XFace/CM
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.o: XFace/src/XEngine/KeyframeInterpolator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/KeyframeInterpolator.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.o -c /home/duan/xface-new/XFace/src/XEngine/KeyframeInterpolator.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/KeyframeInterpolator.cpp > CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/KeyframeInterpolator.cpp > CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/KeyframeInterpolator.cpp -o CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/KeyframeInterpolator.cpp -o CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.o.requires
@@ -376,17 +376,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.o.provides.build: XF
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.o: XFace/src/XEngine/MeshManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/MeshManager.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/MeshManager.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/MeshManager.o -c /home/duan/xface-new/XFace/src/XEngine/MeshManager.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/MeshManager.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/MeshManager.cpp > CMakeFiles/XFace.dir/src/XEngine/MeshManager.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/MeshManager.cpp > CMakeFiles/XFace.dir/src/XEngine/MeshManager.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/MeshManager.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/MeshManager.cpp -o CMakeFiles/XFace.dir/src/XEngine/MeshManager.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/MeshManager.cpp -o CMakeFiles/XFace.dir/src/XEngine/MeshManager.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.o.requires
@@ -399,17 +399,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.o.provides.build: XFace/CMake
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.o: XFace/src/XEngine/ModelFileFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/ModelFileFactory.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.o -c /home/duan/xface-new/XFace/src/XEngine/ModelFileFactory.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/ModelFileFactory.cpp > CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/ModelFileFactory.cpp > CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/ModelFileFactory.cpp -o CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/ModelFileFactory.cpp -o CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.o.requires
@@ -422,17 +422,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.o.provides.build: XFace/
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.o: XFace/src/XEngine/MorphBlender.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/MorphBlender.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/MorphBlender.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/MorphBlender.o -c /home/duan/xface-new/XFace/src/XEngine/MorphBlender.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/MorphBlender.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/MorphBlender.cpp > CMakeFiles/XFace.dir/src/XEngine/MorphBlender.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/MorphBlender.cpp > CMakeFiles/XFace.dir/src/XEngine/MorphBlender.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/MorphBlender.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/MorphBlender.cpp -o CMakeFiles/XFace.dir/src/XEngine/MorphBlender.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/MorphBlender.cpp -o CMakeFiles/XFace.dir/src/XEngine/MorphBlender.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.o.requires
@@ -445,17 +445,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.o.provides.build: XFace/CMak
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.o: XFace/src/XEngine/MorphChannel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/MorphChannel.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/MorphChannel.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/MorphChannel.o -c /home/duan/xface-new/XFace/src/XEngine/MorphChannel.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/MorphChannel.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/MorphChannel.cpp > CMakeFiles/XFace.dir/src/XEngine/MorphChannel.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/MorphChannel.cpp > CMakeFiles/XFace.dir/src/XEngine/MorphChannel.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/MorphChannel.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/MorphChannel.cpp -o CMakeFiles/XFace.dir/src/XEngine/MorphChannel.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/MorphChannel.cpp -o CMakeFiles/XFace.dir/src/XEngine/MorphChannel.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.o.requires
@@ -468,17 +468,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.o.provides.build: XFace/CMak
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.o: XFace/src/XEngine/MorphController.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/MorphController.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/MorphController.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/MorphController.o -c /home/duan/xface-new/XFace/src/XEngine/MorphController.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/MorphController.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/MorphController.cpp > CMakeFiles/XFace.dir/src/XEngine/MorphController.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/MorphController.cpp > CMakeFiles/XFace.dir/src/XEngine/MorphController.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/MorphController.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/MorphController.cpp -o CMakeFiles/XFace.dir/src/XEngine/MorphController.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/MorphController.cpp -o CMakeFiles/XFace.dir/src/XEngine/MorphController.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.o.requires
@@ -491,17 +491,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.o.provides.build: XFace/C
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.o: XFace/src/XEngine/OBJLoader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/OBJLoader.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/OBJLoader.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/OBJLoader.o -c /home/duan/xface-new/XFace/src/XEngine/OBJLoader.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/OBJLoader.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/OBJLoader.cpp > CMakeFiles/XFace.dir/src/XEngine/OBJLoader.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/OBJLoader.cpp > CMakeFiles/XFace.dir/src/XEngine/OBJLoader.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/OBJLoader.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/OBJLoader.cpp -o CMakeFiles/XFace.dir/src/XEngine/OBJLoader.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/OBJLoader.cpp -o CMakeFiles/XFace.dir/src/XEngine/OBJLoader.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.o.requires
@@ -514,17 +514,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.o.provides.build: XFace/CMakeFi
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.o: XFace/src/XEngine/RendererGL.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/RendererGL.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/RendererGL.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/RendererGL.o -c /home/duan/xface-new/XFace/src/XEngine/RendererGL.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/RendererGL.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/RendererGL.cpp > CMakeFiles/XFace.dir/src/XEngine/RendererGL.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/RendererGL.cpp > CMakeFiles/XFace.dir/src/XEngine/RendererGL.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/RendererGL.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/RendererGL.cpp -o CMakeFiles/XFace.dir/src/XEngine/RendererGL.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/RendererGL.cpp -o CMakeFiles/XFace.dir/src/XEngine/RendererGL.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.o.requires
@@ -537,17 +537,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.o.provides.build: XFace/CMakeF
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.o: XFace/src/XEngine/RenderList.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/RenderList.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/RenderList.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/RenderList.o -c /home/duan/xface-new/XFace/src/XEngine/RenderList.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/RenderList.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/RenderList.cpp > CMakeFiles/XFace.dir/src/XEngine/RenderList.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/RenderList.cpp > CMakeFiles/XFace.dir/src/XEngine/RenderList.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/RenderList.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/RenderList.cpp -o CMakeFiles/XFace.dir/src/XEngine/RenderList.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/RenderList.cpp -o CMakeFiles/XFace.dir/src/XEngine/RenderList.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.o.requires
@@ -560,17 +560,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.o.provides.build: XFace/CMakeF
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.o: XFace/src/XEngine/RenderManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/RenderManager.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/RenderManager.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/RenderManager.o -c /home/duan/xface-new/XFace/src/XEngine/RenderManager.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/RenderManager.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/RenderManager.cpp > CMakeFiles/XFace.dir/src/XEngine/RenderManager.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/RenderManager.cpp > CMakeFiles/XFace.dir/src/XEngine/RenderManager.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/RenderManager.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/RenderManager.cpp -o CMakeFiles/XFace.dir/src/XEngine/RenderManager.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/RenderManager.cpp -o CMakeFiles/XFace.dir/src/XEngine/RenderManager.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.o.requires
@@ -583,17 +583,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.o.provides.build: XFace/CMa
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.o: XFace/src/XEngine/TextureLoaderGL.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/TextureLoaderGL.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.o -c /home/duan/xface-new/XFace/src/XEngine/TextureLoaderGL.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/TextureLoaderGL.cpp > CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/TextureLoaderGL.cpp > CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/TextureLoaderGL.cpp -o CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/TextureLoaderGL.cpp -o CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.o.requires
@@ -606,17 +606,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.o.provides.build: XFace/C
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.o: XFace/src/XEngine/TextureManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/TextureManager.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/TextureManager.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/TextureManager.o -c /home/duan/xface-new/XFace/src/XEngine/TextureManager.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/TextureManager.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/TextureManager.cpp > CMakeFiles/XFace.dir/src/XEngine/TextureManager.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/TextureManager.cpp > CMakeFiles/XFace.dir/src/XEngine/TextureManager.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/TextureManager.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/TextureManager.cpp -o CMakeFiles/XFace.dir/src/XEngine/TextureManager.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/TextureManager.cpp -o CMakeFiles/XFace.dir/src/XEngine/TextureManager.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.o.requires
@@ -629,17 +629,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.o.provides.build: XFace/CM
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.o: XFace/src/XEngine/TgaFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/TgaFile.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/TgaFile.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/TgaFile.o -c /home/duan/xface-new/XFace/src/XEngine/TgaFile.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/TgaFile.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/TgaFile.cpp > CMakeFiles/XFace.dir/src/XEngine/TgaFile.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/TgaFile.cpp > CMakeFiles/XFace.dir/src/XEngine/TgaFile.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/TgaFile.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/TgaFile.cpp -o CMakeFiles/XFace.dir/src/XEngine/TgaFile.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/TgaFile.cpp -o CMakeFiles/XFace.dir/src/XEngine/TgaFile.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.o.requires
@@ -652,17 +652,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.o.provides.build: XFace/CMakeFile
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.o: XFace/src/XEngine/Transform.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/Transform.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/Transform.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/Transform.o -c /home/duan/xface-new/XFace/src/XEngine/Transform.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/Transform.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/Transform.cpp > CMakeFiles/XFace.dir/src/XEngine/Transform.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/Transform.cpp > CMakeFiles/XFace.dir/src/XEngine/Transform.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/Transform.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/Transform.cpp -o CMakeFiles/XFace.dir/src/XEngine/Transform.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/Transform.cpp -o CMakeFiles/XFace.dir/src/XEngine/Transform.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.o.requires
@@ -675,17 +675,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.o.provides.build: XFace/CMakeFi
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.o: XFace/src/XEngine/VRML1Loader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/VRML1Loader.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.o -c /home/duan/xface-new/XFace/src/XEngine/VRML1Loader.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/VRML1Loader.cpp > CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/VRML1Loader.cpp > CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/VRML1Loader.cpp -o CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/VRML1Loader.cpp -o CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.o.requires
@@ -698,17 +698,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.o.provides.build: XFace/CMake
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.o: XFace/src/XEngine/VRML97Loader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/VRML97Loader.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.o -c /home/duan/xface-new/XFace/src/XEngine/VRML97Loader.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/VRML97Loader.cpp > CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/VRML97Loader.cpp > CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/VRML97Loader.cpp -o CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/VRML97Loader.cpp -o CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.o.requires
@@ -721,17 +721,17 @@ XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.o.provides.build: XFace/CMak
 
 XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.o: XFace/src/XFace/AnimProcessor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/AnimProcessor.o -c /home/duan/workplace/xface-new/XFace/src/XFace/AnimProcessor.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/AnimProcessor.o -c /home/duan/xface-new/XFace/src/XFace/AnimProcessor.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/AnimProcessor.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/AnimProcessor.cpp > CMakeFiles/XFace.dir/src/XFace/AnimProcessor.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/AnimProcessor.cpp > CMakeFiles/XFace.dir/src/XFace/AnimProcessor.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/AnimProcessor.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/AnimProcessor.cpp -o CMakeFiles/XFace.dir/src/XFace/AnimProcessor.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/AnimProcessor.cpp -o CMakeFiles/XFace.dir/src/XFace/AnimProcessor.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.o.requires
@@ -744,17 +744,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.o.provides.build: XFace/CMake
 
 XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.o: XFace/src/XFace/ExpressionChannel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.o -c /home/duan/workplace/xface-new/XFace/src/XFace/ExpressionChannel.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.o -c /home/duan/xface-new/XFace/src/XFace/ExpressionChannel.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/ExpressionChannel.cpp > CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/ExpressionChannel.cpp > CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/ExpressionChannel.cpp -o CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/ExpressionChannel.cpp -o CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.o.requires
@@ -767,17 +767,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.o.provides.build: XFace/C
 
 XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.o: XFace/src/XFace/EyeChannel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/EyeChannel.o -c /home/duan/workplace/xface-new/XFace/src/XFace/EyeChannel.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/EyeChannel.o -c /home/duan/xface-new/XFace/src/XFace/EyeChannel.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/EyeChannel.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/EyeChannel.cpp > CMakeFiles/XFace.dir/src/XFace/EyeChannel.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/EyeChannel.cpp > CMakeFiles/XFace.dir/src/XFace/EyeChannel.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/EyeChannel.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/EyeChannel.cpp -o CMakeFiles/XFace.dir/src/XFace/EyeChannel.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/EyeChannel.cpp -o CMakeFiles/XFace.dir/src/XFace/EyeChannel.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.o.requires
@@ -790,17 +790,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.o.provides.build: XFace/CMakeFil
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.o: XFace/src/XFace/FaceBase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FaceBase.o -c /home/duan/workplace/xface-new/XFace/src/XFace/FaceBase.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FaceBase.o -c /home/duan/xface-new/XFace/src/XFace/FaceBase.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/FaceBase.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/FaceBase.cpp > CMakeFiles/XFace.dir/src/XFace/FaceBase.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/FaceBase.cpp > CMakeFiles/XFace.dir/src/XFace/FaceBase.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/FaceBase.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/FaceBase.cpp -o CMakeFiles/XFace.dir/src/XFace/FaceBase.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/FaceBase.cpp -o CMakeFiles/XFace.dir/src/XFace/FaceBase.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.o.requires
@@ -813,17 +813,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.o.provides.build: XFace/CMakeFiles
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.o: XFace/src/XFace/FaceEntity.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FaceEntity.o -c /home/duan/workplace/xface-new/XFace/src/XFace/FaceEntity.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FaceEntity.o -c /home/duan/xface-new/XFace/src/XFace/FaceEntity.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/FaceEntity.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/FaceEntity.cpp > CMakeFiles/XFace.dir/src/XFace/FaceEntity.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/FaceEntity.cpp > CMakeFiles/XFace.dir/src/XFace/FaceEntity.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/FaceEntity.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/FaceEntity.cpp -o CMakeFiles/XFace.dir/src/XFace/FaceEntity.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/FaceEntity.cpp -o CMakeFiles/XFace.dir/src/XFace/FaceEntity.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.o.requires
@@ -836,17 +836,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.o.provides.build: XFace/CMakeFil
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.o: XFace/src/XFace/FapFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FapFile.o -c /home/duan/workplace/xface-new/XFace/src/XFace/FapFile.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FapFile.o -c /home/duan/xface-new/XFace/src/XFace/FapFile.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/FapFile.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/FapFile.cpp > CMakeFiles/XFace.dir/src/XFace/FapFile.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/FapFile.cpp > CMakeFiles/XFace.dir/src/XFace/FapFile.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/FapFile.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/FapFile.cpp -o CMakeFiles/XFace.dir/src/XFace/FapFile.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/FapFile.cpp -o CMakeFiles/XFace.dir/src/XFace/FapFile.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.o.requires
@@ -859,17 +859,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.o.provides.build: XFace/CMakeFiles/
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDP.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/FDP.o: XFace/src/XFace/FDP.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/FDP.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FDP.o -c /home/duan/workplace/xface-new/XFace/src/XFace/FDP.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FDP.o -c /home/duan/xface-new/XFace/src/XFace/FDP.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDP.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/FDP.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/FDP.cpp > CMakeFiles/XFace.dir/src/XFace/FDP.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/FDP.cpp > CMakeFiles/XFace.dir/src/XFace/FDP.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDP.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/FDP.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/FDP.cpp -o CMakeFiles/XFace.dir/src/XFace/FDP.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/FDP.cpp -o CMakeFiles/XFace.dir/src/XFace/FDP.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDP.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/FDP.o.requires
@@ -882,17 +882,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/FDP.o.provides.build: XFace/CMakeFiles/XFac
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.o: XFace/src/XFace/FDPItem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FDPItem.o -c /home/duan/workplace/xface-new/XFace/src/XFace/FDPItem.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FDPItem.o -c /home/duan/xface-new/XFace/src/XFace/FDPItem.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/FDPItem.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/FDPItem.cpp > CMakeFiles/XFace.dir/src/XFace/FDPItem.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/FDPItem.cpp > CMakeFiles/XFace.dir/src/XFace/FDPItem.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/FDPItem.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/FDPItem.cpp -o CMakeFiles/XFace.dir/src/XFace/FDPItem.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/FDPItem.cpp -o CMakeFiles/XFace.dir/src/XFace/FDPItem.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.o.requires
@@ -905,17 +905,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.o.provides.build: XFace/CMakeFiles/
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.o: XFace/src/XFace/FDPLoader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FDPLoader.o -c /home/duan/workplace/xface-new/XFace/src/XFace/FDPLoader.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FDPLoader.o -c /home/duan/xface-new/XFace/src/XFace/FDPLoader.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/FDPLoader.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/FDPLoader.cpp > CMakeFiles/XFace.dir/src/XFace/FDPLoader.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/FDPLoader.cpp > CMakeFiles/XFace.dir/src/XFace/FDPLoader.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/FDPLoader.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/FDPLoader.cpp -o CMakeFiles/XFace.dir/src/XFace/FDPLoader.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/FDPLoader.cpp -o CMakeFiles/XFace.dir/src/XFace/FDPLoader.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.o.requires
@@ -928,17 +928,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.o.provides.build: XFace/CMakeFile
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.o: XFace/src/XFace/FDPWriter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FDPWriter.o -c /home/duan/workplace/xface-new/XFace/src/XFace/FDPWriter.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/FDPWriter.o -c /home/duan/xface-new/XFace/src/XFace/FDPWriter.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/FDPWriter.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/FDPWriter.cpp > CMakeFiles/XFace.dir/src/XFace/FDPWriter.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/FDPWriter.cpp > CMakeFiles/XFace.dir/src/XFace/FDPWriter.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/FDPWriter.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/FDPWriter.cpp -o CMakeFiles/XFace.dir/src/XFace/FDPWriter.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/FDPWriter.cpp -o CMakeFiles/XFace.dir/src/XFace/FDPWriter.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.o.requires
@@ -951,17 +951,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.o.provides.build: XFace/CMakeFile
 
 XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.o: XFace/src/XFace/HeadChannel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/HeadChannel.o -c /home/duan/workplace/xface-new/XFace/src/XFace/HeadChannel.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/HeadChannel.o -c /home/duan/xface-new/XFace/src/XFace/HeadChannel.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/HeadChannel.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/HeadChannel.cpp > CMakeFiles/XFace.dir/src/XFace/HeadChannel.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/HeadChannel.cpp > CMakeFiles/XFace.dir/src/XFace/HeadChannel.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/HeadChannel.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/HeadChannel.cpp -o CMakeFiles/XFace.dir/src/XFace/HeadChannel.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/HeadChannel.cpp -o CMakeFiles/XFace.dir/src/XFace/HeadChannel.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.o.requires
@@ -974,17 +974,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.o.provides.build: XFace/CMakeFi
 
 XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.o: XFace/src/XFace/InfluenceCalculatorMaker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.o -c /home/duan/workplace/xface-new/XFace/src/XFace/InfluenceCalculatorMaker.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.o -c /home/duan/xface-new/XFace/src/XFace/InfluenceCalculatorMaker.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/InfluenceCalculatorMaker.cpp > CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/InfluenceCalculatorMaker.cpp > CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/InfluenceCalculatorMaker.cpp -o CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/InfluenceCalculatorMaker.cpp -o CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.o.requires
@@ -997,17 +997,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.o.provides.build: 
 
 XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.o: XFace/src/XFace/PHOLoader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/PHOLoader.o -c /home/duan/workplace/xface-new/XFace/src/XFace/PHOLoader.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/PHOLoader.o -c /home/duan/xface-new/XFace/src/XFace/PHOLoader.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/PHOLoader.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/PHOLoader.cpp > CMakeFiles/XFace.dir/src/XFace/PHOLoader.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/PHOLoader.cpp > CMakeFiles/XFace.dir/src/XFace/PHOLoader.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/PHOLoader.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/PHOLoader.cpp -o CMakeFiles/XFace.dir/src/XFace/PHOLoader.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/PHOLoader.cpp -o CMakeFiles/XFace.dir/src/XFace/PHOLoader.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.o.requires
@@ -1020,17 +1020,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.o.provides.build: XFace/CMakeFile
 
 XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.o: XFace/src/XFace/PhonemeDictionary.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.o -c /home/duan/workplace/xface-new/XFace/src/XFace/PhonemeDictionary.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.o -c /home/duan/xface-new/XFace/src/XFace/PhonemeDictionary.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/PhonemeDictionary.cpp > CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/PhonemeDictionary.cpp > CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/PhonemeDictionary.cpp -o CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/PhonemeDictionary.cpp -o CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.o.requires
@@ -1043,17 +1043,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.o.provides.build: XFace/C
 
 XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.o: XFace/src/XFace/RaisedCosInfluence.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.o -c /home/duan/workplace/xface-new/XFace/src/XFace/RaisedCosInfluence.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.o -c /home/duan/xface-new/XFace/src/XFace/RaisedCosInfluence.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/RaisedCosInfluence.cpp > CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/RaisedCosInfluence.cpp > CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/RaisedCosInfluence.cpp -o CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/RaisedCosInfluence.cpp -o CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.o.requires
@@ -1066,17 +1066,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.o.provides.build: XFace/
 
 XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.o: XFace/src/XFace/XercesString.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/XercesString.o -c /home/duan/workplace/xface-new/XFace/src/XFace/XercesString.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFace/XercesString.o -c /home/duan/xface-new/XFace/src/XFace/XercesString.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFace/XercesString.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFace/XercesString.cpp > CMakeFiles/XFace.dir/src/XFace/XercesString.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFace/XercesString.cpp > CMakeFiles/XFace.dir/src/XFace/XercesString.i
 
 XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFace/XercesString.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFace/XercesString.cpp -o CMakeFiles/XFace.dir/src/XFace/XercesString.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFace/XercesString.cpp -o CMakeFiles/XFace.dir/src/XFace/XercesString.s
 
 XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.o.requires
@@ -1089,17 +1089,17 @@ XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.o.provides.build: XFace/CMakeF
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.o: XFace/src/XFaceApp/ApplicationBase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.o -c /home/duan/workplace/xface-new/XFace/src/XFaceApp/ApplicationBase.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.o -c /home/duan/xface-new/XFace/src/XFaceApp/ApplicationBase.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFaceApp/ApplicationBase.cpp > CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFaceApp/ApplicationBase.cpp > CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.i
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFaceApp/ApplicationBase.cpp -o CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFaceApp/ApplicationBase.cpp -o CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.s
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.o.requires
@@ -1112,17 +1112,17 @@ XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.o.provides.build: XFace/
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.o: XFace/src/XFaceApp/ModelCamera.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.o -c /home/duan/workplace/xface-new/XFace/src/XFaceApp/ModelCamera.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.o -c /home/duan/xface-new/XFace/src/XFaceApp/ModelCamera.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFaceApp/ModelCamera.cpp > CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFaceApp/ModelCamera.cpp > CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.i
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFaceApp/ModelCamera.cpp -o CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFaceApp/ModelCamera.cpp -o CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.s
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.o.requires
@@ -1135,17 +1135,17 @@ XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.o.provides.build: XFace/CMak
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.o: XFace/src/XFaceApp/Notification.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFaceApp/Notification.o -c /home/duan/workplace/xface-new/XFace/src/XFaceApp/Notification.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFaceApp/Notification.o -c /home/duan/xface-new/XFace/src/XFaceApp/Notification.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFaceApp/Notification.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFaceApp/Notification.cpp > CMakeFiles/XFace.dir/src/XFaceApp/Notification.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFaceApp/Notification.cpp > CMakeFiles/XFace.dir/src/XFaceApp/Notification.i
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFaceApp/Notification.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFaceApp/Notification.cpp -o CMakeFiles/XFace.dir/src/XFaceApp/Notification.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFaceApp/Notification.cpp -o CMakeFiles/XFace.dir/src/XFaceApp/Notification.s
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.o.requires
@@ -1158,17 +1158,17 @@ XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.o.provides.build: XFace/CMa
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.o: XFace/src/XFaceApp/Task.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFaceApp/Task.o -c /home/duan/workplace/xface-new/XFace/src/XFaceApp/Task.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFaceApp/Task.o -c /home/duan/xface-new/XFace/src/XFaceApp/Task.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFaceApp/Task.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFaceApp/Task.cpp > CMakeFiles/XFace.dir/src/XFaceApp/Task.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFaceApp/Task.cpp > CMakeFiles/XFace.dir/src/XFaceApp/Task.i
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFaceApp/Task.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFaceApp/Task.cpp -o CMakeFiles/XFace.dir/src/XFaceApp/Task.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFaceApp/Task.cpp -o CMakeFiles/XFace.dir/src/XFaceApp/Task.s
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.o.requires
@@ -1181,17 +1181,17 @@ XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.o.provides.build: XFace/CMakeFiles/
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.o: XFace/src/XFaceApp/TaskHandlerBase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.o -c /home/duan/workplace/xface-new/XFace/src/XFaceApp/TaskHandlerBase.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.o -c /home/duan/xface-new/XFace/src/XFaceApp/TaskHandlerBase.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFaceApp/TaskHandlerBase.cpp > CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFaceApp/TaskHandlerBase.cpp > CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.i
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFaceApp/TaskHandlerBase.cpp -o CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFaceApp/TaskHandlerBase.cpp -o CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.s
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.o.requires
@@ -1204,17 +1204,17 @@ XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.o.provides.build: XFace/
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.o: XFace/src/XFaceApp/XMLUtils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.o -c /home/duan/workplace/xface-new/XFace/src/XFaceApp/XMLUtils.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.o -c /home/duan/xface-new/XFace/src/XFaceApp/XMLUtils.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XFaceApp/XMLUtils.cpp > CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XFaceApp/XMLUtils.cpp > CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.i
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XFaceApp/XMLUtils.cpp -o CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XFaceApp/XMLUtils.cpp -o CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.s
 
 XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.o.requires
@@ -1227,17 +1227,17 @@ XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.o.provides.build: XFace/CMakeFi
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.o: XFace/CMakeFiles/XFace.dir/flags.make
 XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.o: XFace/src/XEngine/BmpFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.o"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/BmpFile.o -c /home/duan/workplace/xface-new/XFace/src/XEngine/BmpFile.cpp
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XFace.dir/src/XEngine/BmpFile.o -c /home/duan/xface-new/XFace/src/XEngine/BmpFile.cpp
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XFace.dir/src/XEngine/BmpFile.i"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XFace/src/XEngine/BmpFile.cpp > CMakeFiles/XFace.dir/src/XEngine/BmpFile.i
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XFace/src/XEngine/BmpFile.cpp > CMakeFiles/XFace.dir/src/XEngine/BmpFile.i
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XFace.dir/src/XEngine/BmpFile.s"
-	cd /home/duan/workplace/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XFace/src/XEngine/BmpFile.cpp -o CMakeFiles/XFace.dir/src/XEngine/BmpFile.s
+	cd /home/duan/xface-new/XFace && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XFace/src/XEngine/BmpFile.cpp -o CMakeFiles/XFace.dir/src/XEngine/BmpFile.s
 
 XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.o.requires:
 .PHONY : XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.o.requires
@@ -1361,8 +1361,8 @@ XFace/libXFace.a: XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.o
 XFace/libXFace.a: XFace/CMakeFiles/XFace.dir/build.make
 XFace/libXFace.a: XFace/CMakeFiles/XFace.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libXFace.a"
-	cd /home/duan/workplace/xface-new/XFace && $(CMAKE_COMMAND) -P CMakeFiles/XFace.dir/cmake_clean_target.cmake
-	cd /home/duan/workplace/xface-new/XFace && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/XFace.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/duan/xface-new/XFace && $(CMAKE_COMMAND) -P CMakeFiles/XFace.dir/cmake_clean_target.cmake
+	cd /home/duan/xface-new/XFace && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/XFace.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 XFace/CMakeFiles/XFace.dir/build: XFace/libXFace.a
@@ -1423,10 +1423,10 @@ XFace/CMakeFiles/XFace.dir/requires: XFace/CMakeFiles/XFace.dir/src/XEngine/BmpF
 .PHONY : XFace/CMakeFiles/XFace.dir/requires
 
 XFace/CMakeFiles/XFace.dir/clean:
-	cd /home/duan/workplace/xface-new/XFace && $(CMAKE_COMMAND) -P CMakeFiles/XFace.dir/cmake_clean.cmake
+	cd /home/duan/xface-new/XFace && $(CMAKE_COMMAND) -P CMakeFiles/XFace.dir/cmake_clean.cmake
 .PHONY : XFace/CMakeFiles/XFace.dir/clean
 
 XFace/CMakeFiles/XFace.dir/depend:
-	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duan/workplace/xface-new /home/duan/workplace/xface-new/XFace /home/duan/workplace/xface-new /home/duan/workplace/xface-new/XFace /home/duan/workplace/xface-new/XFace/CMakeFiles/XFace.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duan/xface-new && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duan/xface-new /home/duan/xface-new/XFace /home/duan/xface-new /home/duan/xface-new/XFace /home/duan/xface-new/XFace/CMakeFiles/XFace.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : XFace/CMakeFiles/XFace.dir/depend
 

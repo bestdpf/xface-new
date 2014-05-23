@@ -6,39 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/duan/workplace/xface-new/wxFaceEd/./DictionaryFilesDlg.h
+/home/duan/xface-new/wxFaceEd/./DictionaryFilesDlg.h
 PhonDictOptions.h
-/home/duan/workplace/xface-new/wxFaceEd/./PhonDictOptions.h
+/home/duan/xface-new/wxFaceEd/./PhonDictOptions.h
 ModifyDictionaryFileDlg.h
-/home/duan/workplace/xface-new/wxFaceEd/./ModifyDictionaryFileDlg.h
+/home/duan/xface-new/wxFaceEd/./ModifyDictionaryFileDlg.h
 
-/home/duan/workplace/xface-new/wxFaceEd/./FaceFrame.h
+/home/duan/xface-new/wxFaceEd/./FaceFrame.h
 wx/frame.h
-/home/duan/workplace/xface-new/wxFaceEd/./wx/frame.h
+/home/duan/xface-new/wxFaceEd/./wx/frame.h
 wx/panel.h
-/home/duan/workplace/xface-new/wxFaceEd/./wx/panel.h
+/home/duan/xface-new/wxFaceEd/./wx/panel.h
 wx/glcanvas.h
-/home/duan/workplace/xface-new/wxFaceEd/./wx/glcanvas.h
+/home/duan/xface-new/wxFaceEd/./wx/glcanvas.h
 wx/splitter.h
-/home/duan/workplace/xface-new/wxFaceEd/./wx/splitter.h
+/home/duan/xface-new/wxFaceEd/./wx/splitter.h
 wx/wxhtml.h
-/home/duan/workplace/xface-new/wxFaceEd/./wx/wxhtml.h
+/home/duan/xface-new/wxFaceEd/./wx/wxhtml.h
 wx/fs_zip.h
-/home/duan/workplace/xface-new/wxFaceEd/./wx/fs_zip.h
+/home/duan/xface-new/wxFaceEd/./wx/fs_zip.h
 FaceView.h
-/home/duan/workplace/xface-new/wxFaceEd/./FaceView.h
+/home/duan/xface-new/wxFaceEd/./FaceView.h
 Panel.h
-/home/duan/workplace/xface-new/wxFaceEd/./Panel.h
+/home/duan/xface-new/wxFaceEd/./Panel.h
 DictionaryFilesDlg.h
-/home/duan/workplace/xface-new/wxFaceEd/./DictionaryFilesDlg.h
+/home/duan/xface-new/wxFaceEd/./DictionaryFilesDlg.h
 
-/home/duan/workplace/xface-new/wxFaceEd/./ModifyDictionaryFileDlg.h
+/home/duan/xface-new/wxFaceEd/./ModifyDictionaryFileDlg.h
 PhonDictOptions.h
-/home/duan/workplace/xface-new/wxFaceEd/./PhonDictOptions.h
+/home/duan/xface-new/wxFaceEd/./PhonDictOptions.h
 vector
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/./PhonDictOptions.h
+/home/duan/xface-new/wxFaceEd/./PhonDictOptions.h
 wx/wx.h
 -
 wx/bmpbuttn.h
@@ -50,15 +50,15 @@ wx/grid.h
 wx/button.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/ConfPanel.cpp
+/home/duan/xface-new/wxFaceEd/ConfPanel.cpp
 ConfPanel.h
-/home/duan/workplace/xface-new/wxFaceEd/ConfPanel.h
+/home/duan/xface-new/wxFaceEd/ConfPanel.h
 Mediator.h
-/home/duan/workplace/xface-new/wxFaceEd/Mediator.h
+/home/duan/xface-new/wxFaceEd/Mediator.h
 KeyframeAddDlg.h
-/home/duan/workplace/xface-new/wxFaceEd/KeyframeAddDlg.h
+/home/duan/xface-new/wxFaceEd/KeyframeAddDlg.h
 PreviewKeyframeAddDlg.h
-/home/duan/workplace/xface-new/wxFaceEd/PreviewKeyframeAddDlg.h
+/home/duan/xface-new/wxFaceEd/PreviewKeyframeAddDlg.h
 iostream
 -
 fstream
@@ -70,7 +70,7 @@ XFace/PhonemeDictionary.h
 XFace/PHOLoader.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/ConfPanel.h
+/home/duan/xface-new/wxFaceEd/ConfPanel.h
 wx/grid.h
 -
 wx/panel.h
@@ -94,11 +94,11 @@ XEngine/Drawable.h
 XEngine/ModelFileFactory.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/DictionaryFilesDlg.cpp
+/home/duan/xface-new/wxFaceEd/DictionaryFilesDlg.cpp
 DictionaryFilesDlg.h
-/home/duan/workplace/xface-new/wxFaceEd/DictionaryFilesDlg.h
+/home/duan/xface-new/wxFaceEd/DictionaryFilesDlg.h
 ../wxFacePlayer/DicTraverser.h
-/home/duan/workplace/xface-new/wxFacePlayer/DicTraverser.h
+/home/duan/xface-new/wxFacePlayer/DicTraverser.h
 wx/filename.h
 -
 wx/textfile.h
@@ -106,29 +106,29 @@ wx/textfile.h
 iostream
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/DictionaryFilesDlg.h
+/home/duan/xface-new/wxFaceEd/DictionaryFilesDlg.h
 PhonDictOptions.h
-/home/duan/workplace/xface-new/wxFaceEd/PhonDictOptions.h
+/home/duan/xface-new/wxFaceEd/PhonDictOptions.h
 ModifyDictionaryFileDlg.h
-/home/duan/workplace/xface-new/wxFaceEd/ModifyDictionaryFileDlg.h
+/home/duan/xface-new/wxFaceEd/ModifyDictionaryFileDlg.h
 
-/home/duan/workplace/xface-new/wxFaceEd/DropFDPFileTarget.cpp
+/home/duan/xface-new/wxFaceEd/DropFDPFileTarget.cpp
 DropFDPFileTarget.h
-/home/duan/workplace/xface-new/wxFaceEd/DropFDPFileTarget.h
+/home/duan/xface-new/wxFaceEd/DropFDPFileTarget.h
 Mediator.h
-/home/duan/workplace/xface-new/wxFaceEd/Mediator.h
+/home/duan/xface-new/wxFaceEd/Mediator.h
 wx/filename.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/DropFDPFileTarget.h
+/home/duan/xface-new/wxFaceEd/DropFDPFileTarget.h
 wx/wx.h
 -
 wx/dnd.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/FAPUPanel.cpp
+/home/duan/xface-new/wxFaceEd/FAPUPanel.cpp
 FAPUPanel.h
-/home/duan/workplace/xface-new/wxFaceEd/FAPUPanel.h
+/home/duan/xface-new/wxFaceEd/FAPUPanel.h
 wx/wx.h
 -
 wx/bitmap.h
@@ -142,15 +142,15 @@ wx/radiobox.h
 wx/stattext.h
 -
 Mediator.h
-/home/duan/workplace/xface-new/wxFaceEd/Mediator.h
+/home/duan/xface-new/wxFaceEd/Mediator.h
 
-/home/duan/workplace/xface-new/wxFaceEd/FAPUPanel.h
+/home/duan/xface-new/wxFaceEd/FAPUPanel.h
 wx/panel.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/FDPPanel.cpp
+/home/duan/xface-new/wxFaceEd/FDPPanel.cpp
 FDPPanel.h
-/home/duan/workplace/xface-new/wxFaceEd/FDPPanel.h
+/home/duan/xface-new/wxFaceEd/FDPPanel.h
 wx/choice.h
 -
 wx/bitmap.h
@@ -176,17 +176,17 @@ wx/statline.h
 XEngine/MeshManager.h
 -
 Mediator.h
-/home/duan/workplace/xface-new/wxFaceEd/Mediator.h
+/home/duan/xface-new/wxFaceEd/Mediator.h
 XFace/InfluenceCalculatorMaker.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/FDPPanel.h
+/home/duan/xface-new/wxFaceEd/FDPPanel.h
 wx/wx.h
 -
 wx/panel.h
 -
 FDPPicture.h
-/home/duan/workplace/xface-new/wxFaceEd/FDPPicture.h
+/home/duan/xface-new/wxFaceEd/FDPPicture.h
 wx/checkbox.h
 -
 string
@@ -198,9 +198,9 @@ wx/grid.h
 XMath/Vector3.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/FDPPicture.cpp
+/home/duan/xface-new/wxFaceEd/FDPPicture.cpp
 FDPPicture.h
-/home/duan/workplace/xface-new/wxFaceEd/FDPPicture.h
+/home/duan/xface-new/wxFaceEd/FDPPicture.h
 wx/image.h
 -
 wx/bitmap.h
@@ -208,37 +208,37 @@ wx/bitmap.h
 wx/statbmp.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/FDPPicture.h
+/home/duan/xface-new/wxFaceEd/FDPPicture.h
 wx/dialog.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/FaceApp.cpp
+/home/duan/xface-new/wxFaceEd/FaceApp.cpp
 FaceApp.h
-/home/duan/workplace/xface-new/wxFaceEd/FaceApp.h
+/home/duan/xface-new/wxFaceEd/FaceApp.h
 FaceFrame.h
-/home/duan/workplace/xface-new/wxFaceEd/FaceFrame.h
+/home/duan/xface-new/wxFaceEd/FaceFrame.h
 
-/home/duan/workplace/xface-new/wxFaceEd/FaceApp.h
+/home/duan/xface-new/wxFaceEd/FaceApp.h
 wx/app.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/app.h
+/home/duan/xface-new/wxFaceEd/wx/app.h
 iostream
 -
 fstream
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/FaceFrame.cpp
+/home/duan/xface-new/wxFaceEd/FaceFrame.cpp
 ./FaceFrame.h
-/home/duan/workplace/xface-new/wxFaceEd/./FaceFrame.h
+/home/duan/xface-new/wxFaceEd/./FaceFrame.h
 Splitter.h
-/home/duan/workplace/xface-new/wxFaceEd/Splitter.h
+/home/duan/xface-new/wxFaceEd/Splitter.h
 Panel.h
-/home/duan/workplace/xface-new/wxFaceEd/Panel.h
+/home/duan/xface-new/wxFaceEd/Panel.h
 FaceView.h
-/home/duan/workplace/xface-new/wxFaceEd/FaceView.h
+/home/duan/xface-new/wxFaceEd/FaceView.h
 Mediator.h
-/home/duan/workplace/xface-new/wxFaceEd/Mediator.h
+/home/duan/xface-new/wxFaceEd/Mediator.h
 DropFDPFileTarget.h
-/home/duan/workplace/xface-new/wxFaceEd/DropFDPFileTarget.h
+/home/duan/xface-new/wxFaceEd/DropFDPFileTarget.h
 cstdlib
 -
 wx/image.h
@@ -254,29 +254,29 @@ wx/sizer.h
 wx/filedlg.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/FaceFrame.h
+/home/duan/xface-new/wxFaceEd/FaceFrame.h
 wx/frame.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/frame.h
+/home/duan/xface-new/wxFaceEd/wx/frame.h
 wx/panel.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/panel.h
+/home/duan/xface-new/wxFaceEd/wx/panel.h
 wx/glcanvas.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/glcanvas.h
+/home/duan/xface-new/wxFaceEd/wx/glcanvas.h
 wx/splitter.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/splitter.h
+/home/duan/xface-new/wxFaceEd/wx/splitter.h
 wx/wxhtml.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/wxhtml.h
+/home/duan/xface-new/wxFaceEd/wx/wxhtml.h
 wx/fs_zip.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/fs_zip.h
+/home/duan/xface-new/wxFaceEd/wx/fs_zip.h
 FaceView.h
-/home/duan/workplace/xface-new/wxFaceEd/FaceView.h
+/home/duan/xface-new/wxFaceEd/FaceView.h
 Panel.h
-/home/duan/workplace/xface-new/wxFaceEd/Panel.h
+/home/duan/xface-new/wxFaceEd/Panel.h
 DictionaryFilesDlg.h
-/home/duan/workplace/xface-new/wxFaceEd/DictionaryFilesDlg.h
+/home/duan/xface-new/wxFaceEd/DictionaryFilesDlg.h
 
-/home/duan/workplace/xface-new/wxFaceEd/FaceView.cpp
+/home/duan/xface-new/wxFaceEd/FaceView.cpp
 FaceView.h
-/home/duan/workplace/xface-new/wxFaceEd/FaceView.h
+/home/duan/xface-new/wxFaceEd/FaceView.h
 wx/timer.h
 -
 wx/log.h
@@ -294,23 +294,23 @@ iostream
 fstream
 -
 VertexSelector.h
-/home/duan/workplace/xface-new/wxFaceEd/VertexSelector.h
+/home/duan/xface-new/wxFaceEd/VertexSelector.h
 Mediator.h
-/home/duan/workplace/xface-new/wxFaceEd/Mediator.h
+/home/duan/xface-new/wxFaceEd/Mediator.h
 ../wxFacePlayer/wxFaceTimer.h
-/home/duan/workplace/xface-new/wxFacePlayer/wxFaceTimer.h
+/home/duan/xface-new/wxFacePlayer/wxFaceTimer.h
 XEngine/MeshManager.h
 -
 XEngine/RendererGL.h
 -
 res/cursor_crosshair_target.xpm
-/home/duan/workplace/xface-new/wxFaceEd/res/cursor_crosshair_target.xpm
+/home/duan/xface-new/wxFaceEd/res/cursor_crosshair_target.xpm
 res/cursor_move_outlined.xpm
-/home/duan/workplace/xface-new/wxFaceEd/res/cursor_move_outlined.xpm
+/home/duan/xface-new/wxFaceEd/res/cursor_move_outlined.xpm
 ../wxFacePlayer/AVIGenerator.h
-/home/duan/workplace/xface-new/wxFacePlayer/AVIGenerator.h
+/home/duan/xface-new/wxFacePlayer/AVIGenerator.h
 
-/home/duan/workplace/xface-new/wxFaceEd/FaceView.h
+/home/duan/xface-new/wxFaceEd/FaceView.h
 wx/glcanvas.h
 -
 wx/window.h
@@ -322,7 +322,7 @@ wx/sound.h
 XFaceApp/ModelCamera.h
 -
 RubberBandBox.h
-/home/duan/workplace/xface-new/wxFaceEd/RubberBandBox.h
+/home/duan/xface-new/wxFaceEd/RubberBandBox.h
 XFace/FDP.h
 -
 XEngine/Drawable.h
@@ -348,21 +348,21 @@ string
 boost/shared_ptr.hpp
 -
 ModelViewerCamera.h
-/home/duan/workplace/xface-new/wxFaceEd/ModelViewerCamera.h
+/home/duan/xface-new/wxFaceEd/ModelViewerCamera.h
 
-/home/duan/workplace/xface-new/wxFaceEd/KeyframeAddDlg.cpp
+/home/duan/xface-new/wxFaceEd/KeyframeAddDlg.cpp
 KeyframeAddDlg.h
-/home/duan/workplace/xface-new/wxFaceEd/KeyframeAddDlg.h
+/home/duan/xface-new/wxFaceEd/KeyframeAddDlg.h
 
-/home/duan/workplace/xface-new/wxFaceEd/KeyframeAddDlg.h
+/home/duan/xface-new/wxFaceEd/KeyframeAddDlg.h
 wx/wx.h
 -
 XEngine/ModelFileFactory.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/Mediator.cpp
+/home/duan/xface-new/wxFaceEd/Mediator.cpp
 Mediator.h
-/home/duan/workplace/xface-new/wxFaceEd/Mediator.h
+/home/duan/xface-new/wxFaceEd/Mediator.h
 wx/filedlg.h
 -
 wx/log.h
@@ -386,9 +386,9 @@ iostream
 fstream
 -
 ../wxFacePlayer/DicTraverser.h
-/home/duan/workplace/xface-new/wxFacePlayer/DicTraverser.h
+/home/duan/xface-new/wxFacePlayer/DicTraverser.h
 
-/home/duan/workplace/xface-new/wxFaceEd/Mediator.h
+/home/duan/xface-new/wxFaceEd/Mediator.h
 wx/wx.h
 -
 wx/utils.h
@@ -402,11 +402,11 @@ string
 vector
 -
 FaceView.h
-/home/duan/workplace/xface-new/wxFaceEd/FaceView.h
+/home/duan/xface-new/wxFaceEd/FaceView.h
 FDPPanel.h
-/home/duan/workplace/xface-new/wxFaceEd/FDPPanel.h
+/home/duan/xface-new/wxFaceEd/FDPPanel.h
 ConfPanel.h
-/home/duan/workplace/xface-new/wxFaceEd/ConfPanel.h
+/home/duan/xface-new/wxFaceEd/ConfPanel.h
 XFace/FaceBase.h
 -
 XEngine/MorphController.h
@@ -414,9 +414,9 @@ XEngine/MorphController.h
 XEngine/MorphTarget.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/ModelViewerCamera.cpp
+/home/duan/xface-new/wxFaceEd/ModelViewerCamera.cpp
 ModelViewerCamera.h
-/home/duan/workplace/xface-new/wxFaceEd/ModelViewerCamera.h
+/home/duan/xface-new/wxFaceEd/ModelViewerCamera.h
 stdio.h
 -
 GL/glu.h
@@ -424,7 +424,7 @@ GL/glu.h
 wx/event.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/ModelViewerCamera.h
+/home/duan/xface-new/wxFaceEd/ModelViewerCamera.h
 wx/glcanvas.h
 -
 math.h
@@ -432,23 +432,23 @@ math.h
 XMath/Vector3.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/ModifyDictionaryFileDlg.cpp
+/home/duan/xface-new/wxFaceEd/ModifyDictionaryFileDlg.cpp
 ModifyDictionaryFileDlg.h
-/home/duan/workplace/xface-new/wxFaceEd/ModifyDictionaryFileDlg.h
+/home/duan/xface-new/wxFaceEd/ModifyDictionaryFileDlg.h
 DictionaryFilesDlg.h
-/home/duan/workplace/xface-new/wxFaceEd/DictionaryFilesDlg.h
+/home/duan/xface-new/wxFaceEd/DictionaryFilesDlg.h
 wx/textfile.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/ModifyDictionaryFileDlg.h
+/home/duan/xface-new/wxFaceEd/ModifyDictionaryFileDlg.h
 PhonDictOptions.h
-/home/duan/workplace/xface-new/wxFaceEd/PhonDictOptions.h
+/home/duan/xface-new/wxFaceEd/PhonDictOptions.h
 vector
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/Panel.cpp
+/home/duan/xface-new/wxFaceEd/Panel.cpp
 Panel.h
-/home/duan/workplace/xface-new/wxFaceEd/Panel.h
+/home/duan/xface-new/wxFaceEd/Panel.h
 wx/choice.h
 -
 wx/stattext.h
@@ -458,19 +458,19 @@ wx/listbox.h
 wx/filedlg.h
 -
 ConfPanel.h
-/home/duan/workplace/xface-new/wxFaceEd/ConfPanel.h
+/home/duan/xface-new/wxFaceEd/ConfPanel.h
 PreviewPanel.h
-/home/duan/workplace/xface-new/wxFaceEd/PreviewPanel.h
+/home/duan/xface-new/wxFaceEd/PreviewPanel.h
 FDPPanel.h
-/home/duan/workplace/xface-new/wxFaceEd/FDPPanel.h
+/home/duan/xface-new/wxFaceEd/FDPPanel.h
 FAPUPanel.h
-/home/duan/workplace/xface-new/wxFaceEd/FAPUPanel.h
+/home/duan/xface-new/wxFaceEd/FAPUPanel.h
 Mediator.h
-/home/duan/workplace/xface-new/wxFaceEd/Mediator.h
+/home/duan/xface-new/wxFaceEd/Mediator.h
 algorithm
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/Panel.h
+/home/duan/xface-new/wxFaceEd/Panel.h
 wx/panel.h
 -
 wx/textctrl.h
@@ -482,17 +482,17 @@ wx/notebook.h
 wx/checkbox.h
 -
 FDPPicture.h
-/home/duan/workplace/xface-new/wxFaceEd/FDPPicture.h
+/home/duan/xface-new/wxFaceEd/FDPPicture.h
 vector
 -
 string
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/PhonDictOptions.cpp
+/home/duan/xface-new/wxFaceEd/PhonDictOptions.cpp
 PhonDictOptions.h
-/home/duan/workplace/xface-new/wxFaceEd/PhonDictOptions.h
+/home/duan/xface-new/wxFaceEd/PhonDictOptions.h
 
-/home/duan/workplace/xface-new/wxFaceEd/PhonDictOptions.h
+/home/duan/xface-new/wxFaceEd/PhonDictOptions.h
 wx/wx.h
 -
 wx/bmpbuttn.h
@@ -504,11 +504,11 @@ wx/grid.h
 wx/button.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/PreviewKeyframeAddDlg.cpp
+/home/duan/xface-new/wxFaceEd/PreviewKeyframeAddDlg.cpp
 PreviewKeyframeAddDlg.h
-/home/duan/workplace/xface-new/wxFaceEd/PreviewKeyframeAddDlg.h
+/home/duan/xface-new/wxFaceEd/PreviewKeyframeAddDlg.h
 
-/home/duan/workplace/xface-new/wxFaceEd/PreviewKeyframeAddDlg.h
+/home/duan/xface-new/wxFaceEd/PreviewKeyframeAddDlg.h
 wx/wx.h
 -
 vector
@@ -516,17 +516,17 @@ vector
 string
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/PreviewPanel.cpp
+/home/duan/xface-new/wxFaceEd/PreviewPanel.cpp
 PreviewPanel.h
-/home/duan/workplace/xface-new/wxFaceEd/PreviewPanel.h
+/home/duan/xface-new/wxFaceEd/PreviewPanel.h
 Mediator.h
-/home/duan/workplace/xface-new/wxFaceEd/Mediator.h
+/home/duan/xface-new/wxFaceEd/Mediator.h
 wxNumberEditCtrl.h
-/home/duan/workplace/xface-new/wxFaceEd/wxNumberEditCtrl.h
+/home/duan/xface-new/wxFaceEd/wxNumberEditCtrl.h
 string
 -
 ../wxFacePlayer/toggle.h
-/home/duan/workplace/xface-new/wxFacePlayer/toggle.h
+/home/duan/xface-new/wxFacePlayer/toggle.h
 wx/statline.h
 -
 wx/bmpbuttn.h
@@ -542,7 +542,7 @@ IScriptProcessor.h
 ScriptProcessorLoader.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/PreviewPanel.h
+/home/duan/xface-new/wxFaceEd/PreviewPanel.h
 wx/wx.h
 -
 wx/panel.h
@@ -552,33 +552,33 @@ wx/grid.h
 map
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/RubberBandBox.cpp
+/home/duan/xface-new/wxFaceEd/RubberBandBox.cpp
 RubberBandBox.h
-/home/duan/workplace/xface-new/wxFaceEd/RubberBandBox.h
+/home/duan/xface-new/wxFaceEd/RubberBandBox.h
 windows.h
 -
 GL/gl.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/RubberBandBox.h
+/home/duan/xface-new/wxFaceEd/RubberBandBox.h
 XMath/Rectangle.h
 -
 XEngine/VertexStruct.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/Splitter.cpp
+/home/duan/xface-new/wxFaceEd/Splitter.cpp
 Splitter.h
-/home/duan/workplace/xface-new/wxFaceEd/Splitter.h
+/home/duan/xface-new/wxFaceEd/Splitter.h
 wx/frame.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/Splitter.h
+/home/duan/xface-new/wxFaceEd/Splitter.h
 wx/splitter.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/splitter.h
+/home/duan/xface-new/wxFaceEd/wx/splitter.h
 
-/home/duan/workplace/xface-new/wxFaceEd/VertexSelector.cpp
+/home/duan/xface-new/wxFaceEd/VertexSelector.cpp
 VertexSelector.h
-/home/duan/workplace/xface-new/wxFaceEd/VertexSelector.h
+/home/duan/xface-new/wxFaceEd/VertexSelector.h
 windows.h
 -
 GL/gl.h
@@ -590,7 +590,7 @@ XEngine/MeshManager.h
 XMath/XMath.h
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/VertexSelector.h
+/home/duan/xface-new/wxFaceEd/VertexSelector.h
 XMath/Matrix4.h
 -
 XMath/Ray3.h
@@ -604,45 +604,45 @@ XEngine/Transform.h
 set
 -
 
-/home/duan/workplace/xface-new/wxFaceEd/res/cursor_crosshair_target.xpm
+/home/duan/xface-new/wxFaceEd/res/cursor_crosshair_target.xpm
 
-/home/duan/workplace/xface-new/wxFaceEd/res/cursor_move_outlined.xpm
+/home/duan/xface-new/wxFaceEd/res/cursor_move_outlined.xpm
 
-/home/duan/workplace/xface-new/wxFaceEd/wxFaceEd.cpp
+/home/duan/xface-new/wxFaceEd/wxFaceEd.cpp
 wxFaceEd.h
-/home/duan/workplace/xface-new/wxFaceEd/wxFaceEd.h
+/home/duan/xface-new/wxFaceEd/wxFaceEd.h
 
-/home/duan/workplace/xface-new/wxFaceEd/wxFaceEd.h
+/home/duan/xface-new/wxFaceEd/wxFaceEd.h
 wx/wxprec.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/wxprec.h
+/home/duan/xface-new/wxFaceEd/wx/wxprec.h
 wx/log.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/log.h
+/home/duan/xface-new/wxFaceEd/wx/log.h
 wx/app.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/app.h
+/home/duan/xface-new/wxFaceEd/wx/app.h
 wx/frame.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/frame.h
+/home/duan/xface-new/wxFaceEd/wx/frame.h
 wx/scrolwin.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/scrolwin.h
+/home/duan/xface-new/wxFaceEd/wx/scrolwin.h
 wx/menu.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/menu.h
+/home/duan/xface-new/wxFaceEd/wx/menu.h
 wx/textdlg.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/textdlg.h
+/home/duan/xface-new/wxFaceEd/wx/textdlg.h
 wx/splitter.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/splitter.h
+/home/duan/xface-new/wxFaceEd/wx/splitter.h
 wx/sizer.h
-/home/duan/workplace/xface-new/wxFaceEd/wx/sizer.h
+/home/duan/xface-new/wxFaceEd/wx/sizer.h
 
-/home/duan/workplace/xface-new/wxFaceEd/wxNumberEditCtrl.cpp
+/home/duan/xface-new/wxFaceEd/wxNumberEditCtrl.cpp
 wxNumberEditCtrl.h
-/home/duan/workplace/xface-new/wxFaceEd/wxNumberEditCtrl.h
+/home/duan/xface-new/wxFaceEd/wxNumberEditCtrl.h
 PreviewPanel.h
-/home/duan/workplace/xface-new/wxFaceEd/PreviewPanel.h
+/home/duan/xface-new/wxFaceEd/PreviewPanel.h
 
-/home/duan/workplace/xface-new/wxFaceEd/wxNumberEditCtrl.h
+/home/duan/xface-new/wxFaceEd/wxNumberEditCtrl.h
 wx/wx.h
 -
 
-/home/duan/workplace/xface-new/wxFacePlayer/AVIGenerator.h
+/home/duan/xface-new/wxFacePlayer/AVIGenerator.h
 comdef.h
 -
 memory.h
@@ -654,15 +654,15 @@ string.h
 vfw.h
 -
 
-/home/duan/workplace/xface-new/wxFacePlayer/DicTraverser.h
+/home/duan/xface-new/wxFacePlayer/DicTraverser.h
 wx/dir.h
 -
 wx/arrstr.h
 -
 
-/home/duan/workplace/xface-new/wxFacePlayer/toggle.h
+/home/duan/xface-new/wxFacePlayer/toggle.h
 
-/home/duan/workplace/xface-new/wxFacePlayer/wxFaceTimer.h
+/home/duan/xface-new/wxFacePlayer/wxFaceTimer.h
 XEngine/ITimer.h
 -
 boost/shared_ptr.hpp

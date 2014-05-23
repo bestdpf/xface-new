@@ -1,4 +1,4 @@
-# Install script for directory: /home/duan/workplace/xface-new/XSmilAgent
+# Install script for directory: /home/duan/xface-new/XSmilAgent
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
