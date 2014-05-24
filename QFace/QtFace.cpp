@@ -1,9 +1,10 @@
 #include<XFace/FapFile.h>
 #include<XEngine/RendererGL.h>
 #include<XFace/FaceBase.h>
+#include"SDLTimer.h"
 #include"QtView.h"
 #include"QtFace.h"
-#include"cstdio"
+#include<cstdio>
 namespace XFaceApp{
     using namespace XFace;
     using namespace XEngine;
@@ -132,5 +133,24 @@ bool QtFace::processTask()
 	
 	return ApplicationBase::processTask();
 }
+
+boost::shared_ptr<XEngine::ITimer> QtFace::createTimer() const
+{
+  boost::shared_ptr<XEngine::ITimer> ret = boost::shared_ptr<XEngine::ITimer>(new SDLTimer());
+  return ret;
+}
+/*
+bool QtFace::createScriptProcessors()
+{
+    printf("wxFace createScriptProcessors\n");
+	return m_scriptProcLoader.load("scriptProcs.xml");
+}
+
+boost::shared_ptr<IScriptProcessor> QtFace::getScriptProcessor(const std::string& name) const
+{
+    printf("getScriptProcessor\n");
+	return m_scriptProcLoader.getScriptProcessor(name);
+}
+*/
 
 }

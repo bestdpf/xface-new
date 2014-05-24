@@ -11,7 +11,6 @@ include(${QT_USE_FILE})
 find_package(SDL REQUIRED)
 find_package(OpenGL REQUIRED)
 
-
 #XSmilAgent
 set(XSmilAgent_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/XSmilAgent)
 
@@ -23,11 +22,13 @@ set(QFace_SRC
     QFace.cpp
     QtFace.cpp
     QtView.cpp
+    SDLTimer.cpp
 )
 set(QFace_HEADERS
     QFace.h
     QtView.h
     QtFace.h
+    SDLTimer.h
 )
 set(QFace_MOC_HEADERS
     QtView.h

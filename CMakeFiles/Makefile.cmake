@@ -15,9 +15,6 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "XFace/CMakeLists.txt"
   "XSmilAgent/CMakeLists.txt"
   "cmake/modules/FindXercesC.cmake"
-  "wxFaceClient/CMakeLists.txt"
-  "wxFaceEd/CMakeLists.txt"
-  "wxFacePlayer/CMakeLists.txt"
   "/usr/share/cmake/Modules/AutomocInfo.cmake.in"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -65,20 +62,13 @@ SET(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "XSmilAgent/CMakeFiles/CMakeDirectoryInformation.cmake"
   "XFace/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "wxFacePlayer/CMakeFiles/CMakeDirectoryInformation.cmake"
   "QFace/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "wxFaceEd/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "wxFaceClient/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
   "XSmilAgent/CMakeFiles/XSmilAgent.dir/DependInfo.cmake"
   "XFace/CMakeFiles/XFace.dir/DependInfo.cmake"
-  "wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DependInfo.cmake"
-  "wxFacePlayer/CMakeFiles/wxfaceplayer.dir/DependInfo.cmake"
   "QFace/CMakeFiles/QFace.dir/DependInfo.cmake"
   "QFace/CMakeFiles/QFace_automoc.dir/DependInfo.cmake"
-  "wxFaceEd/CMakeFiles/wxFaceEd.dir/DependInfo.cmake"
-  "wxFaceClient/CMakeFiles/wxfaceclient.dir/DependInfo.cmake"
   )

@@ -22,25 +22,35 @@ static const uint qt_meta_data_QtView[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       0,    0, // methods
+       2,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
        0,       // signalCount
 
+ // slots: signature, parameters, type, tag, flags
+       8,    7,    7,    7, 0x09,
+      18,    7,    7,    7, 0x09,
+
        0        // eod
 };
 
 static const char qt_meta_stringdata_QtView[] = {
-    "QtView\0"
+    "QtView\0\0OnTimer()\0OnIdle()\0"
 };
 
 void QtView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    Q_UNUSED(_o);
-    Q_UNUSED(_id);
-    Q_UNUSED(_c);
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        QtView *_t = static_cast<QtView *>(_o);
+        switch (_id) {
+        case 0: _t->OnTimer(); break;
+        case 1: _t->OnIdle(); break;
+        default: ;
+        }
+    }
     Q_UNUSED(_a);
 }
 
@@ -75,6 +85,11 @@ int QtView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     _id = QGLWidget::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
     return _id;
 }
 QT_END_MOC_NAMESPACE

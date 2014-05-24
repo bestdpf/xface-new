@@ -25,9 +25,10 @@ class QtView: public QGLWidget{
         void paintGL();
 	void LoadFace();
 	void Render();
+    void OnPaint();
+    protected slots:
 	void OnTimer();
 	void OnIdle();
-	void OnPaint();
     public:
 	void loadFDP(const std::string& filename, const std::string& path);
 	void loadFAP(const std::string& filename);

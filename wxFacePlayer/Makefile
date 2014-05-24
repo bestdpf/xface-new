@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duan/xface-new
+CMAKE_SOURCE_DIR = /home/duan/workplace/xface-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duan/xface-new
+CMAKE_BINARY_DIR = /home/duan/workplace/xface-new
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -E cmake_progress_start /home/duan/xface-new/CMakeFiles /home/duan/xface-new/wxFacePlayer/CMakeFiles/progress.marks
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/xface-new/CMakeFiles 0
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles /home/duan/workplace/xface-new/wxFacePlayer/CMakeFiles/progress.marks
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/clean
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/preinstall
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/preinstall
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/rule:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/rule
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/rule
 .PHONY : wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ wxXFacePlayer: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/rule
 
 # fast build rule for target.
 wxXFacePlayer/fast:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build
 .PHONY : wxXFacePlayer/fast
 
 # Convenience name for target.
 wxFacePlayer/CMakeFiles/wxfaceplayer.dir/rule:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/CMakeFiles/wxfaceplayer.dir/rule
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFacePlayer/CMakeFiles/wxfaceplayer.dir/rule
 .PHONY : wxFacePlayer/CMakeFiles/wxfaceplayer.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ wxfaceplayer: wxFacePlayer/CMakeFiles/wxfaceplayer.dir/rule
 
 # fast build rule for target.
 wxfaceplayer/fast:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build
 .PHONY : wxfaceplayer/fast
 
 ConnPortSetting.o: ConnPortSetting.cpp.o
@@ -134,7 +134,7 @@ ConnPortSetting.o: ConnPortSetting.cpp.o
 
 # target to build an object file
 ConnPortSetting.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ConnPortSetting.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ConnPortSetting.cpp.o
 .PHONY : ConnPortSetting.cpp.o
 
 ConnPortSetting.i: ConnPortSetting.cpp.i
@@ -142,7 +142,7 @@ ConnPortSetting.i: ConnPortSetting.cpp.i
 
 # target to preprocess a source file
 ConnPortSetting.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ConnPortSetting.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ConnPortSetting.cpp.i
 .PHONY : ConnPortSetting.cpp.i
 
 ConnPortSetting.s: ConnPortSetting.cpp.s
@@ -150,7 +150,7 @@ ConnPortSetting.s: ConnPortSetting.cpp.s
 
 # target to generate assembly for a file
 ConnPortSetting.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ConnPortSetting.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ConnPortSetting.cpp.s
 .PHONY : ConnPortSetting.cpp.s
 
 DicTraverser.o: DicTraverser.cpp.o
@@ -158,7 +158,7 @@ DicTraverser.o: DicTraverser.cpp.o
 
 # target to build an object file
 DicTraverser.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.cpp.o
 .PHONY : DicTraverser.cpp.o
 
 DicTraverser.i: DicTraverser.cpp.i
@@ -166,7 +166,7 @@ DicTraverser.i: DicTraverser.cpp.i
 
 # target to preprocess a source file
 DicTraverser.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.cpp.i
 .PHONY : DicTraverser.cpp.i
 
 DicTraverser.s: DicTraverser.cpp.s
@@ -174,7 +174,7 @@ DicTraverser.s: DicTraverser.cpp.s
 
 # target to generate assembly for a file
 DicTraverser.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/DicTraverser.cpp.s
 .PHONY : DicTraverser.cpp.s
 
 DropFAPFileTarget.o: DropFAPFileTarget.cpp.o
@@ -182,7 +182,7 @@ DropFAPFileTarget.o: DropFAPFileTarget.cpp.o
 
 # target to build an object file
 DropFAPFileTarget.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/DropFAPFileTarget.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/DropFAPFileTarget.cpp.o
 .PHONY : DropFAPFileTarget.cpp.o
 
 DropFAPFileTarget.i: DropFAPFileTarget.cpp.i
@@ -190,7 +190,7 @@ DropFAPFileTarget.i: DropFAPFileTarget.cpp.i
 
 # target to preprocess a source file
 DropFAPFileTarget.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/DropFAPFileTarget.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/DropFAPFileTarget.cpp.i
 .PHONY : DropFAPFileTarget.cpp.i
 
 DropFAPFileTarget.s: DropFAPFileTarget.cpp.s
@@ -198,7 +198,7 @@ DropFAPFileTarget.s: DropFAPFileTarget.cpp.s
 
 # target to generate assembly for a file
 DropFAPFileTarget.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/DropFAPFileTarget.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/DropFAPFileTarget.cpp.s
 .PHONY : DropFAPFileTarget.cpp.s
 
 FaceView.o: FaceView.cpp.o
@@ -206,7 +206,7 @@ FaceView.o: FaceView.cpp.o
 
 # target to build an object file
 FaceView.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/FaceView.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/FaceView.cpp.o
 .PHONY : FaceView.cpp.o
 
 FaceView.i: FaceView.cpp.i
@@ -214,7 +214,7 @@ FaceView.i: FaceView.cpp.i
 
 # target to preprocess a source file
 FaceView.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/FaceView.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/FaceView.cpp.i
 .PHONY : FaceView.cpp.i
 
 FaceView.s: FaceView.cpp.s
@@ -222,7 +222,7 @@ FaceView.s: FaceView.cpp.s
 
 # target to generate assembly for a file
 FaceView.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/FaceView.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/FaceView.cpp.s
 .PHONY : FaceView.cpp.s
 
 NotificationSenderThread.o: NotificationSenderThread.cpp.o
@@ -230,7 +230,7 @@ NotificationSenderThread.o: NotificationSenderThread.cpp.o
 
 # target to build an object file
 NotificationSenderThread.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/NotificationSenderThread.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/NotificationSenderThread.cpp.o
 .PHONY : NotificationSenderThread.cpp.o
 
 NotificationSenderThread.i: NotificationSenderThread.cpp.i
@@ -238,7 +238,7 @@ NotificationSenderThread.i: NotificationSenderThread.cpp.i
 
 # target to preprocess a source file
 NotificationSenderThread.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/NotificationSenderThread.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/NotificationSenderThread.cpp.i
 .PHONY : NotificationSenderThread.cpp.i
 
 NotificationSenderThread.s: NotificationSenderThread.cpp.s
@@ -246,7 +246,7 @@ NotificationSenderThread.s: NotificationSenderThread.cpp.s
 
 # target to generate assembly for a file
 NotificationSenderThread.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/NotificationSenderThread.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/NotificationSenderThread.cpp.s
 .PHONY : NotificationSenderThread.cpp.s
 
 SDLSound.o: SDLSound.cpp.o
@@ -254,7 +254,7 @@ SDLSound.o: SDLSound.cpp.o
 
 # target to build an object file
 SDLSound.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.cpp.o
 .PHONY : SDLSound.cpp.o
 
 SDLSound.i: SDLSound.cpp.i
@@ -262,7 +262,7 @@ SDLSound.i: SDLSound.cpp.i
 
 # target to preprocess a source file
 SDLSound.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.cpp.i
 .PHONY : SDLSound.cpp.i
 
 SDLSound.s: SDLSound.cpp.s
@@ -270,7 +270,7 @@ SDLSound.s: SDLSound.cpp.s
 
 # target to generate assembly for a file
 SDLSound.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLSound.cpp.s
 .PHONY : SDLSound.cpp.s
 
 SDLTimer.o: SDLTimer.cpp.o
@@ -278,7 +278,7 @@ SDLTimer.o: SDLTimer.cpp.o
 
 # target to build an object file
 SDLTimer.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.cpp.o
 .PHONY : SDLTimer.cpp.o
 
 SDLTimer.i: SDLTimer.cpp.i
@@ -286,7 +286,7 @@ SDLTimer.i: SDLTimer.cpp.i
 
 # target to preprocess a source file
 SDLTimer.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.cpp.i
 .PHONY : SDLTimer.cpp.i
 
 SDLTimer.s: SDLTimer.cpp.s
@@ -294,7 +294,7 @@ SDLTimer.s: SDLTimer.cpp.s
 
 # target to generate assembly for a file
 SDLTimer.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/SDLTimer.cpp.s
 .PHONY : SDLTimer.cpp.s
 
 ServerThread.o: ServerThread.cpp.o
@@ -302,7 +302,7 @@ ServerThread.o: ServerThread.cpp.o
 
 # target to build an object file
 ServerThread.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ServerThread.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ServerThread.cpp.o
 .PHONY : ServerThread.cpp.o
 
 ServerThread.i: ServerThread.cpp.i
@@ -310,7 +310,7 @@ ServerThread.i: ServerThread.cpp.i
 
 # target to preprocess a source file
 ServerThread.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ServerThread.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ServerThread.cpp.i
 .PHONY : ServerThread.cpp.i
 
 ServerThread.s: ServerThread.cpp.s
@@ -318,7 +318,7 @@ ServerThread.s: ServerThread.cpp.s
 
 # target to generate assembly for a file
 ServerThread.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ServerThread.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/ServerThread.cpp.s
 .PHONY : ServerThread.cpp.s
 
 toggle.o: toggle.cpp.o
@@ -326,7 +326,7 @@ toggle.o: toggle.cpp.o
 
 # target to build an object file
 toggle.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.cpp.o
 .PHONY : toggle.cpp.o
 
 toggle.i: toggle.cpp.i
@@ -334,7 +334,7 @@ toggle.i: toggle.cpp.i
 
 # target to preprocess a source file
 toggle.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.cpp.i
 .PHONY : toggle.cpp.i
 
 toggle.s: toggle.cpp.s
@@ -342,7 +342,7 @@ toggle.s: toggle.cpp.s
 
 # target to generate assembly for a file
 toggle.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/toggle.cpp.s
 .PHONY : toggle.cpp.s
 
 wxFace.o: wxFace.cpp.o
@@ -350,7 +350,7 @@ wxFace.o: wxFace.cpp.o
 
 # target to build an object file
 wxFace.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFace.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFace.cpp.o
 .PHONY : wxFace.cpp.o
 
 wxFace.i: wxFace.cpp.i
@@ -358,7 +358,7 @@ wxFace.i: wxFace.cpp.i
 
 # target to preprocess a source file
 wxFace.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFace.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFace.cpp.i
 .PHONY : wxFace.cpp.i
 
 wxFace.s: wxFace.cpp.s
@@ -366,7 +366,7 @@ wxFace.s: wxFace.cpp.s
 
 # target to generate assembly for a file
 wxFace.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFace.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFace.cpp.s
 .PHONY : wxFace.cpp.s
 
 wxFacePlayerApp.o: wxFacePlayerApp.cpp.o
@@ -374,7 +374,7 @@ wxFacePlayerApp.o: wxFacePlayerApp.cpp.o
 
 # target to build an object file
 wxFacePlayerApp.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerApp.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerApp.cpp.o
 .PHONY : wxFacePlayerApp.cpp.o
 
 wxFacePlayerApp.i: wxFacePlayerApp.cpp.i
@@ -382,7 +382,7 @@ wxFacePlayerApp.i: wxFacePlayerApp.cpp.i
 
 # target to preprocess a source file
 wxFacePlayerApp.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerApp.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerApp.cpp.i
 .PHONY : wxFacePlayerApp.cpp.i
 
 wxFacePlayerApp.s: wxFacePlayerApp.cpp.s
@@ -390,7 +390,7 @@ wxFacePlayerApp.s: wxFacePlayerApp.cpp.s
 
 # target to generate assembly for a file
 wxFacePlayerApp.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerApp.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerApp.cpp.s
 .PHONY : wxFacePlayerApp.cpp.s
 
 wxFacePlayerFrm.o: wxFacePlayerFrm.cpp.o
@@ -398,7 +398,7 @@ wxFacePlayerFrm.o: wxFacePlayerFrm.cpp.o
 
 # target to build an object file
 wxFacePlayerFrm.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerFrm.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerFrm.cpp.o
 .PHONY : wxFacePlayerFrm.cpp.o
 
 wxFacePlayerFrm.i: wxFacePlayerFrm.cpp.i
@@ -406,7 +406,7 @@ wxFacePlayerFrm.i: wxFacePlayerFrm.cpp.i
 
 # target to preprocess a source file
 wxFacePlayerFrm.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerFrm.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerFrm.cpp.i
 .PHONY : wxFacePlayerFrm.cpp.i
 
 wxFacePlayerFrm.s: wxFacePlayerFrm.cpp.s
@@ -414,7 +414,7 @@ wxFacePlayerFrm.s: wxFacePlayerFrm.cpp.s
 
 # target to generate assembly for a file
 wxFacePlayerFrm.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerFrm.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/wxFacePlayerFrm.cpp.s
 .PHONY : wxFacePlayerFrm.cpp.s
 
 wxFaceTimer.o: wxFaceTimer.cpp.o
@@ -422,7 +422,7 @@ wxFaceTimer.o: wxFaceTimer.cpp.o
 
 # target to build an object file
 wxFaceTimer.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.cpp.o
 .PHONY : wxFaceTimer.cpp.o
 
 wxFaceTimer.i: wxFaceTimer.cpp.i
@@ -430,7 +430,7 @@ wxFaceTimer.i: wxFaceTimer.cpp.i
 
 # target to preprocess a source file
 wxFaceTimer.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.cpp.i
 .PHONY : wxFaceTimer.cpp.i
 
 wxFaceTimer.s: wxFaceTimer.cpp.s
@@ -438,7 +438,7 @@ wxFaceTimer.s: wxFaceTimer.cpp.s
 
 # target to generate assembly for a file
 wxFaceTimer.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/wxFaceTimer.cpp.s
 .PHONY : wxFaceTimer.cpp.s
 
 # Help Target
@@ -501,6 +501,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

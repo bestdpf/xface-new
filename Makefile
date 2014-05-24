@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duan/xface-new
+CMAKE_SOURCE_DIR = /home/duan/workplace/xface-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duan/xface-new
+CMAKE_BINARY_DIR = /home/duan/workplace/xface-new
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/xface-new/CMakeFiles /home/duan/xface-new/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles /home/duan/workplace/xface-new/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/xface-new/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,32 +128,6 @@ XFace/fast:
 .PHONY : XFace/fast
 
 #=============================================================================
-# Target rules for targets named wxXFacePlayer
-
-# Build rule for target.
-wxXFacePlayer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wxXFacePlayer
-.PHONY : wxXFacePlayer
-
-# fast build rule for target.
-wxXFacePlayer/fast:
-	$(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build
-.PHONY : wxXFacePlayer/fast
-
-#=============================================================================
-# Target rules for targets named wxfaceplayer
-
-# Build rule for target.
-wxfaceplayer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wxfaceplayer
-.PHONY : wxfaceplayer
-
-# fast build rule for target.
-wxfaceplayer/fast:
-	$(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build
-.PHONY : wxfaceplayer/fast
-
-#=============================================================================
 # Target rules for targets named QFace
 
 # Build rule for target.
@@ -179,32 +153,6 @@ QFace_automoc/fast:
 	$(MAKE) -f QFace/CMakeFiles/QFace_automoc.dir/build.make QFace/CMakeFiles/QFace_automoc.dir/build
 .PHONY : QFace_automoc/fast
 
-#=============================================================================
-# Target rules for targets named wxFaceEd
-
-# Build rule for target.
-wxFaceEd: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wxFaceEd
-.PHONY : wxFaceEd
-
-# fast build rule for target.
-wxFaceEd/fast:
-	$(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/build
-.PHONY : wxFaceEd/fast
-
-#=============================================================================
-# Target rules for targets named wxfaceclient
-
-# Build rule for target.
-wxfaceclient: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wxfaceclient
-.PHONY : wxfaceclient
-
-# fast build rule for target.
-wxfaceclient/fast:
-	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/build
-.PHONY : wxfaceclient/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -215,12 +163,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... XSmilAgent"
 	@echo "... XFace"
-	@echo "... wxXFacePlayer"
-	@echo "... wxfaceplayer"
 	@echo "... QFace"
 	@echo "... QFace_automoc"
-	@echo "... wxFaceEd"
-	@echo "... wxfaceclient"
 .PHONY : help
 
 

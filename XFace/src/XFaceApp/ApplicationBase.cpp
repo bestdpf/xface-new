@@ -79,14 +79,15 @@ bool ApplicationBase::query(const QUERY& q)
 */
 bool ApplicationBase::init()
 {
-	m_pSound = createSound();
+	//m_pSound = createSound();
 	m_pTimer = createTimer();
 	m_pFace	 = createFace();
 	m_pRenderer = createRenderer();
 	m_renderManager.setRenderer(m_pRenderer);
 	
 	m_pFapStream = createFapStream();
-	return createScriptProcessors();
+	//return createScriptProcessors();
+	return true;
 }
 /*!
 	This cute hack prioritizes loading tasks to execute immediately.
@@ -120,7 +121,7 @@ const boost::shared_ptr<IScriptProcessor>& ApplicationBase::getScriptProcessor(c
 */
 void ApplicationBase::muteAudio(bool bSnd)
 {
-	m_pSound->mute(bSnd);
+	//m_pSound->mute(bSnd);
 }
 
 /*!
@@ -191,8 +192,10 @@ bool ApplicationBase::onResumePlayback()
 	
 	if(m_renderMode == FAP)
 		synchronize(true);
+	/*
 	if(m_bPausePlayback)
 		m_pSound->pause();
+	*/
 	
 	m_bPausePlayback = false;
 	if(m_renderMode == FAP)
@@ -255,7 +258,7 @@ bool ApplicationBase::onResumePlayback()
 void ApplicationBase::onStopPlayback()
 {
 	m_bPausePlayback = true;
-	m_pSound->stop();
+	//m_pSound->stop();
 	if(m_renderMode == FAP)
 	{
 		m_pFapStream->rewind();
@@ -285,7 +288,7 @@ void ApplicationBase::onRewindPlayback() const
 {
 	if(m_pFapStream->isOpen())
 		m_pFapStream->rewind();	
-	m_pSound->stop();
+	//m_pSound->stop();
 	m_pFace->rewindKeyframeAnimation();
 
 	// Notification
@@ -486,7 +489,7 @@ bool ApplicationBase::onLoadWAV(const std::string& param)
 	if(m_currentTask.getName() == "LOAD_WAV")
 		fireNotification(Notification::kStarted);
 
-	m_pSound->loadWAV(param);
+	//m_pSound->loadWAV(param);
 	// Notification
 	if(m_currentTask.getName() == "LOAD_WAV")
 		fireNotification(Notification::kFinished);
@@ -628,6 +631,8 @@ bool ApplicationBase::onUpLoadANIM(const std::string& param1)
 */
 bool ApplicationBase::onUpLoadScript(const std::string& param1, const std::string& param2)
 {
+  return true;
+	/*
 	if(m_bBusy)
 		return false;	// if we are busy (already inside here?) false means, keep the task in the task queue and wait
 
@@ -679,8 +684,8 @@ bool ApplicationBase::onUpLoadScript(const std::string& param1, const std::strin
 				onLoadANIM(filename);
 				if(m_pFace->getSpeechDuration())
 					onLoadWAV(extlessName + ".wav");
-				else
-					m_pSound->unload();
+				//else
+					//m_pSound->unload();
 			}
 		}
 		else
@@ -700,8 +705,9 @@ bool ApplicationBase::onUpLoadScript(const std::string& param1, const std::strin
 	// Notification
 	if(m_currentTask.getName() == "UPLOAD_SCRIPT")
 		fireNotification(Notification::kFinished);
-
+	
 	return true;
+	*/
 }
 
 void ApplicationBase::fireNotification(const Notification::TaskStatus status) const

@@ -23,48 +23,32 @@
  * - Koray Balci (koraybalci@gmail.com)
  * ***** END LICENSE BLOCK ***** */
 
-#include "SDLTimer.h"
+/*! 
+	\file		SDLTimer.h
+	\brief		SDL based timer
+*/
 
-#include <SDL/SDL.h>
+#pragma once
+#ifndef SDLTIMER_H_
+#define SDLTIMER_H_
 
-#pragma message("		Adding SDL lib...")
-#pragma comment(lib, "SDL.lib")
-#pragma comment(lib, "SDLmain.lib")
+#include <XEngine/ITimer.h>
 
-SDLTimer::SDLTimer(void)
+using XEngine::ITimer;
+/*!
+	Wrapper for SDL timer operations.
+*/
+class SDLTimer : public ITimer
 {
-	m_lastMark = m_startTime = SDL_GetTicks();
-}
+	unsigned long m_startTime, m_lastMark;
+public:
+	unsigned long start();
+	void wait(unsigned long);
+	unsigned long getElapsedTime(bool mark);
+	unsigned long getTotalElapsedTime(bool mark);
+	
+	SDLTimer(void);
+	~SDLTimer(void);
+};
 
-SDLTimer::~SDLTimer(void)
-{
-}
-
-unsigned long SDLTimer::start()
-{
-	m_lastMark = m_startTime = SDL_GetTicks();
-	return m_startTime;
-}
-
-void SDLTimer::wait(unsigned long sometime)
-{
-	SDL_Delay(sometime);
-}
-
-unsigned long SDLTimer::getElapsedTime(bool mark)
-{
-	unsigned long now = SDL_GetTicks();
-	unsigned long retVal = now - m_lastMark;
-	if(mark)
-		m_lastMark = now;
-	return retVal;
-}
-
-unsigned long SDLTimer::getTotalElapsedTime(bool mark)
-{
-	unsigned long now = SDL_GetTicks();
-	if(mark)
-		m_lastMark = now;
-
-	return now - m_startTime;
-}
+#endif // SDLTIMER_H_

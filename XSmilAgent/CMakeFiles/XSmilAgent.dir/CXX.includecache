@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/duan/xface-new/XSmilAgent/IScriptProcessor.h
+/home/duan/workplace/xface-new/XSmilAgent/IScriptProcessor.h
 string
 -
 vector
@@ -16,25 +16,25 @@ map
 boost/shared_ptr.hpp
 -
 TTSEngineMaker.h
-/home/duan/xface-new/XSmilAgent/TTSEngineMaker.h
+/home/duan/workplace/xface-new/XSmilAgent/TTSEngineMaker.h
 
-/home/duan/xface-new/XSmilAgent/ITTSEngine.h
+/home/duan/workplace/xface-new/XSmilAgent/ITTSEngine.h
 string
 -
 map
 -
 
-/home/duan/xface-new/XSmilAgent/ItalianFlite.h
+/home/duan/workplace/xface-new/XSmilAgent/ItalianFlite.h
 ITTSEngine.h
-/home/duan/xface-new/XSmilAgent/ITTSEngine.h
+/home/duan/workplace/xface-new/XSmilAgent/ITTSEngine.h
 TTSEngineMaker.h
-/home/duan/xface-new/XSmilAgent/TTSEngineMaker.h
+/home/duan/workplace/xface-new/XSmilAgent/TTSEngineMaker.h
 
-/home/duan/xface-new/XSmilAgent/SGNode.cpp
+/home/duan/workplace/xface-new/XSmilAgent/SGNode.cpp
 SGNode.h
-/home/duan/xface-new/XSmilAgent/SGNode.h
+/home/duan/workplace/xface-new/XSmilAgent/SGNode.h
 
-/home/duan/xface-new/XSmilAgent/SGNode.h
+/home/duan/workplace/xface-new/XSmilAgent/SGNode.h
 deque
 -
 boost/variant.hpp
@@ -42,13 +42,13 @@ boost/variant.hpp
 boost/shared_ptr.hpp
 -
 SMILObjects.h
-/home/duan/xface-new/XSmilAgent/SMILObjects.h
+/home/duan/workplace/xface-new/XSmilAgent/SMILObjects.h
 
-/home/duan/xface-new/XSmilAgent/SMILManager.cpp
+/home/duan/workplace/xface-new/XSmilAgent/SMILManager.cpp
 SMILManager.h
-/home/duan/xface-new/XSmilAgent/SMILManager.h
+/home/duan/workplace/xface-new/XSmilAgent/SMILManager.h
 XercesString.h
-/home/duan/xface-new/XSmilAgent/XercesString.h
+/home/duan/workplace/xface-new/XSmilAgent/XercesString.h
 cassert
 -
 string
@@ -70,25 +70,25 @@ xercesc/dom/DOMImplementation.hpp
 xercesc/util/XercesDefs.hpp
 -
 SMILManager.h
-/home/duan/xface-new/XSmilAgent/SMILManager.h
+/home/duan/workplace/xface-new/XSmilAgent/SMILManager.h
 VisitorTiming.h
-/home/duan/xface-new/XSmilAgent/VisitorTiming.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorTiming.h
 VisitorInfoPrinter.h
-/home/duan/xface-new/XSmilAgent/VisitorInfoPrinter.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorInfoPrinter.h
 VisitorSpeech.h
-/home/duan/xface-new/XSmilAgent/VisitorSpeech.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorSpeech.h
 VisitorAnimCreator.h
-/home/duan/xface-new/XSmilAgent/VisitorAnimCreator.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorAnimCreator.h
 VisitorSAPISpeech.h
-/home/duan/xface-new/XSmilAgent/VisitorSAPISpeech.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorSAPISpeech.h
 ItalianFlite.h
-/home/duan/xface-new/XSmilAgent/ItalianFlite.h
+/home/duan/workplace/xface-new/XSmilAgent/ItalianFlite.h
 Wave.h
-/home/duan/xface-new/XSmilAgent/Wave.h
+/home/duan/workplace/xface-new/XSmilAgent/Wave.h
 Wave2.h
-/home/duan/xface-new/XSmilAgent/Wave2.h
+/home/duan/workplace/xface-new/XSmilAgent/Wave2.h
 
-/home/duan/xface-new/XSmilAgent/SMILManager.h
+/home/duan/workplace/xface-new/XSmilAgent/SMILManager.h
 xercesc/dom/DOM.hpp
 -
 xercesc/parsers/XercesDOMParser.hpp
@@ -106,23 +106,23 @@ vector
 map
 -
 XSAPI.h
-/home/duan/xface-new/XSmilAgent/XSAPI.h
+/home/duan/workplace/xface-new/XSmilAgent/XSAPI.h
 ITTSEngine.h
-/home/duan/xface-new/XSmilAgent/ITTSEngine.h
+/home/duan/workplace/xface-new/XSmilAgent/ITTSEngine.h
 SMILObjects.h
-/home/duan/xface-new/XSmilAgent/SMILObjects.h
+/home/duan/workplace/xface-new/XSmilAgent/SMILObjects.h
 SGNode.h
-/home/duan/xface-new/XSmilAgent/SGNode.h
+/home/duan/workplace/xface-new/XSmilAgent/SGNode.h
 
-/home/duan/xface-new/XSmilAgent/SMILObjects.cpp
+/home/duan/workplace/xface-new/XSmilAgent/SMILObjects.cpp
 SMILObjects.h
-/home/duan/xface-new/XSmilAgent/SMILObjects.h
+/home/duan/workplace/xface-new/XSmilAgent/SMILObjects.h
 iostream
 -
 XercesString.h
-/home/duan/xface-new/XSmilAgent/XercesString.h
+/home/duan/workplace/xface-new/XSmilAgent/XercesString.h
 
-/home/duan/xface-new/XSmilAgent/SMILObjects.h
+/home/duan/workplace/xface-new/XSmilAgent/SMILObjects.h
 string
 -
 vector
@@ -134,27 +134,27 @@ xercesc/parsers/XercesDOMParser.hpp
 xercesc/util/XercesDefs.hpp
 -
 
-/home/duan/xface-new/XSmilAgent/SMILProcessor.cpp
+/home/duan/workplace/xface-new/XSmilAgent/SMILProcessor.cpp
 SMILProcessor.h
-/home/duan/xface-new/XSmilAgent/SMILProcessor.h
+/home/duan/workplace/xface-new/XSmilAgent/SMILProcessor.h
 SMILManager.h
-/home/duan/xface-new/XSmilAgent/SMILManager.h
+/home/duan/workplace/xface-new/XSmilAgent/SMILManager.h
 XSAPI.h
-/home/duan/xface-new/XSmilAgent/XSAPI.h
+/home/duan/workplace/xface-new/XSmilAgent/XSAPI.h
 ItalianFlite.h
-/home/duan/xface-new/XSmilAgent/ItalianFlite.h
+/home/duan/workplace/xface-new/XSmilAgent/ItalianFlite.h
 
-/home/duan/xface-new/XSmilAgent/SMILProcessor.h
+/home/duan/workplace/xface-new/XSmilAgent/SMILProcessor.h
 IScriptProcessor.h
-/home/duan/xface-new/XSmilAgent/IScriptProcessor.h
+/home/duan/workplace/xface-new/XSmilAgent/IScriptProcessor.h
 
-/home/duan/xface-new/XSmilAgent/ScriptProcessorLoader.cpp
+/home/duan/workplace/xface-new/XSmilAgent/ScriptProcessorLoader.cpp
 ScriptProcessorLoader.h
-/home/duan/xface-new/XSmilAgent/ScriptProcessorLoader.h
+/home/duan/workplace/xface-new/XSmilAgent/ScriptProcessorLoader.h
 wxScriptProcessor.h
-/home/duan/xface-new/XSmilAgent/wxScriptProcessor.h
+/home/duan/workplace/xface-new/XSmilAgent/wxScriptProcessor.h
 XercesString.h
-/home/duan/xface-new/XSmilAgent/XercesString.h
+/home/duan/workplace/xface-new/XSmilAgent/XercesString.h
 cassert
 -
 string
@@ -164,11 +164,11 @@ iostream
 stdlib.h
 -
 SMILProcessor.h
-/home/duan/xface-new/XSmilAgent/SMILProcessor.h
+/home/duan/workplace/xface-new/XSmilAgent/SMILProcessor.h
 TTSEngineMaker.h
-/home/duan/xface-new/XSmilAgent/TTSEngineMaker.h
+/home/duan/workplace/xface-new/XSmilAgent/TTSEngineMaker.h
 ItalianFlite.h
-/home/duan/xface-new/XSmilAgent/ItalianFlite.h
+/home/duan/workplace/xface-new/XSmilAgent/ItalianFlite.h
 xercesc/framework/LocalFileInputSource.hpp
 -
 xercesc/framework/MemBufInputSource.hpp
@@ -180,9 +180,9 @@ xercesc/dom/DOMImplementation.hpp
 xercesc/util/XercesDefs.hpp
 -
 
-/home/duan/xface-new/XSmilAgent/ScriptProcessorLoader.h
+/home/duan/workplace/xface-new/XSmilAgent/ScriptProcessorLoader.h
 IScriptProcessor.h
-/home/duan/xface-new/XSmilAgent/IScriptProcessor.h
+/home/duan/workplace/xface-new/XSmilAgent/IScriptProcessor.h
 vector
 -
 boost/shared_ptr.hpp
@@ -198,69 +198,69 @@ iostream
 fstream
 -
 
-/home/duan/xface-new/XSmilAgent/TTSEngineMaker.cpp
+/home/duan/workplace/xface-new/XSmilAgent/TTSEngineMaker.cpp
 TTSEngineMaker.h
-/home/duan/xface-new/XSmilAgent/TTSEngineMaker.h
+/home/duan/workplace/xface-new/XSmilAgent/TTSEngineMaker.h
 iostream
 -
 
-/home/duan/xface-new/XSmilAgent/TTSEngineMaker.h
+/home/duan/workplace/xface-new/XSmilAgent/TTSEngineMaker.h
 map
 -
 vector
 -
 ITTSEngine.h
-/home/duan/xface-new/XSmilAgent/ITTSEngine.h
+/home/duan/workplace/xface-new/XSmilAgent/ITTSEngine.h
 
-/home/duan/xface-new/XSmilAgent/VisitorAnimCreator.cpp
+/home/duan/workplace/xface-new/XSmilAgent/VisitorAnimCreator.cpp
 VisitorAnimCreator.h
-/home/duan/xface-new/XSmilAgent/VisitorAnimCreator.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorAnimCreator.h
 iostream
 -
 
-/home/duan/xface-new/XSmilAgent/VisitorAnimCreator.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorAnimCreator.h
 SGNode.h
-/home/duan/xface-new/XSmilAgent/SGNode.h
+/home/duan/workplace/xface-new/XSmilAgent/SGNode.h
 fstream
 -
 
-/home/duan/xface-new/XSmilAgent/VisitorInfoPrinter.cpp
+/home/duan/workplace/xface-new/XSmilAgent/VisitorInfoPrinter.cpp
 VisitorInfoPrinter.h
-/home/duan/xface-new/XSmilAgent/VisitorInfoPrinter.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorInfoPrinter.h
 iostream
 -
 
-/home/duan/xface-new/XSmilAgent/VisitorInfoPrinter.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorInfoPrinter.h
 SGNode.h
-/home/duan/xface-new/XSmilAgent/SGNode.h
+/home/duan/workplace/xface-new/XSmilAgent/SGNode.h
 
-/home/duan/xface-new/XSmilAgent/VisitorSAPISpeech.cpp
+/home/duan/workplace/xface-new/XSmilAgent/VisitorSAPISpeech.cpp
 VisitorSAPISpeech.h
-/home/duan/xface-new/XSmilAgent/VisitorSAPISpeech.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorSAPISpeech.h
 iostream
 -
 strstream
 -
 
-/home/duan/xface-new/XSmilAgent/VisitorSAPISpeech.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorSAPISpeech.h
 VisitorSpeech.h
-/home/duan/xface-new/XSmilAgent/VisitorSpeech.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorSpeech.h
 
-/home/duan/xface-new/XSmilAgent/VisitorSpeech.cpp
+/home/duan/workplace/xface-new/XSmilAgent/VisitorSpeech.cpp
 VisitorSpeech.h
-/home/duan/xface-new/XSmilAgent/VisitorSpeech.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorSpeech.h
 strstream
 -
 
-/home/duan/xface-new/XSmilAgent/VisitorSpeech.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorSpeech.h
 SGNode.h
-/home/duan/xface-new/XSmilAgent/SGNode.h
+/home/duan/workplace/xface-new/XSmilAgent/SGNode.h
 map
 -
 
-/home/duan/xface-new/XSmilAgent/VisitorTiming.cpp
+/home/duan/workplace/xface-new/XSmilAgent/VisitorTiming.cpp
 VisitorTiming.h
-/home/duan/xface-new/XSmilAgent/VisitorTiming.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorTiming.h
 iostream
 -
 vector
@@ -270,31 +270,31 @@ strstream
 boost/tokenizer.hpp
 -
 
-/home/duan/xface-new/XSmilAgent/VisitorTiming.h
+/home/duan/workplace/xface-new/XSmilAgent/VisitorTiming.h
 SGNode.h
-/home/duan/xface-new/XSmilAgent/SGNode.h
+/home/duan/workplace/xface-new/XSmilAgent/SGNode.h
 map
 -
 stack
 -
 
-/home/duan/xface-new/XSmilAgent/Wave.h
+/home/duan/workplace/xface-new/XSmilAgent/Wave.h
 string
 -
 Windows.h
-/home/duan/xface-new/XSmilAgent/Windows.h
+/home/duan/workplace/xface-new/XSmilAgent/Windows.h
 
-/home/duan/xface-new/XSmilAgent/Wave2.cpp
+/home/duan/workplace/xface-new/XSmilAgent/Wave2.cpp
 Wave2.h
-/home/duan/xface-new/XSmilAgent/Wave2.h
+/home/duan/workplace/xface-new/XSmilAgent/Wave2.h
 iostream
 -
 
-/home/duan/xface-new/XSmilAgent/Wave2.h
+/home/duan/workplace/xface-new/XSmilAgent/Wave2.h
 string
 -
 
-/home/duan/xface-new/XSmilAgent/XSAPI.h
+/home/duan/workplace/xface-new/XSmilAgent/XSAPI.h
 sapi.h
 -
 string
@@ -304,33 +304,33 @@ map
 iostream
 -
 ITTSEngine.h
-/home/duan/xface-new/XSmilAgent/ITTSEngine.h
+/home/duan/workplace/xface-new/XSmilAgent/ITTSEngine.h
 TTSEngineMaker.h
-/home/duan/xface-new/XSmilAgent/TTSEngineMaker.h
+/home/duan/workplace/xface-new/XSmilAgent/TTSEngineMaker.h
 
-/home/duan/xface-new/XSmilAgent/XercesString.cpp
+/home/duan/workplace/xface-new/XSmilAgent/XercesString.cpp
 XercesString.h
-/home/duan/xface-new/XSmilAgent/XercesString.h
+/home/duan/workplace/xface-new/XSmilAgent/XercesString.h
 stddef.h
 -
 stdlib.h
 -
 
-/home/duan/xface-new/XSmilAgent/XercesString.h
+/home/duan/workplace/xface-new/XSmilAgent/XercesString.h
 xercesc/util/XMLString.hpp
 -
 
-/home/duan/xface-new/XSmilAgent/wxScriptProcessor.cpp
+/home/duan/workplace/xface-new/XSmilAgent/wxScriptProcessor.cpp
 wx/file.h
 -
 wx/utils.h
 -
 wxScriptProcessor.h
-/home/duan/xface-new/XSmilAgent/wxScriptProcessor.h
+/home/duan/workplace/xface-new/XSmilAgent/wxScriptProcessor.h
 
-/home/duan/xface-new/XSmilAgent/wxScriptProcessor.h
+/home/duan/workplace/xface-new/XSmilAgent/wxScriptProcessor.h
 IScriptProcessor.h
-/home/duan/xface-new/XSmilAgent/IScriptProcessor.h
+/home/duan/workplace/xface-new/XSmilAgent/IScriptProcessor.h
 string
 -
 

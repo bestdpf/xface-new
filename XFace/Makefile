@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duan/xface-new
+CMAKE_SOURCE_DIR = /home/duan/workplace/xface-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duan/xface-new
+CMAKE_BINARY_DIR = /home/duan/workplace/xface-new
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -E cmake_progress_start /home/duan/xface-new/CMakeFiles /home/duan/xface-new/XFace/CMakeFiles/progress.marks
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/xface-new/CMakeFiles 0
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles /home/duan/workplace/xface-new/XFace/CMakeFiles/progress.marks
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/clean
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/preinstall
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/preinstall
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 XFace/CMakeFiles/XFace.dir/rule:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/CMakeFiles/XFace.dir/rule
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XFace/CMakeFiles/XFace.dir/rule
 .PHONY : XFace/CMakeFiles/XFace.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ XFace: XFace/CMakeFiles/XFace.dir/rule
 
 # fast build rule for target.
 XFace/fast:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/build
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/build
 .PHONY : XFace/fast
 
 src/XEngine/AuxXFace.o: src/XEngine/AuxXFace.cpp.o
@@ -120,7 +120,7 @@ src/XEngine/AuxXFace.o: src/XEngine/AuxXFace.cpp.o
 
 # target to build an object file
 src/XEngine/AuxXFace.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.cpp.o
 .PHONY : src/XEngine/AuxXFace.cpp.o
 
 src/XEngine/AuxXFace.i: src/XEngine/AuxXFace.cpp.i
@@ -128,7 +128,7 @@ src/XEngine/AuxXFace.i: src/XEngine/AuxXFace.cpp.i
 
 # target to preprocess a source file
 src/XEngine/AuxXFace.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.cpp.i
 .PHONY : src/XEngine/AuxXFace.cpp.i
 
 src/XEngine/AuxXFace.s: src/XEngine/AuxXFace.cpp.s
@@ -136,7 +136,7 @@ src/XEngine/AuxXFace.s: src/XEngine/AuxXFace.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/AuxXFace.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/AuxXFace.cpp.s
 .PHONY : src/XEngine/AuxXFace.cpp.s
 
 src/XEngine/BinaryModelBatchLoader.o: src/XEngine/BinaryModelBatchLoader.cpp.o
@@ -144,7 +144,7 @@ src/XEngine/BinaryModelBatchLoader.o: src/XEngine/BinaryModelBatchLoader.cpp.o
 
 # target to build an object file
 src/XEngine/BinaryModelBatchLoader.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.cpp.o
 .PHONY : src/XEngine/BinaryModelBatchLoader.cpp.o
 
 src/XEngine/BinaryModelBatchLoader.i: src/XEngine/BinaryModelBatchLoader.cpp.i
@@ -152,7 +152,7 @@ src/XEngine/BinaryModelBatchLoader.i: src/XEngine/BinaryModelBatchLoader.cpp.i
 
 # target to preprocess a source file
 src/XEngine/BinaryModelBatchLoader.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.cpp.i
 .PHONY : src/XEngine/BinaryModelBatchLoader.cpp.i
 
 src/XEngine/BinaryModelBatchLoader.s: src/XEngine/BinaryModelBatchLoader.cpp.s
@@ -160,7 +160,7 @@ src/XEngine/BinaryModelBatchLoader.s: src/XEngine/BinaryModelBatchLoader.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/BinaryModelBatchLoader.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BinaryModelBatchLoader.cpp.s
 .PHONY : src/XEngine/BinaryModelBatchLoader.cpp.s
 
 src/XEngine/BmpFile.o: src/XEngine/BmpFile.cpp.o
@@ -168,7 +168,7 @@ src/XEngine/BmpFile.o: src/XEngine/BmpFile.cpp.o
 
 # target to build an object file
 src/XEngine/BmpFile.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.cpp.o
 .PHONY : src/XEngine/BmpFile.cpp.o
 
 src/XEngine/BmpFile.i: src/XEngine/BmpFile.cpp.i
@@ -176,7 +176,7 @@ src/XEngine/BmpFile.i: src/XEngine/BmpFile.cpp.i
 
 # target to preprocess a source file
 src/XEngine/BmpFile.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.cpp.i
 .PHONY : src/XEngine/BmpFile.cpp.i
 
 src/XEngine/BmpFile.s: src/XEngine/BmpFile.cpp.s
@@ -184,7 +184,7 @@ src/XEngine/BmpFile.s: src/XEngine/BmpFile.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/BmpFile.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/BmpFile.cpp.s
 .PHONY : src/XEngine/BmpFile.cpp.s
 
 src/XEngine/DeformableGeometry.o: src/XEngine/DeformableGeometry.cpp.o
@@ -192,7 +192,7 @@ src/XEngine/DeformableGeometry.o: src/XEngine/DeformableGeometry.cpp.o
 
 # target to build an object file
 src/XEngine/DeformableGeometry.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.cpp.o
 .PHONY : src/XEngine/DeformableGeometry.cpp.o
 
 src/XEngine/DeformableGeometry.i: src/XEngine/DeformableGeometry.cpp.i
@@ -200,7 +200,7 @@ src/XEngine/DeformableGeometry.i: src/XEngine/DeformableGeometry.cpp.i
 
 # target to preprocess a source file
 src/XEngine/DeformableGeometry.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.cpp.i
 .PHONY : src/XEngine/DeformableGeometry.cpp.i
 
 src/XEngine/DeformableGeometry.s: src/XEngine/DeformableGeometry.cpp.s
@@ -208,7 +208,7 @@ src/XEngine/DeformableGeometry.s: src/XEngine/DeformableGeometry.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/DeformableGeometry.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/DeformableGeometry.cpp.s
 .PHONY : src/XEngine/DeformableGeometry.cpp.s
 
 src/XEngine/Drawable.o: src/XEngine/Drawable.cpp.o
@@ -216,7 +216,7 @@ src/XEngine/Drawable.o: src/XEngine/Drawable.cpp.o
 
 # target to build an object file
 src/XEngine/Drawable.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.cpp.o
 .PHONY : src/XEngine/Drawable.cpp.o
 
 src/XEngine/Drawable.i: src/XEngine/Drawable.cpp.i
@@ -224,7 +224,7 @@ src/XEngine/Drawable.i: src/XEngine/Drawable.cpp.i
 
 # target to preprocess a source file
 src/XEngine/Drawable.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.cpp.i
 .PHONY : src/XEngine/Drawable.cpp.i
 
 src/XEngine/Drawable.s: src/XEngine/Drawable.cpp.s
@@ -232,7 +232,7 @@ src/XEngine/Drawable.s: src/XEngine/Drawable.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/Drawable.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Drawable.cpp.s
 .PHONY : src/XEngine/Drawable.cpp.s
 
 src/XEngine/Entity.o: src/XEngine/Entity.cpp.o
@@ -240,7 +240,7 @@ src/XEngine/Entity.o: src/XEngine/Entity.cpp.o
 
 # target to build an object file
 src/XEngine/Entity.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.cpp.o
 .PHONY : src/XEngine/Entity.cpp.o
 
 src/XEngine/Entity.i: src/XEngine/Entity.cpp.i
@@ -248,7 +248,7 @@ src/XEngine/Entity.i: src/XEngine/Entity.cpp.i
 
 # target to preprocess a source file
 src/XEngine/Entity.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.cpp.i
 .PHONY : src/XEngine/Entity.cpp.i
 
 src/XEngine/Entity.s: src/XEngine/Entity.cpp.s
@@ -256,7 +256,7 @@ src/XEngine/Entity.s: src/XEngine/Entity.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/Entity.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Entity.cpp.s
 .PHONY : src/XEngine/Entity.cpp.s
 
 src/XEngine/GLPrerrequisites.o: src/XEngine/GLPrerrequisites.cpp.o
@@ -264,7 +264,7 @@ src/XEngine/GLPrerrequisites.o: src/XEngine/GLPrerrequisites.cpp.o
 
 # target to build an object file
 src/XEngine/GLPrerrequisites.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.cpp.o
 .PHONY : src/XEngine/GLPrerrequisites.cpp.o
 
 src/XEngine/GLPrerrequisites.i: src/XEngine/GLPrerrequisites.cpp.i
@@ -272,7 +272,7 @@ src/XEngine/GLPrerrequisites.i: src/XEngine/GLPrerrequisites.cpp.i
 
 # target to preprocess a source file
 src/XEngine/GLPrerrequisites.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.cpp.i
 .PHONY : src/XEngine/GLPrerrequisites.cpp.i
 
 src/XEngine/GLPrerrequisites.s: src/XEngine/GLPrerrequisites.cpp.s
@@ -280,7 +280,7 @@ src/XEngine/GLPrerrequisites.s: src/XEngine/GLPrerrequisites.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/GLPrerrequisites.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/GLPrerrequisites.cpp.s
 .PHONY : src/XEngine/GLPrerrequisites.cpp.s
 
 src/XEngine/Geometry.o: src/XEngine/Geometry.cpp.o
@@ -288,7 +288,7 @@ src/XEngine/Geometry.o: src/XEngine/Geometry.cpp.o
 
 # target to build an object file
 src/XEngine/Geometry.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.cpp.o
 .PHONY : src/XEngine/Geometry.cpp.o
 
 src/XEngine/Geometry.i: src/XEngine/Geometry.cpp.i
@@ -296,7 +296,7 @@ src/XEngine/Geometry.i: src/XEngine/Geometry.cpp.i
 
 # target to preprocess a source file
 src/XEngine/Geometry.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.cpp.i
 .PHONY : src/XEngine/Geometry.cpp.i
 
 src/XEngine/Geometry.s: src/XEngine/Geometry.cpp.s
@@ -304,7 +304,7 @@ src/XEngine/Geometry.s: src/XEngine/Geometry.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/Geometry.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Geometry.cpp.s
 .PHONY : src/XEngine/Geometry.cpp.s
 
 src/XEngine/IndexedFaceSet.o: src/XEngine/IndexedFaceSet.cpp.o
@@ -312,7 +312,7 @@ src/XEngine/IndexedFaceSet.o: src/XEngine/IndexedFaceSet.cpp.o
 
 # target to build an object file
 src/XEngine/IndexedFaceSet.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.cpp.o
 .PHONY : src/XEngine/IndexedFaceSet.cpp.o
 
 src/XEngine/IndexedFaceSet.i: src/XEngine/IndexedFaceSet.cpp.i
@@ -320,7 +320,7 @@ src/XEngine/IndexedFaceSet.i: src/XEngine/IndexedFaceSet.cpp.i
 
 # target to preprocess a source file
 src/XEngine/IndexedFaceSet.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.cpp.i
 .PHONY : src/XEngine/IndexedFaceSet.cpp.i
 
 src/XEngine/IndexedFaceSet.s: src/XEngine/IndexedFaceSet.cpp.s
@@ -328,7 +328,7 @@ src/XEngine/IndexedFaceSet.s: src/XEngine/IndexedFaceSet.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/IndexedFaceSet.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/IndexedFaceSet.cpp.s
 .PHONY : src/XEngine/IndexedFaceSet.cpp.s
 
 src/XEngine/KeyframeInterpolator.o: src/XEngine/KeyframeInterpolator.cpp.o
@@ -336,7 +336,7 @@ src/XEngine/KeyframeInterpolator.o: src/XEngine/KeyframeInterpolator.cpp.o
 
 # target to build an object file
 src/XEngine/KeyframeInterpolator.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.cpp.o
 .PHONY : src/XEngine/KeyframeInterpolator.cpp.o
 
 src/XEngine/KeyframeInterpolator.i: src/XEngine/KeyframeInterpolator.cpp.i
@@ -344,7 +344,7 @@ src/XEngine/KeyframeInterpolator.i: src/XEngine/KeyframeInterpolator.cpp.i
 
 # target to preprocess a source file
 src/XEngine/KeyframeInterpolator.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.cpp.i
 .PHONY : src/XEngine/KeyframeInterpolator.cpp.i
 
 src/XEngine/KeyframeInterpolator.s: src/XEngine/KeyframeInterpolator.cpp.s
@@ -352,7 +352,7 @@ src/XEngine/KeyframeInterpolator.s: src/XEngine/KeyframeInterpolator.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/KeyframeInterpolator.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/KeyframeInterpolator.cpp.s
 .PHONY : src/XEngine/KeyframeInterpolator.cpp.s
 
 src/XEngine/MeshManager.o: src/XEngine/MeshManager.cpp.o
@@ -360,7 +360,7 @@ src/XEngine/MeshManager.o: src/XEngine/MeshManager.cpp.o
 
 # target to build an object file
 src/XEngine/MeshManager.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.cpp.o
 .PHONY : src/XEngine/MeshManager.cpp.o
 
 src/XEngine/MeshManager.i: src/XEngine/MeshManager.cpp.i
@@ -368,7 +368,7 @@ src/XEngine/MeshManager.i: src/XEngine/MeshManager.cpp.i
 
 # target to preprocess a source file
 src/XEngine/MeshManager.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.cpp.i
 .PHONY : src/XEngine/MeshManager.cpp.i
 
 src/XEngine/MeshManager.s: src/XEngine/MeshManager.cpp.s
@@ -376,7 +376,7 @@ src/XEngine/MeshManager.s: src/XEngine/MeshManager.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/MeshManager.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MeshManager.cpp.s
 .PHONY : src/XEngine/MeshManager.cpp.s
 
 src/XEngine/ModelFileFactory.o: src/XEngine/ModelFileFactory.cpp.o
@@ -384,7 +384,7 @@ src/XEngine/ModelFileFactory.o: src/XEngine/ModelFileFactory.cpp.o
 
 # target to build an object file
 src/XEngine/ModelFileFactory.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.cpp.o
 .PHONY : src/XEngine/ModelFileFactory.cpp.o
 
 src/XEngine/ModelFileFactory.i: src/XEngine/ModelFileFactory.cpp.i
@@ -392,7 +392,7 @@ src/XEngine/ModelFileFactory.i: src/XEngine/ModelFileFactory.cpp.i
 
 # target to preprocess a source file
 src/XEngine/ModelFileFactory.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.cpp.i
 .PHONY : src/XEngine/ModelFileFactory.cpp.i
 
 src/XEngine/ModelFileFactory.s: src/XEngine/ModelFileFactory.cpp.s
@@ -400,7 +400,7 @@ src/XEngine/ModelFileFactory.s: src/XEngine/ModelFileFactory.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/ModelFileFactory.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/ModelFileFactory.cpp.s
 .PHONY : src/XEngine/ModelFileFactory.cpp.s
 
 src/XEngine/MorphBlender.o: src/XEngine/MorphBlender.cpp.o
@@ -408,7 +408,7 @@ src/XEngine/MorphBlender.o: src/XEngine/MorphBlender.cpp.o
 
 # target to build an object file
 src/XEngine/MorphBlender.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.cpp.o
 .PHONY : src/XEngine/MorphBlender.cpp.o
 
 src/XEngine/MorphBlender.i: src/XEngine/MorphBlender.cpp.i
@@ -416,7 +416,7 @@ src/XEngine/MorphBlender.i: src/XEngine/MorphBlender.cpp.i
 
 # target to preprocess a source file
 src/XEngine/MorphBlender.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.cpp.i
 .PHONY : src/XEngine/MorphBlender.cpp.i
 
 src/XEngine/MorphBlender.s: src/XEngine/MorphBlender.cpp.s
@@ -424,7 +424,7 @@ src/XEngine/MorphBlender.s: src/XEngine/MorphBlender.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/MorphBlender.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphBlender.cpp.s
 .PHONY : src/XEngine/MorphBlender.cpp.s
 
 src/XEngine/MorphChannel.o: src/XEngine/MorphChannel.cpp.o
@@ -432,7 +432,7 @@ src/XEngine/MorphChannel.o: src/XEngine/MorphChannel.cpp.o
 
 # target to build an object file
 src/XEngine/MorphChannel.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.cpp.o
 .PHONY : src/XEngine/MorphChannel.cpp.o
 
 src/XEngine/MorphChannel.i: src/XEngine/MorphChannel.cpp.i
@@ -440,7 +440,7 @@ src/XEngine/MorphChannel.i: src/XEngine/MorphChannel.cpp.i
 
 # target to preprocess a source file
 src/XEngine/MorphChannel.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.cpp.i
 .PHONY : src/XEngine/MorphChannel.cpp.i
 
 src/XEngine/MorphChannel.s: src/XEngine/MorphChannel.cpp.s
@@ -448,7 +448,7 @@ src/XEngine/MorphChannel.s: src/XEngine/MorphChannel.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/MorphChannel.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphChannel.cpp.s
 .PHONY : src/XEngine/MorphChannel.cpp.s
 
 src/XEngine/MorphController.o: src/XEngine/MorphController.cpp.o
@@ -456,7 +456,7 @@ src/XEngine/MorphController.o: src/XEngine/MorphController.cpp.o
 
 # target to build an object file
 src/XEngine/MorphController.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.cpp.o
 .PHONY : src/XEngine/MorphController.cpp.o
 
 src/XEngine/MorphController.i: src/XEngine/MorphController.cpp.i
@@ -464,7 +464,7 @@ src/XEngine/MorphController.i: src/XEngine/MorphController.cpp.i
 
 # target to preprocess a source file
 src/XEngine/MorphController.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.cpp.i
 .PHONY : src/XEngine/MorphController.cpp.i
 
 src/XEngine/MorphController.s: src/XEngine/MorphController.cpp.s
@@ -472,7 +472,7 @@ src/XEngine/MorphController.s: src/XEngine/MorphController.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/MorphController.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/MorphController.cpp.s
 .PHONY : src/XEngine/MorphController.cpp.s
 
 src/XEngine/OBJLoader.o: src/XEngine/OBJLoader.cpp.o
@@ -480,7 +480,7 @@ src/XEngine/OBJLoader.o: src/XEngine/OBJLoader.cpp.o
 
 # target to build an object file
 src/XEngine/OBJLoader.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.cpp.o
 .PHONY : src/XEngine/OBJLoader.cpp.o
 
 src/XEngine/OBJLoader.i: src/XEngine/OBJLoader.cpp.i
@@ -488,7 +488,7 @@ src/XEngine/OBJLoader.i: src/XEngine/OBJLoader.cpp.i
 
 # target to preprocess a source file
 src/XEngine/OBJLoader.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.cpp.i
 .PHONY : src/XEngine/OBJLoader.cpp.i
 
 src/XEngine/OBJLoader.s: src/XEngine/OBJLoader.cpp.s
@@ -496,7 +496,7 @@ src/XEngine/OBJLoader.s: src/XEngine/OBJLoader.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/OBJLoader.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/OBJLoader.cpp.s
 .PHONY : src/XEngine/OBJLoader.cpp.s
 
 src/XEngine/RenderList.o: src/XEngine/RenderList.cpp.o
@@ -504,7 +504,7 @@ src/XEngine/RenderList.o: src/XEngine/RenderList.cpp.o
 
 # target to build an object file
 src/XEngine/RenderList.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.cpp.o
 .PHONY : src/XEngine/RenderList.cpp.o
 
 src/XEngine/RenderList.i: src/XEngine/RenderList.cpp.i
@@ -512,7 +512,7 @@ src/XEngine/RenderList.i: src/XEngine/RenderList.cpp.i
 
 # target to preprocess a source file
 src/XEngine/RenderList.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.cpp.i
 .PHONY : src/XEngine/RenderList.cpp.i
 
 src/XEngine/RenderList.s: src/XEngine/RenderList.cpp.s
@@ -520,7 +520,7 @@ src/XEngine/RenderList.s: src/XEngine/RenderList.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/RenderList.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderList.cpp.s
 .PHONY : src/XEngine/RenderList.cpp.s
 
 src/XEngine/RenderManager.o: src/XEngine/RenderManager.cpp.o
@@ -528,7 +528,7 @@ src/XEngine/RenderManager.o: src/XEngine/RenderManager.cpp.o
 
 # target to build an object file
 src/XEngine/RenderManager.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.cpp.o
 .PHONY : src/XEngine/RenderManager.cpp.o
 
 src/XEngine/RenderManager.i: src/XEngine/RenderManager.cpp.i
@@ -536,7 +536,7 @@ src/XEngine/RenderManager.i: src/XEngine/RenderManager.cpp.i
 
 # target to preprocess a source file
 src/XEngine/RenderManager.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.cpp.i
 .PHONY : src/XEngine/RenderManager.cpp.i
 
 src/XEngine/RenderManager.s: src/XEngine/RenderManager.cpp.s
@@ -544,7 +544,7 @@ src/XEngine/RenderManager.s: src/XEngine/RenderManager.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/RenderManager.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RenderManager.cpp.s
 .PHONY : src/XEngine/RenderManager.cpp.s
 
 src/XEngine/RendererGL.o: src/XEngine/RendererGL.cpp.o
@@ -552,7 +552,7 @@ src/XEngine/RendererGL.o: src/XEngine/RendererGL.cpp.o
 
 # target to build an object file
 src/XEngine/RendererGL.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.cpp.o
 .PHONY : src/XEngine/RendererGL.cpp.o
 
 src/XEngine/RendererGL.i: src/XEngine/RendererGL.cpp.i
@@ -560,7 +560,7 @@ src/XEngine/RendererGL.i: src/XEngine/RendererGL.cpp.i
 
 # target to preprocess a source file
 src/XEngine/RendererGL.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.cpp.i
 .PHONY : src/XEngine/RendererGL.cpp.i
 
 src/XEngine/RendererGL.s: src/XEngine/RendererGL.cpp.s
@@ -568,7 +568,7 @@ src/XEngine/RendererGL.s: src/XEngine/RendererGL.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/RendererGL.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/RendererGL.cpp.s
 .PHONY : src/XEngine/RendererGL.cpp.s
 
 src/XEngine/TextureLoaderGL.o: src/XEngine/TextureLoaderGL.cpp.o
@@ -576,7 +576,7 @@ src/XEngine/TextureLoaderGL.o: src/XEngine/TextureLoaderGL.cpp.o
 
 # target to build an object file
 src/XEngine/TextureLoaderGL.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.cpp.o
 .PHONY : src/XEngine/TextureLoaderGL.cpp.o
 
 src/XEngine/TextureLoaderGL.i: src/XEngine/TextureLoaderGL.cpp.i
@@ -584,7 +584,7 @@ src/XEngine/TextureLoaderGL.i: src/XEngine/TextureLoaderGL.cpp.i
 
 # target to preprocess a source file
 src/XEngine/TextureLoaderGL.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.cpp.i
 .PHONY : src/XEngine/TextureLoaderGL.cpp.i
 
 src/XEngine/TextureLoaderGL.s: src/XEngine/TextureLoaderGL.cpp.s
@@ -592,7 +592,7 @@ src/XEngine/TextureLoaderGL.s: src/XEngine/TextureLoaderGL.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/TextureLoaderGL.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureLoaderGL.cpp.s
 .PHONY : src/XEngine/TextureLoaderGL.cpp.s
 
 src/XEngine/TextureManager.o: src/XEngine/TextureManager.cpp.o
@@ -600,7 +600,7 @@ src/XEngine/TextureManager.o: src/XEngine/TextureManager.cpp.o
 
 # target to build an object file
 src/XEngine/TextureManager.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.cpp.o
 .PHONY : src/XEngine/TextureManager.cpp.o
 
 src/XEngine/TextureManager.i: src/XEngine/TextureManager.cpp.i
@@ -608,7 +608,7 @@ src/XEngine/TextureManager.i: src/XEngine/TextureManager.cpp.i
 
 # target to preprocess a source file
 src/XEngine/TextureManager.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.cpp.i
 .PHONY : src/XEngine/TextureManager.cpp.i
 
 src/XEngine/TextureManager.s: src/XEngine/TextureManager.cpp.s
@@ -616,7 +616,7 @@ src/XEngine/TextureManager.s: src/XEngine/TextureManager.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/TextureManager.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TextureManager.cpp.s
 .PHONY : src/XEngine/TextureManager.cpp.s
 
 src/XEngine/TgaFile.o: src/XEngine/TgaFile.cpp.o
@@ -624,7 +624,7 @@ src/XEngine/TgaFile.o: src/XEngine/TgaFile.cpp.o
 
 # target to build an object file
 src/XEngine/TgaFile.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.cpp.o
 .PHONY : src/XEngine/TgaFile.cpp.o
 
 src/XEngine/TgaFile.i: src/XEngine/TgaFile.cpp.i
@@ -632,7 +632,7 @@ src/XEngine/TgaFile.i: src/XEngine/TgaFile.cpp.i
 
 # target to preprocess a source file
 src/XEngine/TgaFile.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.cpp.i
 .PHONY : src/XEngine/TgaFile.cpp.i
 
 src/XEngine/TgaFile.s: src/XEngine/TgaFile.cpp.s
@@ -640,7 +640,7 @@ src/XEngine/TgaFile.s: src/XEngine/TgaFile.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/TgaFile.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/TgaFile.cpp.s
 .PHONY : src/XEngine/TgaFile.cpp.s
 
 src/XEngine/Transform.o: src/XEngine/Transform.cpp.o
@@ -648,7 +648,7 @@ src/XEngine/Transform.o: src/XEngine/Transform.cpp.o
 
 # target to build an object file
 src/XEngine/Transform.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.cpp.o
 .PHONY : src/XEngine/Transform.cpp.o
 
 src/XEngine/Transform.i: src/XEngine/Transform.cpp.i
@@ -656,7 +656,7 @@ src/XEngine/Transform.i: src/XEngine/Transform.cpp.i
 
 # target to preprocess a source file
 src/XEngine/Transform.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.cpp.i
 .PHONY : src/XEngine/Transform.cpp.i
 
 src/XEngine/Transform.s: src/XEngine/Transform.cpp.s
@@ -664,7 +664,7 @@ src/XEngine/Transform.s: src/XEngine/Transform.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/Transform.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/Transform.cpp.s
 .PHONY : src/XEngine/Transform.cpp.s
 
 src/XEngine/VRML1Loader.o: src/XEngine/VRML1Loader.cpp.o
@@ -672,7 +672,7 @@ src/XEngine/VRML1Loader.o: src/XEngine/VRML1Loader.cpp.o
 
 # target to build an object file
 src/XEngine/VRML1Loader.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.cpp.o
 .PHONY : src/XEngine/VRML1Loader.cpp.o
 
 src/XEngine/VRML1Loader.i: src/XEngine/VRML1Loader.cpp.i
@@ -680,7 +680,7 @@ src/XEngine/VRML1Loader.i: src/XEngine/VRML1Loader.cpp.i
 
 # target to preprocess a source file
 src/XEngine/VRML1Loader.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.cpp.i
 .PHONY : src/XEngine/VRML1Loader.cpp.i
 
 src/XEngine/VRML1Loader.s: src/XEngine/VRML1Loader.cpp.s
@@ -688,7 +688,7 @@ src/XEngine/VRML1Loader.s: src/XEngine/VRML1Loader.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/VRML1Loader.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML1Loader.cpp.s
 .PHONY : src/XEngine/VRML1Loader.cpp.s
 
 src/XEngine/VRML97Loader.o: src/XEngine/VRML97Loader.cpp.o
@@ -696,7 +696,7 @@ src/XEngine/VRML97Loader.o: src/XEngine/VRML97Loader.cpp.o
 
 # target to build an object file
 src/XEngine/VRML97Loader.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.cpp.o
 .PHONY : src/XEngine/VRML97Loader.cpp.o
 
 src/XEngine/VRML97Loader.i: src/XEngine/VRML97Loader.cpp.i
@@ -704,7 +704,7 @@ src/XEngine/VRML97Loader.i: src/XEngine/VRML97Loader.cpp.i
 
 # target to preprocess a source file
 src/XEngine/VRML97Loader.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.cpp.i
 .PHONY : src/XEngine/VRML97Loader.cpp.i
 
 src/XEngine/VRML97Loader.s: src/XEngine/VRML97Loader.cpp.s
@@ -712,7 +712,7 @@ src/XEngine/VRML97Loader.s: src/XEngine/VRML97Loader.cpp.s
 
 # target to generate assembly for a file
 src/XEngine/VRML97Loader.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XEngine/VRML97Loader.cpp.s
 .PHONY : src/XEngine/VRML97Loader.cpp.s
 
 src/XFace/AnimProcessor.o: src/XFace/AnimProcessor.cpp.o
@@ -720,7 +720,7 @@ src/XFace/AnimProcessor.o: src/XFace/AnimProcessor.cpp.o
 
 # target to build an object file
 src/XFace/AnimProcessor.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.cpp.o
 .PHONY : src/XFace/AnimProcessor.cpp.o
 
 src/XFace/AnimProcessor.i: src/XFace/AnimProcessor.cpp.i
@@ -728,7 +728,7 @@ src/XFace/AnimProcessor.i: src/XFace/AnimProcessor.cpp.i
 
 # target to preprocess a source file
 src/XFace/AnimProcessor.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.cpp.i
 .PHONY : src/XFace/AnimProcessor.cpp.i
 
 src/XFace/AnimProcessor.s: src/XFace/AnimProcessor.cpp.s
@@ -736,7 +736,7 @@ src/XFace/AnimProcessor.s: src/XFace/AnimProcessor.cpp.s
 
 # target to generate assembly for a file
 src/XFace/AnimProcessor.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/AnimProcessor.cpp.s
 .PHONY : src/XFace/AnimProcessor.cpp.s
 
 src/XFace/ExpressionChannel.o: src/XFace/ExpressionChannel.cpp.o
@@ -744,7 +744,7 @@ src/XFace/ExpressionChannel.o: src/XFace/ExpressionChannel.cpp.o
 
 # target to build an object file
 src/XFace/ExpressionChannel.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.cpp.o
 .PHONY : src/XFace/ExpressionChannel.cpp.o
 
 src/XFace/ExpressionChannel.i: src/XFace/ExpressionChannel.cpp.i
@@ -752,7 +752,7 @@ src/XFace/ExpressionChannel.i: src/XFace/ExpressionChannel.cpp.i
 
 # target to preprocess a source file
 src/XFace/ExpressionChannel.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.cpp.i
 .PHONY : src/XFace/ExpressionChannel.cpp.i
 
 src/XFace/ExpressionChannel.s: src/XFace/ExpressionChannel.cpp.s
@@ -760,7 +760,7 @@ src/XFace/ExpressionChannel.s: src/XFace/ExpressionChannel.cpp.s
 
 # target to generate assembly for a file
 src/XFace/ExpressionChannel.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/ExpressionChannel.cpp.s
 .PHONY : src/XFace/ExpressionChannel.cpp.s
 
 src/XFace/EyeChannel.o: src/XFace/EyeChannel.cpp.o
@@ -768,7 +768,7 @@ src/XFace/EyeChannel.o: src/XFace/EyeChannel.cpp.o
 
 # target to build an object file
 src/XFace/EyeChannel.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.cpp.o
 .PHONY : src/XFace/EyeChannel.cpp.o
 
 src/XFace/EyeChannel.i: src/XFace/EyeChannel.cpp.i
@@ -776,7 +776,7 @@ src/XFace/EyeChannel.i: src/XFace/EyeChannel.cpp.i
 
 # target to preprocess a source file
 src/XFace/EyeChannel.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.cpp.i
 .PHONY : src/XFace/EyeChannel.cpp.i
 
 src/XFace/EyeChannel.s: src/XFace/EyeChannel.cpp.s
@@ -784,7 +784,7 @@ src/XFace/EyeChannel.s: src/XFace/EyeChannel.cpp.s
 
 # target to generate assembly for a file
 src/XFace/EyeChannel.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/EyeChannel.cpp.s
 .PHONY : src/XFace/EyeChannel.cpp.s
 
 src/XFace/FDP.o: src/XFace/FDP.cpp.o
@@ -792,7 +792,7 @@ src/XFace/FDP.o: src/XFace/FDP.cpp.o
 
 # target to build an object file
 src/XFace/FDP.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDP.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDP.cpp.o
 .PHONY : src/XFace/FDP.cpp.o
 
 src/XFace/FDP.i: src/XFace/FDP.cpp.i
@@ -800,7 +800,7 @@ src/XFace/FDP.i: src/XFace/FDP.cpp.i
 
 # target to preprocess a source file
 src/XFace/FDP.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDP.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDP.cpp.i
 .PHONY : src/XFace/FDP.cpp.i
 
 src/XFace/FDP.s: src/XFace/FDP.cpp.s
@@ -808,7 +808,7 @@ src/XFace/FDP.s: src/XFace/FDP.cpp.s
 
 # target to generate assembly for a file
 src/XFace/FDP.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDP.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDP.cpp.s
 .PHONY : src/XFace/FDP.cpp.s
 
 src/XFace/FDPItem.o: src/XFace/FDPItem.cpp.o
@@ -816,7 +816,7 @@ src/XFace/FDPItem.o: src/XFace/FDPItem.cpp.o
 
 # target to build an object file
 src/XFace/FDPItem.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.cpp.o
 .PHONY : src/XFace/FDPItem.cpp.o
 
 src/XFace/FDPItem.i: src/XFace/FDPItem.cpp.i
@@ -824,7 +824,7 @@ src/XFace/FDPItem.i: src/XFace/FDPItem.cpp.i
 
 # target to preprocess a source file
 src/XFace/FDPItem.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.cpp.i
 .PHONY : src/XFace/FDPItem.cpp.i
 
 src/XFace/FDPItem.s: src/XFace/FDPItem.cpp.s
@@ -832,7 +832,7 @@ src/XFace/FDPItem.s: src/XFace/FDPItem.cpp.s
 
 # target to generate assembly for a file
 src/XFace/FDPItem.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPItem.cpp.s
 .PHONY : src/XFace/FDPItem.cpp.s
 
 src/XFace/FDPLoader.o: src/XFace/FDPLoader.cpp.o
@@ -840,7 +840,7 @@ src/XFace/FDPLoader.o: src/XFace/FDPLoader.cpp.o
 
 # target to build an object file
 src/XFace/FDPLoader.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.cpp.o
 .PHONY : src/XFace/FDPLoader.cpp.o
 
 src/XFace/FDPLoader.i: src/XFace/FDPLoader.cpp.i
@@ -848,7 +848,7 @@ src/XFace/FDPLoader.i: src/XFace/FDPLoader.cpp.i
 
 # target to preprocess a source file
 src/XFace/FDPLoader.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.cpp.i
 .PHONY : src/XFace/FDPLoader.cpp.i
 
 src/XFace/FDPLoader.s: src/XFace/FDPLoader.cpp.s
@@ -856,7 +856,7 @@ src/XFace/FDPLoader.s: src/XFace/FDPLoader.cpp.s
 
 # target to generate assembly for a file
 src/XFace/FDPLoader.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPLoader.cpp.s
 .PHONY : src/XFace/FDPLoader.cpp.s
 
 src/XFace/FDPWriter.o: src/XFace/FDPWriter.cpp.o
@@ -864,7 +864,7 @@ src/XFace/FDPWriter.o: src/XFace/FDPWriter.cpp.o
 
 # target to build an object file
 src/XFace/FDPWriter.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.cpp.o
 .PHONY : src/XFace/FDPWriter.cpp.o
 
 src/XFace/FDPWriter.i: src/XFace/FDPWriter.cpp.i
@@ -872,7 +872,7 @@ src/XFace/FDPWriter.i: src/XFace/FDPWriter.cpp.i
 
 # target to preprocess a source file
 src/XFace/FDPWriter.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.cpp.i
 .PHONY : src/XFace/FDPWriter.cpp.i
 
 src/XFace/FDPWriter.s: src/XFace/FDPWriter.cpp.s
@@ -880,7 +880,7 @@ src/XFace/FDPWriter.s: src/XFace/FDPWriter.cpp.s
 
 # target to generate assembly for a file
 src/XFace/FDPWriter.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FDPWriter.cpp.s
 .PHONY : src/XFace/FDPWriter.cpp.s
 
 src/XFace/FaceBase.o: src/XFace/FaceBase.cpp.o
@@ -888,7 +888,7 @@ src/XFace/FaceBase.o: src/XFace/FaceBase.cpp.o
 
 # target to build an object file
 src/XFace/FaceBase.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.cpp.o
 .PHONY : src/XFace/FaceBase.cpp.o
 
 src/XFace/FaceBase.i: src/XFace/FaceBase.cpp.i
@@ -896,7 +896,7 @@ src/XFace/FaceBase.i: src/XFace/FaceBase.cpp.i
 
 # target to preprocess a source file
 src/XFace/FaceBase.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.cpp.i
 .PHONY : src/XFace/FaceBase.cpp.i
 
 src/XFace/FaceBase.s: src/XFace/FaceBase.cpp.s
@@ -904,7 +904,7 @@ src/XFace/FaceBase.s: src/XFace/FaceBase.cpp.s
 
 # target to generate assembly for a file
 src/XFace/FaceBase.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceBase.cpp.s
 .PHONY : src/XFace/FaceBase.cpp.s
 
 src/XFace/FaceEntity.o: src/XFace/FaceEntity.cpp.o
@@ -912,7 +912,7 @@ src/XFace/FaceEntity.o: src/XFace/FaceEntity.cpp.o
 
 # target to build an object file
 src/XFace/FaceEntity.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.cpp.o
 .PHONY : src/XFace/FaceEntity.cpp.o
 
 src/XFace/FaceEntity.i: src/XFace/FaceEntity.cpp.i
@@ -920,7 +920,7 @@ src/XFace/FaceEntity.i: src/XFace/FaceEntity.cpp.i
 
 # target to preprocess a source file
 src/XFace/FaceEntity.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.cpp.i
 .PHONY : src/XFace/FaceEntity.cpp.i
 
 src/XFace/FaceEntity.s: src/XFace/FaceEntity.cpp.s
@@ -928,7 +928,7 @@ src/XFace/FaceEntity.s: src/XFace/FaceEntity.cpp.s
 
 # target to generate assembly for a file
 src/XFace/FaceEntity.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FaceEntity.cpp.s
 .PHONY : src/XFace/FaceEntity.cpp.s
 
 src/XFace/FapFile.o: src/XFace/FapFile.cpp.o
@@ -936,7 +936,7 @@ src/XFace/FapFile.o: src/XFace/FapFile.cpp.o
 
 # target to build an object file
 src/XFace/FapFile.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.cpp.o
 .PHONY : src/XFace/FapFile.cpp.o
 
 src/XFace/FapFile.i: src/XFace/FapFile.cpp.i
@@ -944,7 +944,7 @@ src/XFace/FapFile.i: src/XFace/FapFile.cpp.i
 
 # target to preprocess a source file
 src/XFace/FapFile.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.cpp.i
 .PHONY : src/XFace/FapFile.cpp.i
 
 src/XFace/FapFile.s: src/XFace/FapFile.cpp.s
@@ -952,7 +952,7 @@ src/XFace/FapFile.s: src/XFace/FapFile.cpp.s
 
 # target to generate assembly for a file
 src/XFace/FapFile.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/FapFile.cpp.s
 .PHONY : src/XFace/FapFile.cpp.s
 
 src/XFace/HeadChannel.o: src/XFace/HeadChannel.cpp.o
@@ -960,7 +960,7 @@ src/XFace/HeadChannel.o: src/XFace/HeadChannel.cpp.o
 
 # target to build an object file
 src/XFace/HeadChannel.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.cpp.o
 .PHONY : src/XFace/HeadChannel.cpp.o
 
 src/XFace/HeadChannel.i: src/XFace/HeadChannel.cpp.i
@@ -968,7 +968,7 @@ src/XFace/HeadChannel.i: src/XFace/HeadChannel.cpp.i
 
 # target to preprocess a source file
 src/XFace/HeadChannel.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.cpp.i
 .PHONY : src/XFace/HeadChannel.cpp.i
 
 src/XFace/HeadChannel.s: src/XFace/HeadChannel.cpp.s
@@ -976,7 +976,7 @@ src/XFace/HeadChannel.s: src/XFace/HeadChannel.cpp.s
 
 # target to generate assembly for a file
 src/XFace/HeadChannel.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/HeadChannel.cpp.s
 .PHONY : src/XFace/HeadChannel.cpp.s
 
 src/XFace/InfluenceCalculatorMaker.o: src/XFace/InfluenceCalculatorMaker.cpp.o
@@ -984,7 +984,7 @@ src/XFace/InfluenceCalculatorMaker.o: src/XFace/InfluenceCalculatorMaker.cpp.o
 
 # target to build an object file
 src/XFace/InfluenceCalculatorMaker.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.cpp.o
 .PHONY : src/XFace/InfluenceCalculatorMaker.cpp.o
 
 src/XFace/InfluenceCalculatorMaker.i: src/XFace/InfluenceCalculatorMaker.cpp.i
@@ -992,7 +992,7 @@ src/XFace/InfluenceCalculatorMaker.i: src/XFace/InfluenceCalculatorMaker.cpp.i
 
 # target to preprocess a source file
 src/XFace/InfluenceCalculatorMaker.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.cpp.i
 .PHONY : src/XFace/InfluenceCalculatorMaker.cpp.i
 
 src/XFace/InfluenceCalculatorMaker.s: src/XFace/InfluenceCalculatorMaker.cpp.s
@@ -1000,7 +1000,7 @@ src/XFace/InfluenceCalculatorMaker.s: src/XFace/InfluenceCalculatorMaker.cpp.s
 
 # target to generate assembly for a file
 src/XFace/InfluenceCalculatorMaker.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/InfluenceCalculatorMaker.cpp.s
 .PHONY : src/XFace/InfluenceCalculatorMaker.cpp.s
 
 src/XFace/PHOLoader.o: src/XFace/PHOLoader.cpp.o
@@ -1008,7 +1008,7 @@ src/XFace/PHOLoader.o: src/XFace/PHOLoader.cpp.o
 
 # target to build an object file
 src/XFace/PHOLoader.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.cpp.o
 .PHONY : src/XFace/PHOLoader.cpp.o
 
 src/XFace/PHOLoader.i: src/XFace/PHOLoader.cpp.i
@@ -1016,7 +1016,7 @@ src/XFace/PHOLoader.i: src/XFace/PHOLoader.cpp.i
 
 # target to preprocess a source file
 src/XFace/PHOLoader.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.cpp.i
 .PHONY : src/XFace/PHOLoader.cpp.i
 
 src/XFace/PHOLoader.s: src/XFace/PHOLoader.cpp.s
@@ -1024,7 +1024,7 @@ src/XFace/PHOLoader.s: src/XFace/PHOLoader.cpp.s
 
 # target to generate assembly for a file
 src/XFace/PHOLoader.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PHOLoader.cpp.s
 .PHONY : src/XFace/PHOLoader.cpp.s
 
 src/XFace/PhonemeDictionary.o: src/XFace/PhonemeDictionary.cpp.o
@@ -1032,7 +1032,7 @@ src/XFace/PhonemeDictionary.o: src/XFace/PhonemeDictionary.cpp.o
 
 # target to build an object file
 src/XFace/PhonemeDictionary.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.cpp.o
 .PHONY : src/XFace/PhonemeDictionary.cpp.o
 
 src/XFace/PhonemeDictionary.i: src/XFace/PhonemeDictionary.cpp.i
@@ -1040,7 +1040,7 @@ src/XFace/PhonemeDictionary.i: src/XFace/PhonemeDictionary.cpp.i
 
 # target to preprocess a source file
 src/XFace/PhonemeDictionary.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.cpp.i
 .PHONY : src/XFace/PhonemeDictionary.cpp.i
 
 src/XFace/PhonemeDictionary.s: src/XFace/PhonemeDictionary.cpp.s
@@ -1048,7 +1048,7 @@ src/XFace/PhonemeDictionary.s: src/XFace/PhonemeDictionary.cpp.s
 
 # target to generate assembly for a file
 src/XFace/PhonemeDictionary.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/PhonemeDictionary.cpp.s
 .PHONY : src/XFace/PhonemeDictionary.cpp.s
 
 src/XFace/RaisedCosInfluence.o: src/XFace/RaisedCosInfluence.cpp.o
@@ -1056,7 +1056,7 @@ src/XFace/RaisedCosInfluence.o: src/XFace/RaisedCosInfluence.cpp.o
 
 # target to build an object file
 src/XFace/RaisedCosInfluence.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.cpp.o
 .PHONY : src/XFace/RaisedCosInfluence.cpp.o
 
 src/XFace/RaisedCosInfluence.i: src/XFace/RaisedCosInfluence.cpp.i
@@ -1064,7 +1064,7 @@ src/XFace/RaisedCosInfluence.i: src/XFace/RaisedCosInfluence.cpp.i
 
 # target to preprocess a source file
 src/XFace/RaisedCosInfluence.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.cpp.i
 .PHONY : src/XFace/RaisedCosInfluence.cpp.i
 
 src/XFace/RaisedCosInfluence.s: src/XFace/RaisedCosInfluence.cpp.s
@@ -1072,7 +1072,7 @@ src/XFace/RaisedCosInfluence.s: src/XFace/RaisedCosInfluence.cpp.s
 
 # target to generate assembly for a file
 src/XFace/RaisedCosInfluence.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/RaisedCosInfluence.cpp.s
 .PHONY : src/XFace/RaisedCosInfluence.cpp.s
 
 src/XFace/XercesString.o: src/XFace/XercesString.cpp.o
@@ -1080,7 +1080,7 @@ src/XFace/XercesString.o: src/XFace/XercesString.cpp.o
 
 # target to build an object file
 src/XFace/XercesString.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.cpp.o
 .PHONY : src/XFace/XercesString.cpp.o
 
 src/XFace/XercesString.i: src/XFace/XercesString.cpp.i
@@ -1088,7 +1088,7 @@ src/XFace/XercesString.i: src/XFace/XercesString.cpp.i
 
 # target to preprocess a source file
 src/XFace/XercesString.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.cpp.i
 .PHONY : src/XFace/XercesString.cpp.i
 
 src/XFace/XercesString.s: src/XFace/XercesString.cpp.s
@@ -1096,7 +1096,7 @@ src/XFace/XercesString.s: src/XFace/XercesString.cpp.s
 
 # target to generate assembly for a file
 src/XFace/XercesString.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFace/XercesString.cpp.s
 .PHONY : src/XFace/XercesString.cpp.s
 
 src/XFaceApp/ApplicationBase.o: src/XFaceApp/ApplicationBase.cpp.o
@@ -1104,7 +1104,7 @@ src/XFaceApp/ApplicationBase.o: src/XFaceApp/ApplicationBase.cpp.o
 
 # target to build an object file
 src/XFaceApp/ApplicationBase.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.cpp.o
 .PHONY : src/XFaceApp/ApplicationBase.cpp.o
 
 src/XFaceApp/ApplicationBase.i: src/XFaceApp/ApplicationBase.cpp.i
@@ -1112,7 +1112,7 @@ src/XFaceApp/ApplicationBase.i: src/XFaceApp/ApplicationBase.cpp.i
 
 # target to preprocess a source file
 src/XFaceApp/ApplicationBase.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.cpp.i
 .PHONY : src/XFaceApp/ApplicationBase.cpp.i
 
 src/XFaceApp/ApplicationBase.s: src/XFaceApp/ApplicationBase.cpp.s
@@ -1120,7 +1120,7 @@ src/XFaceApp/ApplicationBase.s: src/XFaceApp/ApplicationBase.cpp.s
 
 # target to generate assembly for a file
 src/XFaceApp/ApplicationBase.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ApplicationBase.cpp.s
 .PHONY : src/XFaceApp/ApplicationBase.cpp.s
 
 src/XFaceApp/ModelCamera.o: src/XFaceApp/ModelCamera.cpp.o
@@ -1128,7 +1128,7 @@ src/XFaceApp/ModelCamera.o: src/XFaceApp/ModelCamera.cpp.o
 
 # target to build an object file
 src/XFaceApp/ModelCamera.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.cpp.o
 .PHONY : src/XFaceApp/ModelCamera.cpp.o
 
 src/XFaceApp/ModelCamera.i: src/XFaceApp/ModelCamera.cpp.i
@@ -1136,7 +1136,7 @@ src/XFaceApp/ModelCamera.i: src/XFaceApp/ModelCamera.cpp.i
 
 # target to preprocess a source file
 src/XFaceApp/ModelCamera.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.cpp.i
 .PHONY : src/XFaceApp/ModelCamera.cpp.i
 
 src/XFaceApp/ModelCamera.s: src/XFaceApp/ModelCamera.cpp.s
@@ -1144,7 +1144,7 @@ src/XFaceApp/ModelCamera.s: src/XFaceApp/ModelCamera.cpp.s
 
 # target to generate assembly for a file
 src/XFaceApp/ModelCamera.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/ModelCamera.cpp.s
 .PHONY : src/XFaceApp/ModelCamera.cpp.s
 
 src/XFaceApp/Notification.o: src/XFaceApp/Notification.cpp.o
@@ -1152,7 +1152,7 @@ src/XFaceApp/Notification.o: src/XFaceApp/Notification.cpp.o
 
 # target to build an object file
 src/XFaceApp/Notification.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.cpp.o
 .PHONY : src/XFaceApp/Notification.cpp.o
 
 src/XFaceApp/Notification.i: src/XFaceApp/Notification.cpp.i
@@ -1160,7 +1160,7 @@ src/XFaceApp/Notification.i: src/XFaceApp/Notification.cpp.i
 
 # target to preprocess a source file
 src/XFaceApp/Notification.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.cpp.i
 .PHONY : src/XFaceApp/Notification.cpp.i
 
 src/XFaceApp/Notification.s: src/XFaceApp/Notification.cpp.s
@@ -1168,7 +1168,7 @@ src/XFaceApp/Notification.s: src/XFaceApp/Notification.cpp.s
 
 # target to generate assembly for a file
 src/XFaceApp/Notification.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Notification.cpp.s
 .PHONY : src/XFaceApp/Notification.cpp.s
 
 src/XFaceApp/Task.o: src/XFaceApp/Task.cpp.o
@@ -1176,7 +1176,7 @@ src/XFaceApp/Task.o: src/XFaceApp/Task.cpp.o
 
 # target to build an object file
 src/XFaceApp/Task.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.cpp.o
 .PHONY : src/XFaceApp/Task.cpp.o
 
 src/XFaceApp/Task.i: src/XFaceApp/Task.cpp.i
@@ -1184,7 +1184,7 @@ src/XFaceApp/Task.i: src/XFaceApp/Task.cpp.i
 
 # target to preprocess a source file
 src/XFaceApp/Task.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.cpp.i
 .PHONY : src/XFaceApp/Task.cpp.i
 
 src/XFaceApp/Task.s: src/XFaceApp/Task.cpp.s
@@ -1192,7 +1192,7 @@ src/XFaceApp/Task.s: src/XFaceApp/Task.cpp.s
 
 # target to generate assembly for a file
 src/XFaceApp/Task.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/Task.cpp.s
 .PHONY : src/XFaceApp/Task.cpp.s
 
 src/XFaceApp/TaskHandlerBase.o: src/XFaceApp/TaskHandlerBase.cpp.o
@@ -1200,7 +1200,7 @@ src/XFaceApp/TaskHandlerBase.o: src/XFaceApp/TaskHandlerBase.cpp.o
 
 # target to build an object file
 src/XFaceApp/TaskHandlerBase.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.cpp.o
 .PHONY : src/XFaceApp/TaskHandlerBase.cpp.o
 
 src/XFaceApp/TaskHandlerBase.i: src/XFaceApp/TaskHandlerBase.cpp.i
@@ -1208,7 +1208,7 @@ src/XFaceApp/TaskHandlerBase.i: src/XFaceApp/TaskHandlerBase.cpp.i
 
 # target to preprocess a source file
 src/XFaceApp/TaskHandlerBase.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.cpp.i
 .PHONY : src/XFaceApp/TaskHandlerBase.cpp.i
 
 src/XFaceApp/TaskHandlerBase.s: src/XFaceApp/TaskHandlerBase.cpp.s
@@ -1216,7 +1216,7 @@ src/XFaceApp/TaskHandlerBase.s: src/XFaceApp/TaskHandlerBase.cpp.s
 
 # target to generate assembly for a file
 src/XFaceApp/TaskHandlerBase.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/TaskHandlerBase.cpp.s
 .PHONY : src/XFaceApp/TaskHandlerBase.cpp.s
 
 src/XFaceApp/XMLUtils.o: src/XFaceApp/XMLUtils.cpp.o
@@ -1224,7 +1224,7 @@ src/XFaceApp/XMLUtils.o: src/XFaceApp/XMLUtils.cpp.o
 
 # target to build an object file
 src/XFaceApp/XMLUtils.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.cpp.o
 .PHONY : src/XFaceApp/XMLUtils.cpp.o
 
 src/XFaceApp/XMLUtils.i: src/XFaceApp/XMLUtils.cpp.i
@@ -1232,7 +1232,7 @@ src/XFaceApp/XMLUtils.i: src/XFaceApp/XMLUtils.cpp.i
 
 # target to preprocess a source file
 src/XFaceApp/XMLUtils.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.cpp.i
 .PHONY : src/XFaceApp/XMLUtils.cpp.i
 
 src/XFaceApp/XMLUtils.s: src/XFaceApp/XMLUtils.cpp.s
@@ -1240,7 +1240,7 @@ src/XFaceApp/XMLUtils.s: src/XFaceApp/XMLUtils.cpp.s
 
 # target to generate assembly for a file
 src/XFaceApp/XMLUtils.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XFaceApp/XMLUtils.cpp.s
 .PHONY : src/XFaceApp/XMLUtils.cpp.s
 
 src/XMath/Matrix4.o: src/XMath/Matrix4.cpp.o
@@ -1248,7 +1248,7 @@ src/XMath/Matrix4.o: src/XMath/Matrix4.cpp.o
 
 # target to build an object file
 src/XMath/Matrix4.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.cpp.o
 .PHONY : src/XMath/Matrix4.cpp.o
 
 src/XMath/Matrix4.i: src/XMath/Matrix4.cpp.i
@@ -1256,7 +1256,7 @@ src/XMath/Matrix4.i: src/XMath/Matrix4.cpp.i
 
 # target to preprocess a source file
 src/XMath/Matrix4.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.cpp.i
 .PHONY : src/XMath/Matrix4.cpp.i
 
 src/XMath/Matrix4.s: src/XMath/Matrix4.cpp.s
@@ -1264,7 +1264,7 @@ src/XMath/Matrix4.s: src/XMath/Matrix4.cpp.s
 
 # target to generate assembly for a file
 src/XMath/Matrix4.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Matrix4.cpp.s
 .PHONY : src/XMath/Matrix4.cpp.s
 
 src/XMath/Perlin.o: src/XMath/Perlin.cpp.o
@@ -1272,7 +1272,7 @@ src/XMath/Perlin.o: src/XMath/Perlin.cpp.o
 
 # target to build an object file
 src/XMath/Perlin.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.cpp.o
 .PHONY : src/XMath/Perlin.cpp.o
 
 src/XMath/Perlin.i: src/XMath/Perlin.cpp.i
@@ -1280,7 +1280,7 @@ src/XMath/Perlin.i: src/XMath/Perlin.cpp.i
 
 # target to preprocess a source file
 src/XMath/Perlin.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.cpp.i
 .PHONY : src/XMath/Perlin.cpp.i
 
 src/XMath/Perlin.s: src/XMath/Perlin.cpp.s
@@ -1288,7 +1288,7 @@ src/XMath/Perlin.s: src/XMath/Perlin.cpp.s
 
 # target to generate assembly for a file
 src/XMath/Perlin.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Perlin.cpp.s
 .PHONY : src/XMath/Perlin.cpp.s
 
 src/XMath/Quaternion.o: src/XMath/Quaternion.cpp.o
@@ -1296,7 +1296,7 @@ src/XMath/Quaternion.o: src/XMath/Quaternion.cpp.o
 
 # target to build an object file
 src/XMath/Quaternion.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.cpp.o
 .PHONY : src/XMath/Quaternion.cpp.o
 
 src/XMath/Quaternion.i: src/XMath/Quaternion.cpp.i
@@ -1304,7 +1304,7 @@ src/XMath/Quaternion.i: src/XMath/Quaternion.cpp.i
 
 # target to preprocess a source file
 src/XMath/Quaternion.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.cpp.i
 .PHONY : src/XMath/Quaternion.cpp.i
 
 src/XMath/Quaternion.s: src/XMath/Quaternion.cpp.s
@@ -1312,7 +1312,7 @@ src/XMath/Quaternion.s: src/XMath/Quaternion.cpp.s
 
 # target to generate assembly for a file
 src/XMath/Quaternion.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/Quaternion.cpp.s
 .PHONY : src/XMath/Quaternion.cpp.s
 
 src/XMath/XMath.o: src/XMath/XMath.cpp.o
@@ -1320,7 +1320,7 @@ src/XMath/XMath.o: src/XMath/XMath.cpp.o
 
 # target to build an object file
 src/XMath/XMath.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/XMath.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/XMath.cpp.o
 .PHONY : src/XMath/XMath.cpp.o
 
 src/XMath/XMath.i: src/XMath/XMath.cpp.i
@@ -1328,7 +1328,7 @@ src/XMath/XMath.i: src/XMath/XMath.cpp.i
 
 # target to preprocess a source file
 src/XMath/XMath.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/XMath.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/XMath.cpp.i
 .PHONY : src/XMath/XMath.cpp.i
 
 src/XMath/XMath.s: src/XMath/XMath.cpp.s
@@ -1336,7 +1336,7 @@ src/XMath/XMath.s: src/XMath/XMath.cpp.s
 
 # target to generate assembly for a file
 src/XMath/XMath.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/XMath.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/XMath.cpp.s
 .PHONY : src/XMath/XMath.cpp.s
 
 src/XMath/raytri.o: src/XMath/raytri.cpp.o
@@ -1344,7 +1344,7 @@ src/XMath/raytri.o: src/XMath/raytri.cpp.o
 
 # target to build an object file
 src/XMath/raytri.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/raytri.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/raytri.cpp.o
 .PHONY : src/XMath/raytri.cpp.o
 
 src/XMath/raytri.i: src/XMath/raytri.cpp.i
@@ -1352,7 +1352,7 @@ src/XMath/raytri.i: src/XMath/raytri.cpp.i
 
 # target to preprocess a source file
 src/XMath/raytri.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/raytri.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/raytri.cpp.i
 .PHONY : src/XMath/raytri.cpp.i
 
 src/XMath/raytri.s: src/XMath/raytri.cpp.s
@@ -1360,7 +1360,7 @@ src/XMath/raytri.s: src/XMath/raytri.cpp.s
 
 # target to generate assembly for a file
 src/XMath/raytri.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/raytri.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XFace/CMakeFiles/XFace.dir/build.make XFace/CMakeFiles/XFace.dir/src/XMath/raytri.cpp.s
 .PHONY : src/XMath/raytri.cpp.s
 
 # Help Target
@@ -1539,6 +1539,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

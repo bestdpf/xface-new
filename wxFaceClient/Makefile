@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duan/xface-new
+CMAKE_SOURCE_DIR = /home/duan/workplace/xface-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duan/xface-new
+CMAKE_BINARY_DIR = /home/duan/workplace/xface-new
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -E cmake_progress_start /home/duan/xface-new/CMakeFiles /home/duan/xface-new/wxFaceClient/CMakeFiles/progress.marks
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFaceClient/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/xface-new/CMakeFiles 0
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles /home/duan/workplace/xface-new/wxFaceClient/CMakeFiles/progress.marks
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFaceClient/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFaceClient/clean
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFaceClient/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFaceClient/preinstall
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFaceClient/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFaceClient/preinstall
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFaceClient/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 wxFaceClient/CMakeFiles/wxfaceclient.dir/rule:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFaceClient/CMakeFiles/wxfaceclient.dir/rule
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 wxFaceClient/CMakeFiles/wxfaceclient.dir/rule
 .PHONY : wxFaceClient/CMakeFiles/wxfaceclient.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ wxfaceclient: wxFaceClient/CMakeFiles/wxfaceclient.dir/rule
 
 # fast build rule for target.
 wxfaceclient/fast:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/build
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/build
 .PHONY : wxfaceclient/fast
 
 ConnectionDlg.o: ConnectionDlg.cpp.o
@@ -120,7 +120,7 @@ ConnectionDlg.o: ConnectionDlg.cpp.o
 
 # target to build an object file
 ConnectionDlg.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.o
 .PHONY : ConnectionDlg.cpp.o
 
 ConnectionDlg.i: ConnectionDlg.cpp.i
@@ -128,7 +128,7 @@ ConnectionDlg.i: ConnectionDlg.cpp.i
 
 # target to preprocess a source file
 ConnectionDlg.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.i
 .PHONY : ConnectionDlg.cpp.i
 
 ConnectionDlg.s: ConnectionDlg.cpp.s
@@ -136,7 +136,7 @@ ConnectionDlg.s: ConnectionDlg.cpp.s
 
 # target to generate assembly for a file
 ConnectionDlg.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ConnectionDlg.cpp.s
 .PHONY : ConnectionDlg.cpp.s
 
 ControlPanel.o: ControlPanel.cpp.o
@@ -144,7 +144,7 @@ ControlPanel.o: ControlPanel.cpp.o
 
 # target to build an object file
 ControlPanel.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.o
 .PHONY : ControlPanel.cpp.o
 
 ControlPanel.i: ControlPanel.cpp.i
@@ -152,7 +152,7 @@ ControlPanel.i: ControlPanel.cpp.i
 
 # target to preprocess a source file
 ControlPanel.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.i
 .PHONY : ControlPanel.cpp.i
 
 ControlPanel.s: ControlPanel.cpp.s
@@ -160,7 +160,7 @@ ControlPanel.s: ControlPanel.cpp.s
 
 # target to generate assembly for a file
 ControlPanel.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/ControlPanel.cpp.s
 .PHONY : ControlPanel.cpp.s
 
 DropScriptTarget.o: DropScriptTarget.cpp.o
@@ -168,7 +168,7 @@ DropScriptTarget.o: DropScriptTarget.cpp.o
 
 # target to build an object file
 DropScriptTarget.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.o
 .PHONY : DropScriptTarget.cpp.o
 
 DropScriptTarget.i: DropScriptTarget.cpp.i
@@ -176,7 +176,7 @@ DropScriptTarget.i: DropScriptTarget.cpp.i
 
 # target to preprocess a source file
 DropScriptTarget.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.i
 .PHONY : DropScriptTarget.cpp.i
 
 DropScriptTarget.s: DropScriptTarget.cpp.s
@@ -184,7 +184,7 @@ DropScriptTarget.s: DropScriptTarget.cpp.s
 
 # target to generate assembly for a file
 DropScriptTarget.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/DropScriptTarget.cpp.s
 .PHONY : DropScriptTarget.cpp.s
 
 FaceApp.o: FaceApp.cpp.o
@@ -192,7 +192,7 @@ FaceApp.o: FaceApp.cpp.o
 
 # target to build an object file
 FaceApp.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.o
 .PHONY : FaceApp.cpp.o
 
 FaceApp.i: FaceApp.cpp.i
@@ -200,7 +200,7 @@ FaceApp.i: FaceApp.cpp.i
 
 # target to preprocess a source file
 FaceApp.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.i
 .PHONY : FaceApp.cpp.i
 
 FaceApp.s: FaceApp.cpp.s
@@ -208,7 +208,7 @@ FaceApp.s: FaceApp.cpp.s
 
 # target to generate assembly for a file
 FaceApp.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceApp.cpp.s
 .PHONY : FaceApp.cpp.s
 
 FaceFrame.o: FaceFrame.cpp.o
@@ -216,7 +216,7 @@ FaceFrame.o: FaceFrame.cpp.o
 
 # target to build an object file
 FaceFrame.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.o
 .PHONY : FaceFrame.cpp.o
 
 FaceFrame.i: FaceFrame.cpp.i
@@ -224,7 +224,7 @@ FaceFrame.i: FaceFrame.cpp.i
 
 # target to preprocess a source file
 FaceFrame.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.i
 .PHONY : FaceFrame.cpp.i
 
 FaceFrame.s: FaceFrame.cpp.s
@@ -232,7 +232,7 @@ FaceFrame.s: FaceFrame.cpp.s
 
 # target to generate assembly for a file
 FaceFrame.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/FaceFrame.cpp.s
 .PHONY : FaceFrame.cpp.s
 
 TaskSender.o: TaskSender.cpp.o
@@ -240,7 +240,7 @@ TaskSender.o: TaskSender.cpp.o
 
 # target to build an object file
 TaskSender.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.o
 .PHONY : TaskSender.cpp.o
 
 TaskSender.i: TaskSender.cpp.i
@@ -248,7 +248,7 @@ TaskSender.i: TaskSender.cpp.i
 
 # target to preprocess a source file
 TaskSender.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.i
 .PHONY : TaskSender.cpp.i
 
 TaskSender.s: TaskSender.cpp.s
@@ -256,7 +256,7 @@ TaskSender.s: TaskSender.cpp.s
 
 # target to generate assembly for a file
 TaskSender.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/TaskSender.cpp.s
 .PHONY : TaskSender.cpp.s
 
 toggle.o: toggle.cpp.o
@@ -264,7 +264,7 @@ toggle.o: toggle.cpp.o
 
 # target to build an object file
 toggle.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.o
 .PHONY : toggle.cpp.o
 
 toggle.i: toggle.cpp.i
@@ -272,7 +272,7 @@ toggle.i: toggle.cpp.i
 
 # target to preprocess a source file
 toggle.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.i
 .PHONY : toggle.cpp.i
 
 toggle.s: toggle.cpp.s
@@ -280,7 +280,7 @@ toggle.s: toggle.cpp.s
 
 # target to generate assembly for a file
 toggle.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/toggle.cpp.s
 .PHONY : toggle.cpp.s
 
 # Help Target
@@ -324,6 +324,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

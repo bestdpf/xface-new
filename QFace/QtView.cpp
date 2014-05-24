@@ -10,7 +10,7 @@ using XFaceApp::Task;
 using XFaceApp::TaskDictionary;
 using XFaceApp::XMLUtils;
 
-QtView::QtView(QWidget* parent):QGLWidget(QGLFormat(QGL::SampleBuffers), parent){
+QtView::QtView(QWidget* parent):QGLWidget(parent){
     m_settings= new QSettings(QString("QFace.ini"),QSettings::IniFormat);
     QVariant dummy;
     dummy=m_settings->value("Network/Port",50011);

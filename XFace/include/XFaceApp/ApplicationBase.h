@@ -84,7 +84,7 @@ protected:
 	RenderMode m_renderMode;
 	XEngine::RenderManager m_renderManager;
 	boost::shared_ptr<XFace::FaceBase> m_pFace;
-	boost::shared_ptr<ISound> m_pSound;
+	//boost::shared_ptr<ISound> m_pSound;
 	boost::shared_ptr<XEngine::ITimer> m_pTimer;
 	boost::shared_ptr<XEngine::IRenderer> m_pRenderer;
 	boost::shared_ptr<XFace::IFapStream> m_pFapStream;
@@ -116,13 +116,13 @@ protected:
 		implementation (see wxFace class).
 	*/
 	//!	Creates an object implementing IScriptProcessor interface.
-	virtual bool createScriptProcessors() = 0;
-	virtual boost::shared_ptr<IScriptProcessor> getScriptProcessor(const std::string& name) const = 0;
+	//virtual bool createScriptProcessors() = 0;
+	//virtual boost::shared_ptr<IScriptProcessor> getScriptProcessor(const std::string& name) const = 0;
 
 	//!	Creates an object implementing ITimer interface.
 	virtual boost::shared_ptr<XEngine::ITimer> createTimer() const = 0;
 	//!	Creates an object implementing ISound interface.
-	virtual boost::shared_ptr<ISound> createSound() const = 0;
+	//virtual boost::shared_ptr<ISound> createSound() const = 0;
 	//!	Creates a FaceBase object (or a derived one)
 	virtual boost::shared_ptr<XFace::FaceBase> createFace() const = 0;
 	//!	Creates an object implementing XEngine::IRenderer interface.
@@ -135,7 +135,7 @@ protected:
 		Fires the Notification, implementation is probably TCP/IP related, 
 		hence left out of core library and implemented in derived class in XfacePlayer.
 	*/
-	virtual void fireNotification(const Notification& note) const = 0;
+	virtual void fireNotification(const Notification& note) const{};
 
 	/*!
 		Some GUI libraries (wxWidgets, SDL, MFC) for OpenGL windowing operation require

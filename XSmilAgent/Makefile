@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duan/xface-new
+CMAKE_SOURCE_DIR = /home/duan/workplace/xface-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duan/xface-new
+CMAKE_BINARY_DIR = /home/duan/workplace/xface-new
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -E cmake_progress_start /home/duan/xface-new/CMakeFiles /home/duan/xface-new/XSmilAgent/CMakeFiles/progress.marks
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XSmilAgent/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/xface-new/CMakeFiles 0
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles /home/duan/workplace/xface-new/XSmilAgent/CMakeFiles/progress.marks
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XSmilAgent/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duan/workplace/xface-new/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XSmilAgent/clean
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XSmilAgent/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XSmilAgent/preinstall
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XSmilAgent/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XSmilAgent/preinstall
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XSmilAgent/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 XSmilAgent/CMakeFiles/XSmilAgent.dir/rule:
-	cd /home/duan/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XSmilAgent/CMakeFiles/XSmilAgent.dir/rule
+	cd /home/duan/workplace/xface-new && $(MAKE) -f CMakeFiles/Makefile2 XSmilAgent/CMakeFiles/XSmilAgent.dir/rule
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ XSmilAgent: XSmilAgent/CMakeFiles/XSmilAgent.dir/rule
 
 # fast build rule for target.
 XSmilAgent/fast:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/build
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/build
 .PHONY : XSmilAgent/fast
 
 SGNode.o: SGNode.cpp.o
@@ -120,7 +120,7 @@ SGNode.o: SGNode.cpp.o
 
 # target to build an object file
 SGNode.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.o
 .PHONY : SGNode.cpp.o
 
 SGNode.i: SGNode.cpp.i
@@ -128,7 +128,7 @@ SGNode.i: SGNode.cpp.i
 
 # target to preprocess a source file
 SGNode.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.i
 .PHONY : SGNode.cpp.i
 
 SGNode.s: SGNode.cpp.s
@@ -136,7 +136,7 @@ SGNode.s: SGNode.cpp.s
 
 # target to generate assembly for a file
 SGNode.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.s
 .PHONY : SGNode.cpp.s
 
 SMILManager.o: SMILManager.cpp.o
@@ -144,7 +144,7 @@ SMILManager.o: SMILManager.cpp.o
 
 # target to build an object file
 SMILManager.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.o
 .PHONY : SMILManager.cpp.o
 
 SMILManager.i: SMILManager.cpp.i
@@ -152,7 +152,7 @@ SMILManager.i: SMILManager.cpp.i
 
 # target to preprocess a source file
 SMILManager.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.i
 .PHONY : SMILManager.cpp.i
 
 SMILManager.s: SMILManager.cpp.s
@@ -160,7 +160,7 @@ SMILManager.s: SMILManager.cpp.s
 
 # target to generate assembly for a file
 SMILManager.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.s
 .PHONY : SMILManager.cpp.s
 
 SMILObjects.o: SMILObjects.cpp.o
@@ -168,7 +168,7 @@ SMILObjects.o: SMILObjects.cpp.o
 
 # target to build an object file
 SMILObjects.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.o
 .PHONY : SMILObjects.cpp.o
 
 SMILObjects.i: SMILObjects.cpp.i
@@ -176,7 +176,7 @@ SMILObjects.i: SMILObjects.cpp.i
 
 # target to preprocess a source file
 SMILObjects.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.i
 .PHONY : SMILObjects.cpp.i
 
 SMILObjects.s: SMILObjects.cpp.s
@@ -184,7 +184,7 @@ SMILObjects.s: SMILObjects.cpp.s
 
 # target to generate assembly for a file
 SMILObjects.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.s
 .PHONY : SMILObjects.cpp.s
 
 SMILProcessor.o: SMILProcessor.cpp.o
@@ -192,7 +192,7 @@ SMILProcessor.o: SMILProcessor.cpp.o
 
 # target to build an object file
 SMILProcessor.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.o
 .PHONY : SMILProcessor.cpp.o
 
 SMILProcessor.i: SMILProcessor.cpp.i
@@ -200,7 +200,7 @@ SMILProcessor.i: SMILProcessor.cpp.i
 
 # target to preprocess a source file
 SMILProcessor.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.i
 .PHONY : SMILProcessor.cpp.i
 
 SMILProcessor.s: SMILProcessor.cpp.s
@@ -208,7 +208,7 @@ SMILProcessor.s: SMILProcessor.cpp.s
 
 # target to generate assembly for a file
 SMILProcessor.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.s
 .PHONY : SMILProcessor.cpp.s
 
 ScriptProcessorLoader.o: ScriptProcessorLoader.cpp.o
@@ -216,7 +216,7 @@ ScriptProcessorLoader.o: ScriptProcessorLoader.cpp.o
 
 # target to build an object file
 ScriptProcessorLoader.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.o
 .PHONY : ScriptProcessorLoader.cpp.o
 
 ScriptProcessorLoader.i: ScriptProcessorLoader.cpp.i
@@ -224,7 +224,7 @@ ScriptProcessorLoader.i: ScriptProcessorLoader.cpp.i
 
 # target to preprocess a source file
 ScriptProcessorLoader.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.i
 .PHONY : ScriptProcessorLoader.cpp.i
 
 ScriptProcessorLoader.s: ScriptProcessorLoader.cpp.s
@@ -232,7 +232,7 @@ ScriptProcessorLoader.s: ScriptProcessorLoader.cpp.s
 
 # target to generate assembly for a file
 ScriptProcessorLoader.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.s
 .PHONY : ScriptProcessorLoader.cpp.s
 
 TTSEngineMaker.o: TTSEngineMaker.cpp.o
@@ -240,7 +240,7 @@ TTSEngineMaker.o: TTSEngineMaker.cpp.o
 
 # target to build an object file
 TTSEngineMaker.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.o
 .PHONY : TTSEngineMaker.cpp.o
 
 TTSEngineMaker.i: TTSEngineMaker.cpp.i
@@ -248,7 +248,7 @@ TTSEngineMaker.i: TTSEngineMaker.cpp.i
 
 # target to preprocess a source file
 TTSEngineMaker.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.i
 .PHONY : TTSEngineMaker.cpp.i
 
 TTSEngineMaker.s: TTSEngineMaker.cpp.s
@@ -256,7 +256,7 @@ TTSEngineMaker.s: TTSEngineMaker.cpp.s
 
 # target to generate assembly for a file
 TTSEngineMaker.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.s
 .PHONY : TTSEngineMaker.cpp.s
 
 VisitorAnimCreator.o: VisitorAnimCreator.cpp.o
@@ -264,7 +264,7 @@ VisitorAnimCreator.o: VisitorAnimCreator.cpp.o
 
 # target to build an object file
 VisitorAnimCreator.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.o
 .PHONY : VisitorAnimCreator.cpp.o
 
 VisitorAnimCreator.i: VisitorAnimCreator.cpp.i
@@ -272,7 +272,7 @@ VisitorAnimCreator.i: VisitorAnimCreator.cpp.i
 
 # target to preprocess a source file
 VisitorAnimCreator.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.i
 .PHONY : VisitorAnimCreator.cpp.i
 
 VisitorAnimCreator.s: VisitorAnimCreator.cpp.s
@@ -280,7 +280,7 @@ VisitorAnimCreator.s: VisitorAnimCreator.cpp.s
 
 # target to generate assembly for a file
 VisitorAnimCreator.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.s
 .PHONY : VisitorAnimCreator.cpp.s
 
 VisitorInfoPrinter.o: VisitorInfoPrinter.cpp.o
@@ -288,7 +288,7 @@ VisitorInfoPrinter.o: VisitorInfoPrinter.cpp.o
 
 # target to build an object file
 VisitorInfoPrinter.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.o
 .PHONY : VisitorInfoPrinter.cpp.o
 
 VisitorInfoPrinter.i: VisitorInfoPrinter.cpp.i
@@ -296,7 +296,7 @@ VisitorInfoPrinter.i: VisitorInfoPrinter.cpp.i
 
 # target to preprocess a source file
 VisitorInfoPrinter.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.i
 .PHONY : VisitorInfoPrinter.cpp.i
 
 VisitorInfoPrinter.s: VisitorInfoPrinter.cpp.s
@@ -304,7 +304,7 @@ VisitorInfoPrinter.s: VisitorInfoPrinter.cpp.s
 
 # target to generate assembly for a file
 VisitorInfoPrinter.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.s
 .PHONY : VisitorInfoPrinter.cpp.s
 
 VisitorSAPISpeech.o: VisitorSAPISpeech.cpp.o
@@ -312,7 +312,7 @@ VisitorSAPISpeech.o: VisitorSAPISpeech.cpp.o
 
 # target to build an object file
 VisitorSAPISpeech.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.o
 .PHONY : VisitorSAPISpeech.cpp.o
 
 VisitorSAPISpeech.i: VisitorSAPISpeech.cpp.i
@@ -320,7 +320,7 @@ VisitorSAPISpeech.i: VisitorSAPISpeech.cpp.i
 
 # target to preprocess a source file
 VisitorSAPISpeech.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.i
 .PHONY : VisitorSAPISpeech.cpp.i
 
 VisitorSAPISpeech.s: VisitorSAPISpeech.cpp.s
@@ -328,7 +328,7 @@ VisitorSAPISpeech.s: VisitorSAPISpeech.cpp.s
 
 # target to generate assembly for a file
 VisitorSAPISpeech.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.s
 .PHONY : VisitorSAPISpeech.cpp.s
 
 VisitorSpeech.o: VisitorSpeech.cpp.o
@@ -336,7 +336,7 @@ VisitorSpeech.o: VisitorSpeech.cpp.o
 
 # target to build an object file
 VisitorSpeech.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.o
 .PHONY : VisitorSpeech.cpp.o
 
 VisitorSpeech.i: VisitorSpeech.cpp.i
@@ -344,7 +344,7 @@ VisitorSpeech.i: VisitorSpeech.cpp.i
 
 # target to preprocess a source file
 VisitorSpeech.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.i
 .PHONY : VisitorSpeech.cpp.i
 
 VisitorSpeech.s: VisitorSpeech.cpp.s
@@ -352,7 +352,7 @@ VisitorSpeech.s: VisitorSpeech.cpp.s
 
 # target to generate assembly for a file
 VisitorSpeech.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.s
 .PHONY : VisitorSpeech.cpp.s
 
 VisitorTiming.o: VisitorTiming.cpp.o
@@ -360,7 +360,7 @@ VisitorTiming.o: VisitorTiming.cpp.o
 
 # target to build an object file
 VisitorTiming.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.o
 .PHONY : VisitorTiming.cpp.o
 
 VisitorTiming.i: VisitorTiming.cpp.i
@@ -368,7 +368,7 @@ VisitorTiming.i: VisitorTiming.cpp.i
 
 # target to preprocess a source file
 VisitorTiming.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.i
 .PHONY : VisitorTiming.cpp.i
 
 VisitorTiming.s: VisitorTiming.cpp.s
@@ -376,7 +376,7 @@ VisitorTiming.s: VisitorTiming.cpp.s
 
 # target to generate assembly for a file
 VisitorTiming.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.s
 .PHONY : VisitorTiming.cpp.s
 
 Wave2.o: Wave2.cpp.o
@@ -384,7 +384,7 @@ Wave2.o: Wave2.cpp.o
 
 # target to build an object file
 Wave2.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.o
 .PHONY : Wave2.cpp.o
 
 Wave2.i: Wave2.cpp.i
@@ -392,7 +392,7 @@ Wave2.i: Wave2.cpp.i
 
 # target to preprocess a source file
 Wave2.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.i
 .PHONY : Wave2.cpp.i
 
 Wave2.s: Wave2.cpp.s
@@ -400,7 +400,7 @@ Wave2.s: Wave2.cpp.s
 
 # target to generate assembly for a file
 Wave2.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.s
 .PHONY : Wave2.cpp.s
 
 XercesString.o: XercesString.cpp.o
@@ -408,7 +408,7 @@ XercesString.o: XercesString.cpp.o
 
 # target to build an object file
 XercesString.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.o
 .PHONY : XercesString.cpp.o
 
 XercesString.i: XercesString.cpp.i
@@ -416,7 +416,7 @@ XercesString.i: XercesString.cpp.i
 
 # target to preprocess a source file
 XercesString.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.i
 .PHONY : XercesString.cpp.i
 
 XercesString.s: XercesString.cpp.s
@@ -424,7 +424,7 @@ XercesString.s: XercesString.cpp.s
 
 # target to generate assembly for a file
 XercesString.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.s
 .PHONY : XercesString.cpp.s
 
 wxScriptProcessor.o: wxScriptProcessor.cpp.o
@@ -432,7 +432,7 @@ wxScriptProcessor.o: wxScriptProcessor.cpp.o
 
 # target to build an object file
 wxScriptProcessor.cpp.o:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.o
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.o
 .PHONY : wxScriptProcessor.cpp.o
 
 wxScriptProcessor.i: wxScriptProcessor.cpp.i
@@ -440,7 +440,7 @@ wxScriptProcessor.i: wxScriptProcessor.cpp.i
 
 # target to preprocess a source file
 wxScriptProcessor.cpp.i:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.i
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.i
 .PHONY : wxScriptProcessor.cpp.i
 
 wxScriptProcessor.s: wxScriptProcessor.cpp.s
@@ -448,7 +448,7 @@ wxScriptProcessor.s: wxScriptProcessor.cpp.s
 
 # target to generate assembly for a file
 wxScriptProcessor.cpp.s:
-	cd /home/duan/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.s
+	cd /home/duan/workplace/xface-new && $(MAKE) -f XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.s
 .PHONY : wxScriptProcessor.cpp.s
 
 # Help Target
@@ -513,6 +513,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

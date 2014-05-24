@@ -1,8 +1,4 @@
-/home/duan/xface-new/QFace/CMakeFiles/QFace.dir
-/home/duan/xface-new/QFace/CMakeFiles/QFace_automoc.dir
-/home/duan/xface-new/XFace/CMakeFiles/XFace.dir
-/home/duan/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir
-/home/duan/xface-new/wxFaceEd/CMakeFiles/wxFaceEd.dir
-/home/duan/xface-new/wxFacePlayer/CMakeFiles/wxXFacePlayer.dir
-/home/duan/xface-new/wxFaceClient/CMakeFiles/wxfaceclient.dir
-/home/duan/xface-new/wxFacePlayer/CMakeFiles/wxfaceplayer.dir
+/home/duan/workplace/xface-new/QFace/CMakeFiles/QFace.dir
+/home/duan/workplace/xface-new/QFace/CMakeFiles/QFace_automoc.dir
+/home/duan/workplace/xface-new/XFace/CMakeFiles/XFace.dir
+/home/duan/workplace/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir

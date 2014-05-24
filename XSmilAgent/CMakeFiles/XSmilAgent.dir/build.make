@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/duan/xface-new
+CMAKE_SOURCE_DIR = /home/duan/workplace/xface-new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/duan/xface-new
+CMAKE_BINARY_DIR = /home/duan/workplace/xface-new
 
 # Include any dependencies generated for this target.
 include XSmilAgent/CMakeFiles/XSmilAgent.dir/depend.make
@@ -54,17 +54,17 @@ include XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.o: XSmilAgent/Wave2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/Wave2.cpp.o -c /home/duan/xface-new/XSmilAgent/Wave2.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/Wave2.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/Wave2.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/Wave2.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/Wave2.cpp > CMakeFiles/XSmilAgent.dir/Wave2.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/Wave2.cpp > CMakeFiles/XSmilAgent.dir/Wave2.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/Wave2.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/Wave2.cpp -o CMakeFiles/XSmilAgent.dir/Wave2.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/Wave2.cpp -o CMakeFiles/XSmilAgent.dir/Wave2.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.o.requires
@@ -77,17 +77,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/Wave2.cpp.o.provides.build: XSmilAgent/CMak
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.o: XSmilAgent/ScriptProcessorLoader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.o -c /home/duan/xface-new/XSmilAgent/ScriptProcessorLoader.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/ScriptProcessorLoader.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/ScriptProcessorLoader.cpp > CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/ScriptProcessorLoader.cpp > CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/ScriptProcessorLoader.cpp -o CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/ScriptProcessorLoader.cpp -o CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.o.requires
@@ -100,17 +100,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/ScriptProcessorLoader.cpp.o.provides.build:
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.o: XSmilAgent/SGNode.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/SGNode.cpp.o -c /home/duan/xface-new/XSmilAgent/SGNode.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/SGNode.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/SGNode.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/SGNode.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/SGNode.cpp > CMakeFiles/XSmilAgent.dir/SGNode.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/SGNode.cpp > CMakeFiles/XSmilAgent.dir/SGNode.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/SGNode.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/SGNode.cpp -o CMakeFiles/XSmilAgent.dir/SGNode.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/SGNode.cpp -o CMakeFiles/XSmilAgent.dir/SGNode.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.o.requires
@@ -123,17 +123,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/SGNode.cpp.o.provides.build: XSmilAgent/CMa
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.o: XSmilAgent/SMILManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/SMILManager.cpp.o -c /home/duan/xface-new/XSmilAgent/SMILManager.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/SMILManager.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/SMILManager.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/SMILManager.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/SMILManager.cpp > CMakeFiles/XSmilAgent.dir/SMILManager.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/SMILManager.cpp > CMakeFiles/XSmilAgent.dir/SMILManager.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/SMILManager.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/SMILManager.cpp -o CMakeFiles/XSmilAgent.dir/SMILManager.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/SMILManager.cpp -o CMakeFiles/XSmilAgent.dir/SMILManager.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.o.requires
@@ -146,17 +146,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILManager.cpp.o.provides.build: XSmilAgen
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.o: XSmilAgent/SMILObjects.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.o -c /home/duan/xface-new/XSmilAgent/SMILObjects.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/SMILObjects.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/SMILObjects.cpp > CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/SMILObjects.cpp > CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/SMILObjects.cpp -o CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/SMILObjects.cpp -o CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.o.requires
@@ -169,17 +169,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILObjects.cpp.o.provides.build: XSmilAgen
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.o: XSmilAgent/SMILProcessor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.o -c /home/duan/xface-new/XSmilAgent/SMILProcessor.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/SMILProcessor.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/SMILProcessor.cpp > CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/SMILProcessor.cpp > CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/SMILProcessor.cpp -o CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/SMILProcessor.cpp -o CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.o.requires
@@ -192,17 +192,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/SMILProcessor.cpp.o.provides.build: XSmilAg
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.o: XSmilAgent/TTSEngineMaker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.o -c /home/duan/xface-new/XSmilAgent/TTSEngineMaker.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/TTSEngineMaker.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/TTSEngineMaker.cpp > CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/TTSEngineMaker.cpp > CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/TTSEngineMaker.cpp -o CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/TTSEngineMaker.cpp -o CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.o.requires
@@ -215,17 +215,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/TTSEngineMaker.cpp.o.provides.build: XSmilA
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.o: XSmilAgent/VisitorAnimCreator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.o -c /home/duan/xface-new/XSmilAgent/VisitorAnimCreator.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/VisitorAnimCreator.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/VisitorAnimCreator.cpp > CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/VisitorAnimCreator.cpp > CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/VisitorAnimCreator.cpp -o CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/VisitorAnimCreator.cpp -o CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.o.requires
@@ -238,17 +238,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorAnimCreator.cpp.o.provides.build: XS
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.o: XSmilAgent/VisitorInfoPrinter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.o -c /home/duan/xface-new/XSmilAgent/VisitorInfoPrinter.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/VisitorInfoPrinter.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/VisitorInfoPrinter.cpp > CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/VisitorInfoPrinter.cpp > CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/VisitorInfoPrinter.cpp -o CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/VisitorInfoPrinter.cpp -o CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.o.requires
@@ -261,17 +261,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorInfoPrinter.cpp.o.provides.build: XS
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.o: XSmilAgent/VisitorSAPISpeech.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.o -c /home/duan/xface-new/XSmilAgent/VisitorSAPISpeech.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/VisitorSAPISpeech.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/VisitorSAPISpeech.cpp > CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/VisitorSAPISpeech.cpp > CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/VisitorSAPISpeech.cpp -o CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/VisitorSAPISpeech.cpp -o CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.o.requires
@@ -284,17 +284,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSAPISpeech.cpp.o.provides.build: XSm
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.o: XSmilAgent/VisitorSpeech.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.o -c /home/duan/xface-new/XSmilAgent/VisitorSpeech.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/VisitorSpeech.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/VisitorSpeech.cpp > CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/VisitorSpeech.cpp > CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/VisitorSpeech.cpp -o CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/VisitorSpeech.cpp -o CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.o.requires
@@ -307,17 +307,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorSpeech.cpp.o.provides.build: XSmilAg
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.o: XSmilAgent/VisitorTiming.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.o -c /home/duan/xface-new/XSmilAgent/VisitorTiming.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/VisitorTiming.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/VisitorTiming.cpp > CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/VisitorTiming.cpp > CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/VisitorTiming.cpp -o CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/VisitorTiming.cpp -o CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.o.requires
@@ -330,17 +330,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/VisitorTiming.cpp.o.provides.build: XSmilAg
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.o: XSmilAgent/wxScriptProcessor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.o -c /home/duan/xface-new/XSmilAgent/wxScriptProcessor.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/wxScriptProcessor.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/wxScriptProcessor.cpp > CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/wxScriptProcessor.cpp > CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/wxScriptProcessor.cpp -o CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/wxScriptProcessor.cpp -o CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.o.requires
@@ -353,17 +353,17 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/wxScriptProcessor.cpp.o.provides.build: XSm
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.o: XSmilAgent/CMakeFiles/XSmilAgent.dir/flags.make
 XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.o: XSmilAgent/XercesString.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/workplace/xface-new/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.o"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/XercesString.cpp.o -c /home/duan/xface-new/XSmilAgent/XercesString.cpp
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/XSmilAgent.dir/XercesString.cpp.o -c /home/duan/workplace/xface-new/XSmilAgent/XercesString.cpp
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XSmilAgent.dir/XercesString.cpp.i"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/xface-new/XSmilAgent/XercesString.cpp > CMakeFiles/XSmilAgent.dir/XercesString.cpp.i
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/duan/workplace/xface-new/XSmilAgent/XercesString.cpp > CMakeFiles/XSmilAgent.dir/XercesString.cpp.i
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XSmilAgent.dir/XercesString.cpp.s"
-	cd /home/duan/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/xface-new/XSmilAgent/XercesString.cpp -o CMakeFiles/XSmilAgent.dir/XercesString.cpp.s
+	cd /home/duan/workplace/xface-new/XSmilAgent && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/duan/workplace/xface-new/XSmilAgent/XercesString.cpp -o CMakeFiles/XSmilAgent.dir/XercesString.cpp.s
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.o.requires:
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cpp.o.requires
@@ -411,8 +411,8 @@ XSmilAgent/libXSmilAgent.a: XSmilAgent/CMakeFiles/XSmilAgent.dir/XercesString.cp
 XSmilAgent/libXSmilAgent.a: XSmilAgent/CMakeFiles/XSmilAgent.dir/build.make
 XSmilAgent/libXSmilAgent.a: XSmilAgent/CMakeFiles/XSmilAgent.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libXSmilAgent.a"
-	cd /home/duan/xface-new/XSmilAgent && $(CMAKE_COMMAND) -P CMakeFiles/XSmilAgent.dir/cmake_clean_target.cmake
-	cd /home/duan/xface-new/XSmilAgent && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/XSmilAgent.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/duan/workplace/xface-new/XSmilAgent && $(CMAKE_COMMAND) -P CMakeFiles/XSmilAgent.dir/cmake_clean_target.cmake
+	cd /home/duan/workplace/xface-new/XSmilAgent && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/XSmilAgent.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 XSmilAgent/CMakeFiles/XSmilAgent.dir/build: XSmilAgent/libXSmilAgent.a
@@ -435,10 +435,10 @@ XSmilAgent/CMakeFiles/XSmilAgent.dir/requires: XSmilAgent/CMakeFiles/XSmilAgent.
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/requires
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/clean:
-	cd /home/duan/xface-new/XSmilAgent && $(CMAKE_COMMAND) -P CMakeFiles/XSmilAgent.dir/cmake_clean.cmake
+	cd /home/duan/workplace/xface-new/XSmilAgent && $(CMAKE_COMMAND) -P CMakeFiles/XSmilAgent.dir/cmake_clean.cmake
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/clean
 
 XSmilAgent/CMakeFiles/XSmilAgent.dir/depend:
-	cd /home/duan/xface-new && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duan/xface-new /home/duan/xface-new/XSmilAgent /home/duan/xface-new /home/duan/xface-new/XSmilAgent /home/duan/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duan/workplace/xface-new && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duan/workplace/xface-new /home/duan/workplace/xface-new/XSmilAgent /home/duan/workplace/xface-new /home/duan/workplace/xface-new/XSmilAgent /home/duan/workplace/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : XSmilAgent/CMakeFiles/XSmilAgent.dir/depend
 

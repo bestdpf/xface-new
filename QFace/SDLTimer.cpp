@@ -25,7 +25,7 @@
 
 #include "SDLTimer.h"
 
-#include <SDL/SDL.h>
+#include <SDL.h>
 
 #pragma message("		Adding SDL lib...")
 #pragma comment(lib, "SDL.lib")

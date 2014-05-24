@@ -1,4 +1,4 @@
-# Install script for directory: /home/duan/xface-new/wxFaceClient
+# Install script for directory: /home/duan/workplace/xface-new/wxFaceClient
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
