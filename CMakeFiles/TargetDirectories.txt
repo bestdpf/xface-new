@@ -1,4 +1,0 @@
-/home/duan/workplace/xface-new/QFace/CMakeFiles/QFace.dir
-/home/duan/workplace/xface-new/QFace/CMakeFiles/QFace_automoc.dir
-/home/duan/workplace/xface-new/XFace/CMakeFiles/XFace.dir
-/home/duan/workplace/xface-new/XSmilAgent/CMakeFiles/XSmilAgent.dir
