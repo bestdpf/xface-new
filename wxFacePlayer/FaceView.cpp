@@ -240,15 +240,7 @@ bool FaceView::saveWAV(const std::string& filename)
 	return ret;
 }
 
-void FaceView::loadSMILScript(glClearColor(r/256.0f, g/256.0f, b/256.0f, 1.0f); //Background color
-
-	glEnable(GL_DEPTH_TEST);
-	glEnable(GL_LIGHTING);
-	glEnable(GL_LIGHT0);
-	glDepthFunc(GL_NEVER);
-	glDepthMask(GL_TRUE);
-	glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
-    glMatrixMode( GL_MODELVIEW );const std::string& filename)
+void FaceView::loadSMILScript(const std::string& filename)
 {
 	if(!m_pApp)
 		return;

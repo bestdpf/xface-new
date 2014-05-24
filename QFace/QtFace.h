@@ -2,6 +2,7 @@
 #define _QT_FACE_H
 #include<string>
 #include<XFaceApp/ApplicationBase.h>
+//#include<ScriptProcessorLoader.h>
 
 class QtView;
 namespace XFaceApp{
@@ -12,6 +13,7 @@ private:
     void renderEnd() const;
     //create timer maybe useless!!!
     //boost::shared_ptr<XEngine::ITimer> createTimer() const;
+    bool yield(){return true;};
 protected:
     bool onLoadFDP(const std::string& param1, const std::string& param2);
     bool onLoadFAP(const std::string& param);

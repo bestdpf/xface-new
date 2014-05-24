@@ -176,8 +176,8 @@ wxFacePlayer/preinstall:
 # Target rules for target wxFacePlayer/CMakeFiles/wxXFacePlayer.dir
 
 # All Build rule for target.
-wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all: XFace/CMakeFiles/XFace.dir/all
 wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all: XSmilAgent/CMakeFiles/XSmilAgent.dir/all
+wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all: XFace/CMakeFiles/XFace.dir/all
 	$(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/depend
 	$(MAKE) -f wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build.make wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles  83 84 85 86
@@ -212,8 +212,8 @@ clean: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/clean
 # Target rules for target wxFacePlayer/CMakeFiles/wxfaceplayer.dir
 
 # All Build rule for target.
-wxFacePlayer/CMakeFiles/wxfaceplayer.dir/all: XFace/CMakeFiles/XFace.dir/all
 wxFacePlayer/CMakeFiles/wxfaceplayer.dir/all: XSmilAgent/CMakeFiles/XSmilAgent.dir/all
+wxFacePlayer/CMakeFiles/wxfaceplayer.dir/all: XFace/CMakeFiles/XFace.dir/all
 wxFacePlayer/CMakeFiles/wxfaceplayer.dir/all: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all
 	$(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/depend
 	$(MAKE) -f wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build.make wxFacePlayer/CMakeFiles/wxfaceplayer.dir/build
@@ -265,9 +265,9 @@ QFace/preinstall:
 # Target rules for target QFace/CMakeFiles/QFace.dir
 
 # All Build rule for target.
-QFace/CMakeFiles/QFace.dir/all: XFace/CMakeFiles/XFace.dir/all
 QFace/CMakeFiles/QFace.dir/all: XSmilAgent/CMakeFiles/XSmilAgent.dir/all
 QFace/CMakeFiles/QFace.dir/all: QFace/CMakeFiles/QFace_automoc.dir/all
+QFace/CMakeFiles/QFace.dir/all: XFace/CMakeFiles/XFace.dir/all
 	$(MAKE) -f QFace/CMakeFiles/QFace.dir/build.make QFace/CMakeFiles/QFace.dir/depend
 	$(MAKE) -f QFace/CMakeFiles/QFace.dir/build.make QFace/CMakeFiles/QFace.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles  1 2 3
@@ -348,8 +348,8 @@ wxFaceEd/preinstall:
 # Target rules for target wxFaceEd/CMakeFiles/wxFaceEd.dir
 
 # All Build rule for target.
-wxFaceEd/CMakeFiles/wxFaceEd.dir/all: XFace/CMakeFiles/XFace.dir/all
 wxFaceEd/CMakeFiles/wxFaceEd.dir/all: XSmilAgent/CMakeFiles/XSmilAgent.dir/all
+wxFaceEd/CMakeFiles/wxFaceEd.dir/all: XFace/CMakeFiles/XFace.dir/all
 wxFaceEd/CMakeFiles/wxFaceEd.dir/all: wxFacePlayer/CMakeFiles/wxXFacePlayer.dir/all
 	$(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/depend
 	$(MAKE) -f wxFaceEd/CMakeFiles/wxFaceEd.dir/build.make wxFaceEd/CMakeFiles/wxFaceEd.dir/build
@@ -400,8 +400,8 @@ wxFaceClient/preinstall:
 # Target rules for target wxFaceClient/CMakeFiles/wxfaceclient.dir
 
 # All Build rule for target.
-wxFaceClient/CMakeFiles/wxfaceclient.dir/all: XFace/CMakeFiles/XFace.dir/all
 wxFaceClient/CMakeFiles/wxfaceclient.dir/all: XSmilAgent/CMakeFiles/XSmilAgent.dir/all
+wxFaceClient/CMakeFiles/wxfaceclient.dir/all: XFace/CMakeFiles/XFace.dir/all
 	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/depend
 	$(MAKE) -f wxFaceClient/CMakeFiles/wxfaceclient.dir/build.make wxFaceClient/CMakeFiles/wxfaceclient.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/duan/xface-new/CMakeFiles  87 88 89 90 91 92

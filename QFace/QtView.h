@@ -4,6 +4,7 @@
 #include<QGLWidget>
 #include<QTimer>
 #include<QSettings>
+#include<XFaceApp/ModelCamera.h>
 #include"QtFace.h"
 
 class QtView: public QGLWidget{
@@ -15,6 +16,7 @@ class QtView: public QGLWidget{
 	XFaceApp::ModelCamera* m_pCamera;
 	QTimer* m_timer;
 	QSettings* m_settings;
+	unsigned long m_listeningPort;
     public:
         QtView(QWidget* parent=0);
         ~QtView();
@@ -24,6 +26,8 @@ class QtView: public QGLWidget{
 	void LoadFace();
 	void Render();
 	void OnTimer();
+	void OnIdle();
+	void OnPaint();
     public:
 	void loadFDP(const std::string& filename, const std::string& path);
 	void loadFAP(const std::string& filename);
