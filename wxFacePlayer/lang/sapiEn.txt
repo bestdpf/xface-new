@@ -1,2 +1,0 @@
-Language=409;Name=Microsoft Mary;Gender=Female
-Age=Adult

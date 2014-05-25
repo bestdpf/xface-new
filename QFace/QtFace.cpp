@@ -9,6 +9,7 @@ namespace XFaceApp{
     using namespace XFace;
     using namespace XEngine;
     QtFace::QtFace(QtView* pWnd):m_pWnd(pWnd){
+       printf("construct QtFace\n"); 
         //pass
     }
     
@@ -67,9 +68,9 @@ bool QtFace::onLoadFAP(const std::string& param)
   return ApplicationBase::onLoadFAP(param);
 }
 
-void QtFace::onRenderFrame() const
+bool QtFace::onResumePlayback()
 {
-    ApplicationBase::onRenderFrame();
+    return ApplicationBase::onResumePlayback();
 }
 
 void QtFace::jumpToFap(unsigned long fapID)
@@ -140,6 +141,12 @@ boost::shared_ptr<XEngine::ITimer> QtFace::createTimer() const
   return ret;
 }
 /*
+void QtFace::OnRenderFrame(){
+    ApplicationBase::OnRenderFrame();
+}
+*/
+/*
+ *
 bool QtFace::createScriptProcessors()
 {
     printf("wxFace createScriptProcessors\n");

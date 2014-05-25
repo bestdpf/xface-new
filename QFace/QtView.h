@@ -20,6 +20,8 @@ class QtView: public QGLWidget{
     public:
         QtView(QWidget* parent=0);
         ~QtView();
+     QSize minimumSizeHint() const;
+     QSize sizeHint() const;
     protected:
         void initGL();
         void paintGL();
@@ -30,7 +32,8 @@ class QtView: public QGLWidget{
 	void OnTimer();
 	void OnIdle();
     public:
-	void loadFDP(const std::string& filename, const std::string& path);
+	void test();
+    void loadFDP(const std::string& filename, const std::string& path);
 	void loadFAP(const std::string& filename);
 	void setInitialFap(const std::string& filename) {m_initialFap = filename;}
 	void setInitialFdp(const std::string& filename, const std::string path) {m_initialFdp = filename; m_initialFdpPath = path;}

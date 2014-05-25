@@ -11,6 +11,9 @@ using XFaceApp::TaskDictionary;
 using XFaceApp::XMLUtils;
 
 QtView::QtView(QWidget* parent):QGLWidget(parent){
+    m_pApp=0;
+    m_pCamera=0;
+    m_init=false;
     m_settings= new QSettings(QString("QFace.ini"),QSettings::IniFormat);
     QVariant dummy;
     dummy=m_settings->value("Network/Port",50011);
@@ -44,8 +47,9 @@ void QtView::OnIdle(){
 }
 
 void QtView::initGL(){
-    QColor qtPurple = QColor::fromCmykF(0.39, 0.39, 0.0, 0.0);
+    QColor qtPurple = QColor::fromCmykF(0.5, 0.5 , 0.0, 0.0);
     qglClearColor(qtPurple.dark());
+    //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
     glEnable(GL_LIGHTING);
@@ -53,9 +57,11 @@ void QtView::initGL(){
     glShadeModel(GL_SMOOTH);
     glMatrixMode(GL_MODELVIEW);
     swapBuffers();
+    printf("initGL succ\n");
 }
 
 void QtView::paintGL(){
+    printf("before paintGL\n");
     makeCurrent();
     if(!m_init){
       initGL();
@@ -65,24 +71,29 @@ void QtView::paintGL(){
     else{
       Render();
     }
+    printf("paintGL succ\n");
 }
 
 void QtView::LoadFace()
 {
-	delete m_pApp;
+    printf("begin to load face\n");
+	if(m_pApp)delete m_pApp;
 	m_pApp = new XFaceApp::QtFace(this);
+    printf("call qtface\n");
 	if (!m_pApp->init())
 	{
+        printf("mapp init error\n");
 		delete m_pApp;
 		m_pApp = 0;
 		return;
 	}
-
+    printf("init mpapp\n");
 	// and now we can init our face
 	loadFDP(m_initialFdp, m_initialFdpPath);
-
+    printf("has load fdp\n");
 	// load the FAP file
 	loadFAP(m_initialFap);
+    printf("load face\n");
 }
 
 void QtView::loadFAP(const std::string& filename)
@@ -118,6 +129,7 @@ void QtView::loadFDP(const std::string& filename, const std::string& path)
 		m_pCamera->setAxisAngle(m_pApp->getFace()->getFDP()->getGlobalAxisAngle());
 		m_pCamera->setTranslation(m_pApp->getFace()->getFDP()->getGlobalTranslation());
 	}
+    printf("before updateGL\n");
 	updateGL();
 }
 
@@ -152,7 +164,22 @@ void QtView::Render()
 	Task rendertask("RENDER_FRAME");
 	m_pApp->newTask(rendertask);
 }
+
+void QtView::test(){
+    m_pApp->onResumePlayback();
+}
+
 void QtView::OnPaint()
 {
   //pass
 }
+
+QSize QtView::minimumSizeHint() const
+ {
+     return QSize(50, 50);
+ }
+
+QSize QtView::sizeHint() const
+ {
+     return QSize(640, 480);
+ }

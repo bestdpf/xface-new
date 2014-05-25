@@ -8,9 +8,9 @@ project(XSmilAgent CXX)
 find_package(XercesC REQUIRED)
 
 #check wxWidgets dependencies
-set(wxWidgets_USE_LIBS base)
-find_package(wxWidgets REQUIRED)
-include(${wxWidgets_USE_FILE})
+#set(wxWidgets_USE_LIBS base)
+#find_package(wxWidgets REQUIRED)
+#include(${wxWidgets_USE_FILE})
 
 set(libXSmilAgent_SRCS 
  ScriptProcessorLoader.cpp
@@ -37,6 +37,6 @@ endif(WIN32)
 #Non Enabled
 #ItalianFlite.cpp #Circular dependency upon XFace!
 
-include_directories(${wxWidgets_INCLUDE_DIRS} ${XERCESC_INCLUDE_DIR})
+include_directories(${XERCESC_INCLUDE_DIR})
 add_library(XSmilAgent ${libXSmilAgent_SRCS})
 target_link_libraries(XSmilAgent ${XERCECS_LIBRARIES})

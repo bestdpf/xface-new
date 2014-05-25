@@ -23,8 +23,8 @@
  * - Koray Balci (koraybalci@gmail.com)
  * ***** END LICENSE BLOCK ***** */
 
-#include <wx/file.h>
-#include <wx/utils.h>
+//#include <wx/file.h>
+//#include <wx/utils.h>
 #include "wxScriptProcessor.h"
 
 wxScriptProcessor::wxScriptProcessor(const std::string& name) : IScriptProcessor(name)
@@ -37,6 +37,9 @@ wxScriptProcessor::~wxScriptProcessor(void)
 
 bool wxScriptProcessor::process(const std::string& scriptString, const std::string& filename)
 {
+    return true;
+    /*
+    printf("using wx ...---------------------\n-------------------\n");
 	m_errorString.clear();
 	// get the current working dir
 	wxString oldWD = wxGetCwd();
@@ -78,4 +81,5 @@ bool wxScriptProcessor::process(const std::string& scriptString, const std::stri
 	::wxSetWorkingDirectory(oldWD);
 
 	return retVal;
+    */
 }

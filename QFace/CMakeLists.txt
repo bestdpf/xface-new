@@ -32,6 +32,7 @@ set(QFace_HEADERS
 )
 set(QFace_MOC_HEADERS
     QtView.h
+    QFace.h
 )
 
 set(CMAKE_AUTOMOC TRUE)

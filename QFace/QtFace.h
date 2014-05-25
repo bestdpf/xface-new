@@ -27,7 +27,7 @@ public:
     bool init();
     bool processTask();
     void newTask(const Task& task);
-    void onRenderFrame() const;
+    bool onResumePlayback();
     void jumpToFap(unsigned long fapID);
     QtFace(QtView* pWnd);
 };
